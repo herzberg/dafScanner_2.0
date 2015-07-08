@@ -1,0 +1,21 @@
+function [ text ] = rashi_ocr( rashi )
+    load rashi_weights.mat
+    
+    %% segment rashi into chars
+    hLines = sum(rashi,2) == size(rashi,2);
+    [n,s,f] = onestreams(hLines);
+    perc = 0.95;
+    for ii = 1:length(n)-1
+        hLine = rashi(f(ii):s(ii+1),1:size(rashi,2));
+        vChars = sum(hLine,1) >= size(hLine,1)*perc;
+        [n1,s1,f1] = onestreams(vChars);
+        
+        lineCharStruct = struct();
+        for jj = 1:length(n1)-1
+           tempCharIm = hLine(1:size(hLine,1),f1(jj):s1(jj+1));
+           lineCharStruct(jj).im = tempCharIm;
+        end
+        disp(rashi_ocrClassify(lineCharStruct,rashi_weights,classes));
+    end
+end
+

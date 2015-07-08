@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(./Photos/Backgrounds/noise.jpg);
+    background-color: #5a5a5a;
+    font-size: 14px;
+}
+
+
+.gemara {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 50%;
+}
+
+.line, .block {
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.block {
+    width: 20px;
+    max-height: 1em;
+    min-height: 1em;
+}
+
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.index-header {
+    padding-top: 60px;
+    color: #FFFFFF;
+    text-align: right;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.mainContent {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.index-photo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    color: #FFFFFF;
+}
+
+.index-body{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 0%;
+    color: #FFFFFF;
+}
+
+/* The extended resume table ********************************/
+
+.resumeTable {
+    table-layout: fixed;
+    border: 0px;
+    width: 100%;
+    min-width: 700px;
+}
+
+.endRow {
+    padding-top: 1em;
+}
+
+td {
+    color: white;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    vertical-align: text-top;
+}
+
+.column1 {
+    width: 20%;
+    border-right: 0px;
+    font-size: 150%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    padding-right: 0%;
+}
+
+td .col1 {
+    border-right: 1px solid white;
+    padding-right: 10%;
+    padding-bottom: 0px;
+}
+
+td p{
+    padding-top: 0px;
+}
+
+.fillerRow {
+    padding-top: 1em;
+}
+
+.column2 {
+    width: 60%;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.column2 h1 {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.column3 {
+    width: 20%;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding-left: 2%;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  	margin-top: 0px;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	left: 0;
+  	z-index: 20;
+}
+
+.navbar-wrapper .navbar {
+  	border-radius: 4px;
+}

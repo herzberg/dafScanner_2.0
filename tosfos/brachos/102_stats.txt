@@ -1,0 +1,15 @@
+brachos_117.png,2,2,1
+brachos_117.png,2,2,2
+brachos_117.png,2,2,3
+brachos_117.png,2,2,4
+brachos_117.png,1,3,5
+brachos_117.png,1,3,6
+brachos_117.png,1,3,7
+brachos_117.png,1,3,8
+brachos_117.png,1,3,9
+brachos_117.png,1,3,10
+brachos_117.png,1,3,11
+brachos_117.png,1,3,12
+brachos_117.png,1,3,13
+brachos_117.png,1,3,14
+brachos_117.png,3,3,15

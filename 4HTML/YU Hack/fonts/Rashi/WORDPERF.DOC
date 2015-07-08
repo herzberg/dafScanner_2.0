@@ -1,0 +1,11 @@
+            Thanks to Dr. Robert Kirsch who figured out how to install
+            the drivers for Windows WordPerfect.   It's very simple.
+
+                1. Add the TrueType fonts (read Windows manual if you
+                   aren't sure how).
+
+                2. Bring up WordPerfect for Windows and update the
+                   printer driver.
+
+                3. Exit back out to DOS and follow the instructions
+                   for installing the keyboard drivers listed above.

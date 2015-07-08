@@ -1,0 +1,10 @@
+chullin_164.png,1,2,1
+chullin_164.png,1,2,2
+chullin_164.png,1,2,3
+chullin_164.png,1,2,4
+chullin_164.png,1,2,5
+chullin_164.png,1,2,6
+chullin_164.png,1,2,7
+chullin_164.png,1,2,8
+chullin_164.png,1,2,9
+chullin_164.png,3,2,10

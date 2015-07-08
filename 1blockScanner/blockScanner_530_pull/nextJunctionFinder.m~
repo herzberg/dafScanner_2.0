@@ -1,0 +1,34 @@
+function [ nextWindow,nextDim,nextStart ] = nextJunctionFinder( img,corner,start,dim)
+%dir = ['u','d','l','r'
+if dim == 1
+    otherDim = 2;
+    window = img(corner(2):corner(3),start:end);
+else % dim == 2
+    otherDim = 1;
+    window = img(start:end,corner(2):corner(3));
+end
+
+
+
+arbitraryScaling = 0.99;
+
+se = strel('rectangle',[2 2]);
+window = imclose(window,se);
+1);
+
+one_zero = sum(window,dim) >= size(window,dim)*arbitraryScaling;
+[n,s,f] = onestreams(one_zero);
+
+juncIndex = f(1) + start;
+
+if dim == 1
+    winH = size(window,1);
+    window1 = img(corner(2)-winH:corner(3)-winH,start:end);
+else % dim == 2
+     
+end
+one_zeroL = 
+
+
+end
+

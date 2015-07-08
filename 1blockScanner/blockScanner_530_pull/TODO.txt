@@ -1,0 +1,2 @@
+1) Deal with outliers when finding the top line of gemara.
+2) Deal with the edge cases when finding top right and left columns (i.e. if there's no Rashi / Tos')

@@ -1,0 +1,325 @@
+@CHARSET "utf-8";
+/*
+@font-face {
+    font-family: 'mc-vilna';
+    src: url('../../fonts/mc-vilna.eot');
+    src: url('../../fonts/mc-vilna.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/mc-vilna.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'mc-vilna-bold';
+    src: url('../../fonts/mc-vilna-bold.eot');
+    src: url('../../fonts/mc-vilna-bold.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/mc-vilna-bold.ttf') format('truetype');
+    font-weight:  all;
+}
+
+@font-face {
+font-family: mc-rashi;
+    src: url('../../fonts/mc-rashi.eot');
+    src: url('../../fonts/mc-rashi.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/mc-rashi.ttf') format('truetype');
+}
+@font-face {
+font-family: mc-rashi;
+    src: url('../../fonts/mc-rashi-bold.eot');
+    src: url('../../fonts/mc-rashi-bold.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/mc-rashi-bold.ttf') format('truetype');
+     font-weight: bold;
+}
+*/
+
+@font-face {
+    font-family: mc-vilna;
+    src: url('fonts/timesbd.ttf');
+}
+@font-face {
+    font-family: mc-rashi;
+    src: url('fonts/timesbd.ttf');
+}
+
+#talmud-bavli *{
+margin: 0 ;
+padding: 0;
+vertical-align:top ;
+}
+
+
+#talmud-bavli .lb:after  {
+content: " ___________________________________________________________________________________________________________________________________________________________";
+line-height: 0;
+visibility:hidden;
+}
+
+
+#talmud-bavli #head-page{ width: 800px; margin: auto;}
+
+
+#talmud-bavli #t-head{
+	 width:100%;
+	 font-family: mc-vilna;
+	 font-size: 25pt;
+	    border-collapse: collapse;
+}
+#talmud-bavli #h-td1{
+	text-align: right;
+	min-width: 40px !important;
+}
+#talmud-bavli #h-td2{
+	text-align: left;
+	min-width: 210px !important;
+
+}
+#talmud-bavli #h-td3{
+	text-align: center;
+	min-width: 300px !important;
+}
+#talmud-bavli #h-td4{
+	text-align: right;
+	min-width: 210px !important;
+}
+#talmud-bavli #h-td5{
+	text-align: left;
+	min-width: 40px !important;
+}
+
+#talmud-bavli #under{
+	height: 10px ;
+}
+
+
+#talmud-bavli #gpt{ width: 800px; height: 1900px  ; max-height: 1900px ; position: relative; margin: auto;}
+#talmud-bavli .tosfot , #talmud-bavli .rashi {position: absolute; width: 100%; top: 0 ;right: 0;}
+#talmud-bavli .gmara {
+ 	position: absolute;
+ 	width: 100%;
+ /* 	font-size: 1em; */
+}
+
+#talmud-bavli{
+	direction: rtl;
+	overflow: hidden;
+	margin: auto;
+	/*
+background-color: #FFD;
+width: 900px;
+padding-top: 30px;
+padding-bottom: 30px;
+box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	*/
+}
+
+#talmud-bavli .rt-hadaran  {
+
+font-size: 18pt !important;
+font-family: mc-vilna-bold !important;
+text-align: center !important;
+word-spacing: normal !important;
+
+position: relative;
+top: -4px;
+}
+#talmud-bavli .rt-subtitle {
+
+font-size: 16pt !important;
+font-family: mc-vilna-bold !important;
+text-align: center !important;
+word-spacing: normal !important;
+
+}
+#talmud-bavli .v-bold{
+position:relative;
+top: -20% ;
+font-size: 22pt !important;
+vertical-align:top ;
+font-family: mc-vilna-bold !important;
+}
+#talmud-bavli .v-bold b{
+font-weight: normal !important;
+}
+#talmud-bavli .float{
+	float: right;
+	margin-left: 10px !important;
+	top :-5px !important;
+	word-spacing: normal;
+}
+
+#talmud-bavli .t-masechet{
+height:  127.5px !important;
+line-height:127.5px !important;
+text-align: center !important;
+vertical-align: middle !important;
+font-size: 35pt !important;
+font-family: mc-vilna-bold !important;
+font-weight: normal !important;
+background: transparent url("../../media/images/books/talmud-bavli/t-masechet.svg") no-repeat scroll 30px 9px ;
+}
+
+
+
+#talmud-bavli .rashi .v-bold ,#talmud-bavli .tosfot .v-bold{
+	top: -40%;
+}
+
+
+#talmud-bavli .gmara .center{
+margin-top:  95px;
+position:relative;
+width:320px;
+margin-right : 240px;
+margin-left :240px;
+z-index: 105;
+}
+#talmud-bavli .gmara .right{
+position:relative;
+margin-right :0;
+margin-left :240px; 
+width:560px ;
+z-index: 100;
+}
+#talmud-bavli .gmara .left{
+position:relative;
+margin-right :240px;
+margin-left :0; 
+width:560px ;
+z-index: 110;
+}
+
+
+#talmud-bavli .gmara .h-right {
+position:relative;
+margin-right :0;
+width: 390px ;
+z-index: 100;
+}
+
+#talmud-bavli .gmara .h-left  {
+position:relative;
+margin-right :410px; 
+width:  390px;
+z-index: 110;
+}
+#talmud-bavli .gmara .lb{
+height:  21.25px ; 
+
+}
+#talmud-bavli .gmara{
+font-size: 10pt;
+font-family: mc-vilna;
+}
+#talmud-bavli #gpt .lb{
+	
+cursor: default;
+word-spacing: -10px;
+margin:0;
+text-align:justify;
+overflow:visible;
+}
+
+#talmud-bavli .rashi .lb,#talmud-bavli .tosfot .lb{
+height: 19px;
+}
+#talmud-bavli .rashi ,#talmud-bavli .tosfot {
+
+font-size: 8pt;
+font-family: mc-rashi ;
+
+}
+
+#talmud-bavli .lb{
+	display: block;
+	
+}
+
+#talmud-bavli .rashi .h-right ,#talmud-bavli .tosfot .h-right {
+position:relative;
+margin-right :0;
+width: 390px ;
+z-index: 100;
+}
+#talmud-bavli .rashi .t-right ,#talmud-bavli .tosfot .t-right{
+position:relative;
+margin-right :0;
+width:210px ;
+z-index: 100;
+}
+
+#talmud-bavli .rashi .h-left ,#talmud-bavli .tosfot .h-left  {
+position:relative;
+margin-right :410px; 
+width:  390px;
+z-index: 109;
+}
+#talmud-bavli .rashi .t-left ,#talmud-bavli .tosfot .t-left{
+position:relative;
+margin-right :  590px;
+width:   210px;
+z-index: 110;
+}
+#talmud-bavli .rashi .all ,#talmud-bavli .tosfot .all{
+position:relative;
+width: 100%;
+z-index: 100;
+}
+#talmud-bavli .last-line{
+	padding-left:20px !important;
+   text-align: left !important;
+   word-spacing: normal !important;
+}
+#talmud-bavli .rashi .last-line ,#talmud-bavli .tosfot  .last-line{
+	font-size: 9pt;
+}
+#talmud-bavli .last-line {
+font-size: smaller;
+}
+
+#talmud-bavli .center-line {
+	text-align: center !important;
+	word-spacing: normal !important;
+}
+#talmud-bavli .rashi .small-line-1 .lb , #talmud-bavli .tosfot .small-line-1 .lb{
+	height: 18.75px !important;
+}
+
+#talmud-bavli .space-line-5 {
+	height: 10.62px !important;
+}
+
+#talmud-bavli .gmara > span ,#talmud-bavli .rashi > span ,#talmud-bavli .tosfot > span{
+	display: block;
+}
+
+#talmud-bavli .comm{
+	font-family: sans-serif;
+	width: 7px;
+	height: 7px;
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: -6px;
+	position: absolute;
+	background-image: url("../../media/images/books/talmud-bavli/comm-icons.png");
+	background-image: url("../../media/images/books/talmud-bavli/comm-icons.svg");
+	cursor: pointer;
+	z-index: 300;
+}
+#talmud-bavli #comment-show{
+	position: fixed;
+	background-color: rgba(255,255,255,0.96);
+	padding: 5px;
+	width: 130px;
+    margin-top: -20px;
+    margin-left: -20px;
+	text-align: center;
+	word-spacing: normal;
+	font-size: small;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: rgba(100, 100, 100, 0.7) 3px 3px 8px 0px;
+	z-index: 301;
+}
+/*
+#talmud-bavli #gpt .lb:HOVER {
+	text-shadow: 1px 1px 1px  #00A7F5;
+}*

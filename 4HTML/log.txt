@@ -1,0 +1,29 @@
+brachos 8 45 - unknown line type
+brachos 9 47 - unknown line type
+brachos 17 53 - unknown line type
+brachos 26 55 - unknown line type
+brachos 27 53 - unknown line type
+brachos 29 - createFullDaf fail
+brachos 31 54 - unknown line type
+brachos 34 55 - unknown line type
+brachos 38 - createFullDaf fail
+brachos 41 59 - unknown line type
+brachos 42 53 - unknown line type
+brachos 43 54 - unknown line type
+brachos 52 - createFullDaf fail
+brachos 55 - createFullDaf fail
+brachos 56 34 - unknown line type
+brachos 62 - createFullDaf fail
+brachos 63 - createFullDaf fail
+brachos 65 57 - unknown line type
+brachos 72 54 - unknown line type
+brachos 75 - createFullDaf fail
+brachos 81 57 - unknown line type
+brachos 83 - createFullDaf fail
+brachos 103 - createFullDaf fail
+brachos 107 57 - unknown line type
+brachos 108 - createFullDaf fail
+brachos 113 - createFullDaf fail
+brachos 116 58 - unknown line type
+brachos 118 - createFullDaf fail
+brachos 122 57 - unknown line type

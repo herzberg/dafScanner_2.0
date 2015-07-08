@@ -1,0 +1,25 @@
+%% train
+clc; clear; close all;
+
+mesechta = 'doesntmatter';
+type = 'rashi';
+
+capType = [upper(type(1)) type(2:end)];
+%dafdirname = ['results/cutout' capType '/' mesechta];
+dafdirname = '
+dafdir = dir(dafdirname);
+realFiles = dafdir(not([dafdir.isdir]));
+
+statsTrain(type, dafdirname,realFiles)
+
+%% classify
+statsObj = open('statsTrainedSet.mat');
+
+mesechta = 'brachos';
+capType = [upper(statsObj.type(1)) statsObj.type(2:end)];
+dafdirname = ['results/cutout' capType '/' mesechta];
+statdirname = ['../' statsObj.type '/' mesechta];
+dafdir = dir(dafdirname);
+realFiles = dafdir(not([dafdir.isdir]));
+
+statsClassify(dafdirname,statdirname,realFiles,statsObj);

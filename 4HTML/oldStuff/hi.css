@@ -1,0 +1,41 @@
+body {
+	text-align: justify;
+	width: 60em;
+	font-size: 15px;
+}
+
+
+.gemara {
+	width: 46em;
+	font-size: 20px;
+	padding-left: 0em;
+	padding-right: 0em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 40;
+}
+
+.rashi {
+	width: 60em;
+	padding-left: 2em;
+	padding-right: 2em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.tosafos {
+	width: 60em;
+	padding-left: 2em;
+	padding-right: 2em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.gemara .background {
+	background-color: green;
+}
