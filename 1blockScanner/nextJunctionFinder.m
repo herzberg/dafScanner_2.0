@@ -32,6 +32,7 @@ try
         se = strel('rectangle',[imcloseCoef imcloseCoef]);
         window = imclose(window,se);
     else
+        window = imclose(window,strel('rectangle',[2,1]));
         se = strel('rectangle',[-imcloseCoef -imcloseCoef]);
         window = imopen(window,se);
     end

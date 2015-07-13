@@ -1,0 +1,16 @@
+makkos_30.png,1,2,1
+makkos_30.png,1,2,2
+makkos_30.png,1,2,3
+makkos_30.png,1,2,4
+makkos_30.png,1,2,5
+makkos_30.png,1,2,6
+makkos_30.png,1,2,7
+makkos_30.png,1,2,8
+makkos_30.png,1,2,9
+makkos_30.png,1,2,10
+makkos_30.png,1,2,11
+makkos_30.png,1,2,12
+makkos_30.png,1,2,13
+makkos_30.png,1,2,14
+makkos_30.png,1,2,15
+makkos_30.png,3,2,16

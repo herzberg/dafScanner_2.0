@@ -8,6 +8,12 @@ for ii = 1:length(realFiles);
    startNumPos = find(tempName == '_',1)+1;
    endNumPos = find(tempName == '.',1)-1;
    fileNum = str2double(tempName(startNumPos:endNumPos));
+   if isnan(fileNum) %because of two word mesechta names
+        startNumPos = find(tempName == '_',2)+1;
+       startNumPos = startNumPos(2);
+       endNumPos = find(tempName == '.',1)-1;
+       fileNum = str2double(tempName(startNumPos:endNumPos)); 
+   end
    
    if fileNum < mesechtaStartNum
        mesechtaStartNum = fileNum;
@@ -87,6 +93,9 @@ iwant = 30000;
 
 for jj = 1:length(globStatStructs);
    tempStruct = globStatStructs{jj};
+   if isempty(tempStruct)
+       continue;
+   end
    numItems = length(tempStruct.widths);
    tempStruct.idWidths = idWidths(idCount+1:idCount+numItems);
    tempStruct.idStarts = idStarts(idCount+1:idCount+numItems);

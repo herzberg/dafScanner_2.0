@@ -1,0 +1,12 @@
+yevamos_0.png,1,2,1
+yevamos_0.png,1,2,2
+yevamos_0.png,1,2,3
+yevamos_0.png,1,2,4
+yevamos_0.png,1,2,5
+yevamos_0.png,1,2,6
+yevamos_0.png,1,2,7
+yevamos_0.png,1,2,8
+yevamos_0.png,1,2,9
+yevamos_0.png,1,2,10
+yevamos_0.png,1,2,11
+yevamos_0.png,3,2,12

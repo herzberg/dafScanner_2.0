@@ -1,0 +1,15 @@
+zevachim_168.png,1,2,1
+zevachim_168.png,1,2,2
+zevachim_168.png,1,2,3
+zevachim_168.png,1,2,4
+zevachim_168.png,1,2,5
+zevachim_168.png,1,2,6
+zevachim_168.png,1,2,7
+zevachim_168.png,1,2,8
+zevachim_168.png,1,2,9
+zevachim_168.png,1,2,10
+zevachim_168.png,1,2,11
+zevachim_168.png,1,2,12
+zevachim_168.png,1,2,13
+zevachim_168.png,1,2,14
+zevachim_168.png,3,2,15

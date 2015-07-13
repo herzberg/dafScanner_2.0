@@ -1,0 +1,14 @@
+kerisos_31.png,2,1,1
+kerisos_31.png,2,1,2
+kerisos_31.png,2,1,3
+kerisos_31.png,2,1,4
+kerisos_31.png,1,1,5
+kerisos_31.png,1,1,6
+kerisos_31.png,1,1,7
+kerisos_31.png,1,1,8
+kerisos_31.png,1,1,9
+kerisos_31.png,1,1,10
+kerisos_31.png,1,1,11
+kerisos_31.png,1,1,12
+kerisos_31.png,1,1,13
+kerisos_31.png,1,1,14

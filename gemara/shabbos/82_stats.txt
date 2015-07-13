@@ -1,0 +1,15 @@
+shabbos_82.png,1,2,1
+shabbos_82.png,1,2,2
+shabbos_82.png,1,2,3
+shabbos_82.png,1,2,4
+shabbos_82.png,1,2,5
+shabbos_82.png,1,2,6
+shabbos_82.png,1,2,7
+shabbos_82.png,1,2,8
+shabbos_82.png,1,2,9
+shabbos_82.png,1,2,10
+shabbos_82.png,1,2,11
+shabbos_82.png,1,2,12
+shabbos_82.png,1,2,13
+shabbos_82.png,2,1,14
+shabbos_82.png,3,2,15

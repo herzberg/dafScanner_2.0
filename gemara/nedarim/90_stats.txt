@@ -1,0 +1,4 @@
+nedarim_90.png,1,2,1
+nedarim_90.png,1,2,2
+nedarim_90.png,1,2,3
+nedarim_90.png,3,2,4

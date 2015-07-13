@@ -1,0 +1,16 @@
+sanhedrin_147.png,1,1,1
+sanhedrin_147.png,1,1,2
+sanhedrin_147.png,1,1,3
+sanhedrin_147.png,1,1,4
+sanhedrin_147.png,1,1,5
+sanhedrin_147.png,1,1,6
+sanhedrin_147.png,1,1,7
+sanhedrin_147.png,1,1,8
+sanhedrin_147.png,1,1,9
+sanhedrin_147.png,1,1,10
+sanhedrin_147.png,1,1,11
+sanhedrin_147.png,1,1,12
+sanhedrin_147.png,1,1,13
+sanhedrin_147.png,1,1,14
+sanhedrin_147.png,1,1,15
+sanhedrin_147.png,3,3,16

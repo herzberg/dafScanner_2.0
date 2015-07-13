@@ -1,0 +1,14 @@
+nazir_108.png,1,2,1
+nazir_108.png,1,2,2
+nazir_108.png,1,2,3
+nazir_108.png,1,2,4
+nazir_108.png,1,2,5
+nazir_108.png,1,2,6
+nazir_108.png,1,2,7
+nazir_108.png,1,2,8
+nazir_108.png,1,2,9
+nazir_108.png,1,2,10
+nazir_108.png,1,2,11
+nazir_108.png,1,2,12
+nazir_108.png,1,2,13
+nazir_108.png,3,2,14

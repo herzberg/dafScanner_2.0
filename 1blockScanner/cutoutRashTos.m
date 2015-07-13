@@ -22,6 +22,7 @@ function [ rashContour ] = cutoutRashTos( im,isTos,isAmudAlef,gemPointsL,gemPoin
         
         if ~hasmid
             midX = leftEdge;
+            midBottom = [midX,midY];
         end
         
         if ~hasmid && isTos %tosfox is slightly on the side and below rashi
@@ -72,6 +73,7 @@ function [ rashContour ] = cutoutRashTos( im,isTos,isAmudAlef,gemPointsL,gemPoin
         
         if ~hasmid
             midX = rightEdge;
+            midBottom = [midX,midY];
         end
         
         if ~hasmid && isTos

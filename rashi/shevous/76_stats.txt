@@ -1,0 +1,16 @@
+shevous_77.png,2,2,1
+shevous_77.png,2,2,2
+shevous_77.png,2,2,3
+shevous_77.png,2,2,4
+shevous_77.png,1,3,5
+shevous_77.png,1,3,6
+shevous_77.png,1,3,7
+shevous_77.png,1,3,8
+shevous_77.png,1,3,9
+shevous_77.png,1,3,10
+shevous_77.png,1,3,11
+shevous_77.png,1,3,12
+shevous_77.png,1,3,13
+shevous_77.png,1,3,14
+shevous_77.png,1,3,15
+shevous_77.png,1,3,16

@@ -1,0 +1,13 @@
+yoma_155.png,1,1,1
+yoma_155.png,1,1,2
+yoma_155.png,1,1,3
+yoma_155.png,1,1,4
+yoma_155.png,1,1,5
+yoma_155.png,1,1,6
+yoma_155.png,1,1,7
+yoma_155.png,1,1,8
+yoma_155.png,1,1,9
+yoma_155.png,1,1,10
+yoma_155.png,1,1,11
+yoma_155.png,1,1,12
+yoma_155.png,3,3,13

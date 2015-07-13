@@ -42,22 +42,25 @@ def removeQuotes(text):
 		text = showFoundQuotes(pattern,text,False)
 	return text
 
-
+def splitWords(text):
+	text = text.encode('utf8')
+	text = removeQuotes(text)
+	if len(text) < 1:
+		return []
+	if(text[0] == ' '):
+		text = text[1:]
+	if(text[-1] == ' '):
+		text = text[:-1]
+	text = re.sub(' {2,}',' ',text)
+	text = text.split(' ')
+	return text
+	
 def getDaf(dafNumber, mesechtaText):
 	daf = mesechtaText[dafNumber]
 	digWords = []
 	for i in range(len(daf)):
-		text =  daf[i].encode('utf8')
-		text = removeQuotes(text)
-		#log.write("WRTING TEXT: \n"+ text + "\n")
-		if len(text) < 1:
-			continue
-		if(text[0] == ' '):
-			text = text[1:]
-		if(text[-1] == ' '):
-			text = text[:-1]
-		text = re.sub(' {2,}',' ',text)
-		digWords += text.split(' ')
+		text =  daf[i]
+		digWords += splitWords(text)
 	return digWords
 
 def getRashiDaf(dafNumber, mesechtaText):
@@ -65,7 +68,8 @@ def getRashiDaf(dafNumber, mesechtaText):
 	digWords = []
 	for i in range(len(daf)):
 		for j in range(len(daf[i])):
-			digWords +=  daf[i][j].split(' ')
+			text = daf[i][j]
+			digWords += splitWords(text)
 	return digWords
 	
 
@@ -205,8 +209,8 @@ def getGemaraAndComm(type, meschta, dafName, dafNum):
 
 	return combine(digWords,wordCounts, letCounts, scanWords, folder)
 	
-def getGemara(meschta, maxPage, startPage = 3):
-	folder = '../' + 'gemara' + '/' + meschta + '/'
+def getGemara(meschta, maxPage, startPage = 3, type = 'gemara'):
+	folder = '../' + type + '/' + meschta + '/'
 	fileName = folder + 'merged.json'
 	mesechtaText = getMesText(fileName)
 	global log
@@ -217,7 +221,7 @@ def getGemara(meschta, maxPage, startPage = 3):
 	flagLog = open('log/flagLog_' + meschta + '.txt', 'w')
 	
 	for dafNum in range(startPage, maxPage+1):
-		locationRef = "\n" + meschta + " " + str(dafNum) + "\n"
+		locationRef = "\n" + meschta + "_" + type + " " + str(dafNum) + "\n"
 		log.write(locationRef)
 		quotesLog.write(locationRef)
 		flagLog.write(locationRef)
@@ -227,11 +231,14 @@ def getGemara(meschta, maxPage, startPage = 3):
 			realDafNum += 2
 		if(meschta == "brachos" and dafNum >= 45):
 			realDafNum += 2
-		digWords = getDaf(realDafNum,mesechtaText)
-		testingDigWords = open(folder + str(dafNum)  + '_digWords.txt', 'w')
-		for word in digWords:
-			pass
-			#testingDigWords.write(word.encode('utf8') + "\n")
+		if type != 'gemara':
+			digWords = getRashiDaf(realDafNum,mesechtaText)
+		else:
+			digWords = getDaf(realDafNum,mesechtaText)
+		#testingDigWords = open(folder + str(dafNum)  + '_digWords.txt', 'w')
+		#for word in digWords:
+			#pass
+			#testingDigWords.write(word + "\n")
 		
 		
 		wordCounts = getWordCounts(folder + str(dafNum)  + '_dafNumWords.txt')
@@ -296,8 +303,8 @@ if __name__ == "__main__":
 	meschta = 'brachos'
 	maxPage = 123
 	startPage = 3
-	correctDaf = getGemara(meschta,maxPage, startPage)
-	#correctRashi = getGemaraAndComm('rashi', meschta, dafName,3)
+	#correctDaf = getGemara(meschta,maxPage, startPage, 'gemara')
+	correctRashi = getGemara(meschta,maxPage, startPage, 'rashi')
 	#correctTos = getGemaraAndComm('tosfos', meschta, dafName,3)
 
 

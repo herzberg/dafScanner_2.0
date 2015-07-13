@@ -1,0 +1,8 @@
+arachin_37.png,1,1,1
+arachin_37.png,1,2,2
+arachin_37.png,1,2,3
+arachin_37.png,1,2,4
+arachin_37.png,1,1,5
+arachin_37.png,1,1,6
+arachin_37.png,1,1,7
+arachin_37.png,1,2,8

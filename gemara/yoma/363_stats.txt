@@ -1,0 +1,17 @@
+yoma_360.png,1,2,1
+yoma_360.png,1,2,2
+yoma_360.png,1,2,3
+yoma_360.png,1,2,4
+yoma_360.png,1,2,5
+yoma_360.png,1,2,6
+yoma_360.png,1,2,7
+yoma_360.png,1,2,8
+yoma_360.png,1,2,9
+yoma_360.png,1,2,10
+yoma_360.png,1,2,11
+yoma_360.png,1,2,12
+yoma_360.png,1,2,13
+yoma_360.png,1,2,14
+yoma_360.png,1,2,15
+yoma_360.png,2,2,16
+yoma_360.png,3,2,17

@@ -1,0 +1,17 @@
+nazir_98.png,1,2,1
+nazir_98.png,1,2,2
+nazir_98.png,1,2,3
+nazir_98.png,1,2,4
+nazir_98.png,1,2,5
+nazir_98.png,2,1,6
+nazir_98.png,2,1,7
+nazir_98.png,2,1,8
+nazir_98.png,2,1,9
+nazir_98.png,2,1,10
+nazir_98.png,2,1,11
+nazir_98.png,2,1,12
+nazir_98.png,2,1,13
+nazir_98.png,2,1,14
+nazir_98.png,2,1,15
+nazir_98.png,2,1,16
+nazir_98.png,3,2,17

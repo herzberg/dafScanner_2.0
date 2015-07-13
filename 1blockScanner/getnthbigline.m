@@ -9,25 +9,30 @@ if startRow == -1 || size(im,2) == 0 %this is used when trying to specifically g
     topline = zeros(1,3)-1;
     return;
 end
+try
+    if dim == 1
+        imPrime = im(startRow:end,:);
 
-if dim == 1
-    imPrime = im(startRow:end,:);
+        w=windowCenter-windowW:windowCenter+windowW;
+        arbitrary_scaling = 0.9;
+        croppedim=im(:,w);
+        otherDim = 2;
+    elseif dim == 2
+        startCol = startRow;
+        imPrime = im(:,startCol:end);
 
-    w=windowCenter-windowW:windowCenter+windowW;
-    arbitrary_scaling = 0.9;
-    croppedim=im(:,w);
-    otherDim = 2;
-elseif dim == 2
-    startCol = startRow;
-    imPrime = im(:,startCol:end);
-
-    w=windowCenter-windowW:windowCenter+windowW;
-    arbitrary_scaling = 0.9;
-    croppedim=im(w,:);
-    %se = strel('rectangle',[4 4]);
-    %croppedim = imopen(croppedim,se);
-    %figure;imshow(croppedim);
-    otherDim = 1;
+        w=windowCenter-windowW:windowCenter+windowW;
+        arbitrary_scaling = 0.9;
+        croppedim=im(w,:);
+        %se = strel('rectangle',[4 4]);
+        %croppedim = imopen(croppedim,se);
+        %figure;imshow(croppedim);
+        otherDim = 1;
+    end
+    
+catch 
+    topline = zeros(1,3)-1;
+    return;
 end
 
 %figure; imshow(croppedim);
@@ -42,7 +47,11 @@ try
     meanTestCol = gemaraFinder(:,1);
     [lineIds,lineCents] = kmeans(meanTestCol,3,'Replicates',15);
     [~,smallId] = min(lineCents);
-    
+    if sum(lineIds ~= smallId) < 0.05*length(lineIds)
+        [lineIds,lineCents] = kmeans(meanTestCol,4,'Replicates',15);
+        %disp('using 4')
+        [~,smallId] = min(lineCents);
+    end
     %meanThresh = mean(meanTestCol);
 
     %stdThresh = std(meanTestCol(meanTestCol < meanThresh));

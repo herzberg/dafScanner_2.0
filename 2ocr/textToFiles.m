@@ -4,6 +4,8 @@ function [  ] = textToFiles( outpath,lines )
     dafTextFile = fopen([outpath 'daf.txt'],'w');
     dafNumWordsFile = fopen([outpath 'dafNumWords.txt'],'w');
     dafNumChars = fopen([outpath 'dafNumChars.txt'],'w');
+    
+    blankLineCount = 0;
     for ii = 1:size(lines,2)
         words = regexp(lines{ii},' ','split');
         charSum = 0;
@@ -18,8 +20,9 @@ function [  ] = textToFiles( outpath,lines )
             end
         end
         %to check if line is valid, make sure there are chars
+        
         if charSum == 0
-            disp('continuing');
+            blankLineCount = blankLineCount +1;
             continue;
         end
 
@@ -41,6 +44,10 @@ function [  ] = textToFiles( outpath,lines )
         end
         %disp(lines{ii});
         %disp(['Line ' num2str(ii) ' NumWords ' num2str(size(words,2))]);
+    end
+    
+    if(blankLineCount)
+       blankLineCount
     end
     fclose(dafTextFile);
     fclose(dafNumWordsFile);

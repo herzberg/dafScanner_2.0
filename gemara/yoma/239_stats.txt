@@ -1,0 +1,9 @@
+yoma_236.png,1,2,1
+yoma_236.png,1,2,2
+yoma_236.png,1,2,3
+yoma_236.png,1,2,4
+yoma_236.png,1,2,5
+yoma_236.png,1,2,6
+yoma_236.png,1,2,7
+yoma_236.png,1,2,8
+yoma_236.png,3,2,9

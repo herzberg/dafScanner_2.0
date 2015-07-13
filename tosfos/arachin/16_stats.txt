@@ -1,0 +1,15 @@
+arachin_16.png,1,3,1
+arachin_16.png,1,3,2
+arachin_16.png,1,3,3
+arachin_16.png,1,3,4
+arachin_16.png,1,3,5
+arachin_16.png,1,3,6
+arachin_16.png,1,3,7
+arachin_16.png,1,3,8
+arachin_16.png,1,3,9
+arachin_16.png,1,3,10
+arachin_16.png,1,3,11
+arachin_16.png,1,3,12
+arachin_16.png,1,3,13
+arachin_16.png,1,3,14
+arachin_16.png,3,3,15

@@ -1,0 +1,8 @@
+nazir_53.png,1,2,1
+nazir_53.png,1,2,2
+nazir_53.png,1,2,3
+nazir_53.png,1,2,4
+nazir_53.png,1,2,5
+nazir_53.png,1,2,6
+nazir_53.png,1,2,7
+nazir_53.png,3,2,8

@@ -1,0 +1,11 @@
+yoma_221.png,1,3,1
+yoma_221.png,1,3,2
+yoma_221.png,1,3,3
+yoma_221.png,1,3,4
+yoma_221.png,1,3,5
+yoma_221.png,1,3,6
+yoma_221.png,1,3,7
+yoma_221.png,1,3,8
+yoma_221.png,1,3,9
+yoma_221.png,1,3,10
+yoma_221.png,3,3,11

@@ -1,0 +1,10 @@
+pesachim_15.png,3,1,1
+pesachim_15.png,2,1,2
+pesachim_15.png,2,3,3
+pesachim_15.png,1,3,4
+pesachim_15.png,1,3,5
+pesachim_15.png,1,3,6
+pesachim_15.png,2,3,7
+pesachim_15.png,3,1,8
+pesachim_15.png,3,1,9
+pesachim_15.png,3,3,10

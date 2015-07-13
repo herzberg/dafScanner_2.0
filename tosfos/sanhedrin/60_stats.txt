@@ -1,0 +1,6 @@
+sanhedrin_60.png,1,2,1
+sanhedrin_60.png,1,2,2
+sanhedrin_60.png,1,2,3
+sanhedrin_60.png,1,2,4
+sanhedrin_60.png,1,2,5
+sanhedrin_60.png,1,2,6

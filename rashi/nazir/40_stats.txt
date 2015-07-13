@@ -1,0 +1,12 @@
+nazir_40.png,2,1,1
+nazir_40.png,2,1,2
+nazir_40.png,2,1,3
+nazir_40.png,2,1,4
+nazir_40.png,1,1,5
+nazir_40.png,1,1,6
+nazir_40.png,1,1,7
+nazir_40.png,1,1,8
+nazir_40.png,1,1,9
+nazir_40.png,1,1,10
+nazir_40.png,1,1,11
+nazir_40.png,3,3,12

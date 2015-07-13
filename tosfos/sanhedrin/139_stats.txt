@@ -1,0 +1,14 @@
+sanhedrin_139.png,1,1,1
+sanhedrin_139.png,1,1,2
+sanhedrin_139.png,1,1,3
+sanhedrin_139.png,1,1,4
+sanhedrin_139.png,1,1,5
+sanhedrin_139.png,1,1,6
+sanhedrin_139.png,1,1,7
+sanhedrin_139.png,1,1,8
+sanhedrin_139.png,1,1,9
+sanhedrin_139.png,1,1,10
+sanhedrin_139.png,1,1,11
+sanhedrin_139.png,1,1,12
+sanhedrin_139.png,1,1,13
+sanhedrin_139.png,3,3,14

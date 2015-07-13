@@ -1,0 +1,12 @@
+shabbos_63.png,1,1,1
+shabbos_63.png,1,1,2
+shabbos_63.png,1,1,3
+shabbos_63.png,1,1,4
+shabbos_63.png,1,1,5
+shabbos_63.png,1,1,6
+shabbos_63.png,1,1,7
+shabbos_63.png,1,1,8
+shabbos_63.png,1,1,9
+shabbos_63.png,1,1,10
+shabbos_63.png,1,1,11
+shabbos_63.png,3,3,12

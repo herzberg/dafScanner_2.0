@@ -1,0 +1,17 @@
+shekalim_637.png,1,3,1
+shekalim_637.png,1,2,2
+shekalim_637.png,1,3,3
+shekalim_637.png,1,2,4
+shekalim_637.png,1,2,5
+shekalim_637.png,1,2,6
+shekalim_637.png,1,2,7
+shekalim_637.png,1,2,8
+shekalim_637.png,1,2,9
+shekalim_637.png,1,2,10
+shekalim_637.png,1,2,11
+shekalim_637.png,1,2,12
+shekalim_637.png,1,3,13
+shekalim_637.png,1,2,14
+shekalim_637.png,1,2,15
+shekalim_637.png,1,3,16
+shekalim_637.png,3,3,17

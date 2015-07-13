@@ -89,8 +89,8 @@ visibility:hidden;
 
 
 #talmud-bavli #gpt{ width: 800px; height: 1900px  ; max-height: 1900px ; position: relative; margin: auto;}
-#talmud-bavli .tosfot , #talmud-bavli .rashi {position: absolute; width: 100%; top: 0 ;right: 0;}
-#talmud-bavli .gmara {
+#talmud-bavli .tosfos , #talmud-bavli .rashi {position: absolute; width: 100%; top: 0 ;right: 0;}
+#talmud-bavli .gemara {
  	position: absolute;
  	width: 100%;
  /* 	font-size: 1em; */
@@ -157,12 +157,12 @@ background: transparent url("../../media/images/books/talmud-bavli/t-masechet.sv
 
 
 
-#talmud-bavli .rashi .v-bold ,#talmud-bavli .tosfot .v-bold{
+#talmud-bavli .rashi .v-bold ,#talmud-bavli .tosfos .v-bold{
 	top: -40%;
 }
 
 
-#talmud-bavli .gmara .center{
+#talmud-bavli .gemara .center{
 margin-top:  95px;
 position:relative;
 width:320px;
@@ -170,14 +170,14 @@ margin-right : 240px;
 margin-left :240px;
 z-index: 105;
 }
-#talmud-bavli .gmara .right{
+#talmud-bavli .gemara .right{
 position:relative;
 margin-right :0;
 margin-left :240px; 
 width:560px ;
 z-index: 100;
 }
-#talmud-bavli .gmara .left{
+#talmud-bavli .gemara .left{
 position:relative;
 margin-right :240px;
 margin-left :0; 
@@ -186,24 +186,24 @@ z-index: 110;
 }
 
 
-#talmud-bavli .gmara .h-right {
+#talmud-bavli .gemara .h-right {
 position:relative;
 margin-right :0;
 width: 390px ;
 z-index: 100;
 }
 
-#talmud-bavli .gmara .h-left  {
+#talmud-bavli .gemara .h-left  {
 position:relative;
 margin-right :410px; 
 width:  390px;
 z-index: 110;
 }
-#talmud-bavli .gmara .lb{
+#talmud-bavli .gemara .lb{
 height:  21.25px ; 
 
 }
-#talmud-bavli .gmara{
+#talmud-bavli .gemara{
 font-size: 10pt;
 font-family: mc-vilna;
 }
@@ -216,10 +216,10 @@ text-align:justify;
 overflow:visible;
 }
 
-#talmud-bavli .rashi .lb,#talmud-bavli .tosfot .lb{
+#talmud-bavli .rashi .lb,#talmud-bavli .tosfos .lb{
 height: 19px;
 }
-#talmud-bavli .rashi ,#talmud-bavli .tosfot {
+#talmud-bavli .rashi ,#talmud-bavli .tosfos {
 
 font-size: 8pt;
 font-family: mc-rashi ;
@@ -231,32 +231,32 @@ font-family: mc-rashi ;
 	
 }
 
-#talmud-bavli .rashi .h-right ,#talmud-bavli .tosfot .h-right {
+#talmud-bavli .rashi .h-right ,#talmud-bavli .tosfos .h-right {
 position:relative;
 margin-right :0;
 width: 390px ;
 z-index: 100;
 }
-#talmud-bavli .rashi .t-right ,#talmud-bavli .tosfot .t-right{
+#talmud-bavli .rashi .t-right ,#talmud-bavli .tosfos .t-right{
 position:relative;
 margin-right :0;
 width:210px ;
 z-index: 100;
 }
 
-#talmud-bavli .rashi .h-left ,#talmud-bavli .tosfot .h-left  {
+#talmud-bavli .rashi .h-left ,#talmud-bavli .tosfos .h-left  {
 position:relative;
 margin-right :410px; 
 width:  390px;
 z-index: 109;
 }
-#talmud-bavli .rashi .t-left ,#talmud-bavli .tosfot .t-left{
+#talmud-bavli .rashi .t-left ,#talmud-bavli .tosfos .t-left{
 position:relative;
 margin-right :  590px;
 width:   210px;
 z-index: 110;
 }
-#talmud-bavli .rashi .all ,#talmud-bavli .tosfot .all{
+#talmud-bavli .rashi .all ,#talmud-bavli .tosfos .all{
 position:relative;
 width: 100%;
 z-index: 100;
@@ -266,7 +266,7 @@ z-index: 100;
    text-align: left !important;
    word-spacing: normal !important;
 }
-#talmud-bavli .rashi .last-line ,#talmud-bavli .tosfot  .last-line{
+#talmud-bavli .rashi .last-line ,#talmud-bavli .tosfos  .last-line{
 	font-size: 9pt;
 }
 #talmud-bavli .last-line {
@@ -277,7 +277,7 @@ font-size: smaller;
 	text-align: center !important;
 	word-spacing: normal !important;
 }
-#talmud-bavli .rashi .small-line-1 .lb , #talmud-bavli .tosfot .small-line-1 .lb{
+#talmud-bavli .rashi .small-line-1 .lb , #talmud-bavli .tosfos .small-line-1 .lb{
 	height: 18.75px !important;
 }
 
@@ -285,7 +285,7 @@ font-size: smaller;
 	height: 10.62px !important;
 }
 
-#talmud-bavli .gmara > span ,#talmud-bavli .rashi > span ,#talmud-bavli .tosfot > span{
+#talmud-bavli .gemara > span ,#talmud-bavli .rashi > span ,#talmud-bavli .tosfos > span{
 	display: block;
 }
 

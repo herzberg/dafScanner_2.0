@@ -1,0 +1,9 @@
+yevamos_185.png,1,2,1
+yevamos_185.png,2,1,2
+yevamos_185.png,2,1,3
+yevamos_185.png,2,1,4
+yevamos_185.png,2,1,5
+yevamos_185.png,1,1,6
+yevamos_185.png,1,1,7
+yevamos_185.png,1,1,8
+yevamos_185.png,3,3,9

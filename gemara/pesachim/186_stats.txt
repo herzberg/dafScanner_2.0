@@ -1,0 +1,7 @@
+pesachim_197.png,1,2,1
+pesachim_197.png,1,2,2
+pesachim_197.png,1,2,3
+pesachim_197.png,1,2,4
+pesachim_197.png,1,2,5
+pesachim_197.png,1,2,6
+pesachim_197.png,3,2,7

@@ -1,29 +1,213 @@
-brachos 8 45 - unknown line type
-brachos 9 47 - unknown line type
-brachos 17 53 - unknown line type
-brachos 26 55 - unknown line type
-brachos 27 53 - unknown line type
-brachos 29 - createFullDaf fail
-brachos 31 54 - unknown line type
-brachos 34 55 - unknown line type
-brachos 38 - createFullDaf fail
-brachos 41 59 - unknown line type
-brachos 42 53 - unknown line type
-brachos 43 54 - unknown line type
-brachos 52 - createFullDaf fail
-brachos 55 - createFullDaf fail
-brachos 56 34 - unknown line type
-brachos 62 - createFullDaf fail
-brachos 63 - createFullDaf fail
-brachos 65 57 - unknown line type
-brachos 72 54 - unknown line type
-brachos 75 - createFullDaf fail
-brachos 81 57 - unknown line type
-brachos 83 - createFullDaf fail
-brachos 103 - createFullDaf fail
-brachos 107 57 - unknown line type
-brachos 108 - createFullDaf fail
-brachos 113 - createFullDaf fail
-brachos 116 58 - unknown line type
-brachos 118 - createFullDaf fail
-brachos 122 57 - unknown line type
+gemara brachos 3 39 gemara32 - unknown line type
+gemara brachos 4 52 gemara32 - unknown line type
+gemara brachos 5 50 gemara32 - unknown line type
+gemara brachos 6 48 gemara32 - unknown line type
+gemara brachos 7 39 gemara32 - unknown line type
+gemara brachos 8 45 gemara11 - unknown line type
+gemara brachos 8 46 gemara11 - unknown line type
+gemara brachos 9 48 gemara11 - unknown line type
+gemara brachos 9 49 gemara32 - unknown line type
+gemara brachos 10 54 gemara32 - unknown line type
+rashi brachos 10 0 rashi12 - unknown line type
+gemara brachos 11 54 gemara32 - unknown line type
+gemara brachos 12 50 gemara32 - unknown line type
+gemara brachos 13 52 gemara32 - unknown line type
+rashi brachos 13 0 rashi31 - unknown line type
+gemara brachos 14 49 gemara32 - unknown line type
+gemara brachos 15 52 gemara32 - unknown line type
+rashi brachos 15 65 rashi31 - unknown line type
+gemara brachos 16 56 gemara32 - unknown line type
+gemara brachos 17 53 gemara11 - unknown line type
+gemara brachos 17 54 gemara32 - unknown line type
+rashi brachos 17 0 rashi31 - unknown line type
+gemara brachos 18 55 gemara32 - unknown line type
+rashi brachos 18 0 rashi31 - unknown line type
+gemara brachos 19 55 gemara32 - unknown line type
+gemara brachos 20 52 gemara32 - unknown line type
+rashi brachos 20 65 rashi31 - unknown line type
+rashi brachos 20 66 rashi31 - unknown line type
+rashi brachos 20 67 rashi31 - unknown line type
+rashi brachos 20 68 rashi31 - unknown line type
+gemara brachos 21 52 gemara32 - unknown line type
+rashi brachos 21 65 rashi31 - unknown line type
+rashi brachos 21 66 rashi31 - unknown line type
+rashi brachos 21 67 rashi31 - unknown line type
+gemara brachos 22 56 gemara32 - unknown line type
+gemara brachos 23 31 gemara32 - unknown line type
+gemara brachos 24 55 gemara32 - unknown line type
+gemara brachos 25 37 gemara32 - unknown line type
+gemara brachos 26 55 gemara11 - unknown line type
+gemara brachos 26 56 gemara32 - unknown line type
+gemara brachos 27 53 gemara11 - unknown line type
+gemara brachos 27 54 gemara32 - unknown line type
+gemara brachos 28 49 gemara32 - unknown line type
+rashi brachos 28 62 rashi31 - unknown line type
+rashi brachos 28 63 rashi31 - unknown line type
+rashi brachos 28 64 rashi31 - unknown line type
+rashi brachos 28 65 rashi31 - unknown line type
+gemara brachos 29 50 gemara32 - unknown line type
+rashi brachos 29 63 rashi31 - unknown line type
+rashi brachos 29 64 rashi31 - unknown line type
+rashi brachos 29 65 rashi31 - unknown line type
+rashi brachos 29 66 rashi31 - unknown line type
+gemara brachos 30 56 gemara11 - unknown line type
+gemara brachos 30 57 gemara32 - unknown line type
+gemara brachos 31 54 gemara32 - unknown line type
+rashi brachos 31 0 rashi31 - unknown line type
+gemara brachos 32 42 gemara32 - unknown line type
+gemara brachos 33 47 gemara32 - unknown line type
+gemara brachos 34 55 gemara11 - unknown line type
+rashi brachos 34 0 rashi31 - unknown line type
+gemara brachos 35 54 gemara32 - unknown line type
+rashi brachos 35 0 rashi31 - unknown line type
+gemara brachos 36 47 gemara32 - unknown line type
+gemara brachos 37 41 gemara32 - unknown line type
+gemara brachos 38 58 gemara32 - unknown line type
+gemara brachos 39 47 gemara32 - unknown line type
+gemara brachos 40 58 gemara11 - unknown line type
+gemara brachos 40 59 gemara32 - unknown line type
+gemara brachos 41 59 gemara11 - unknown line type
+gemara brachos 41 60 gemara32 - unknown line type
+gemara brachos 42 53 gemara11 - unknown line type
+gemara brachos 42 54 gemara32 - unknown line type
+gemara brachos 43 55 gemara32 - unknown line type
+gemara brachos 44 38 gemara32 - unknown line type
+rashi brachos 44 0 rashi31 - unknown line type
+gemara brachos 45 58 gemara32 - unknown line type
+gemara brachos 46 54 gemara32 - unknown line type
+gemara brachos 47 39 gemara32 - unknown line type
+gemara brachos 48 49 gemara32 - unknown line type
+gemara brachos 49 50 gemara32 - unknown line type
+rashi brachos 49 63 rashi31 - unknown line type
+rashi brachos 49 64 rashi31 - unknown line type
+rashi brachos 49 65 rashi31 - unknown line type
+rashi brachos 49 66 rashi31 - unknown line type
+rashi brachos 49 67 rashi31 - unknown line type
+rashi brachos 49 68 rashi31 - unknown line type
+rashi brachos 49 69 rashi31 - unknown line type
+rashi brachos 49 70 rashi31 - unknown line type
+gemara brachos 50 50 gemara32 - unknown line type
+gemara brachos 51 56 gemara32 - unknown line type
+gemara brachos 52 54 gemara32 - unknown line type
+rashi brachos 52 0 rashi31 - unknown line type
+gemara brachos 53 56 gemara32 - unknown line type
+gemara brachos 54 52 gemara32 - unknown line type
+gemara brachos 55 61 gemara32 - unknown line type
+rashi brachos 55 75 rashi31 - unknown line type
+gemara brachos 56 34 gemara11 - unknown line type
+gemara brachos 56 36 gemara32 - unknown line type
+gemara brachos 57 61 gemara32 - unknown line type
+gemara brachos 58 56 gemara32 - unknown line type
+gemara brachos 59 54 gemara32 - unknown line type
+rashi brachos 59 0 rashi31 - unknown line type
+gemara brachos 60 55 gemara32 - unknown line type
+gemara brachos 61 56 gemara32 - unknown line type
+rashi brachos 61 0 rashi31 - unknown line type
+gemara brachos 62 52 gemara32 - unknown line type
+gemara brachos 63 42 gemara32 - unknown line type
+gemara brachos 64 54 gemara32 - unknown line type
+rashi brachos 64 0 rashi12 - unknown line type
+gemara brachos 65 56 gemara11 - unknown line type
+gemara brachos 65 57 gemara32 - unknown line type
+gemara brachos 66 55 gemara32 - unknown line type
+gemara brachos 67 57 gemara32 - unknown line type
+gemara brachos 68 58 gemara32 - unknown line type
+gemara brachos 69 49 gemara32 - unknown line type
+gemara brachos 70 50 gemara32 - unknown line type
+gemara brachos 71 56 gemara32 - unknown line type
+gemara brachos 72 54 gemara11 - unknown line type
+gemara brachos 72 55 gemara32 - unknown line type
+gemara brachos 73 51 gemara32 - unknown line type
+gemara brachos 74 30 gemara32 - unknown line type
+gemara brachos 75 57 gemara32 - unknown line type
+gemara brachos 76 52 gemara32 - unknown line type
+gemara brachos 77 50 gemara32 - unknown line type
+gemara brachos 78 34 gemara32 - unknown line type
+gemara brachos 79 44 gemara32 - unknown line type
+gemara brachos 80 47 gemara32 - unknown line type
+gemara brachos 81 57 gemara11 - unknown line type
+gemara brachos 81 58 gemara32 - unknown line type
+gemara brachos 82 55 gemara32 - unknown line type
+gemara brachos 83 57 gemara32 - unknown line type
+gemara brachos 84 51 gemara32 - unknown line type
+rashi brachos 84 64 rashi31 - unknown line type
+gemara brachos 85 50 gemara32 - unknown line type
+gemara brachos 86 55 gemara32 - unknown line type
+gemara brachos 87 38 gemara32 - unknown line type
+gemara brachos 88 49 gemara32 - unknown line type
+gemara brachos 89 55 gemara32 - unknown line type
+gemara brachos 90 57 gemara32 - unknown line type
+gemara brachos 91 35 gemara32 - unknown line type
+gemara brachos 92 54 gemara32 - unknown line type
+gemara brachos 93 59 gemara32 - unknown line type
+gemara brachos 94 47 gemara32 - unknown line type
+gemara brachos 95 53 gemara32 - unknown line type
+rashi brachos 95 68 rashi31 - unknown line type
+rashi brachos 95 69 rashi31 - unknown line type
+rashi brachos 95 70 rashi31 - unknown line type
+gemara brachos 96 44 gemara32 - unknown line type
+gemara brachos 97 56 gemara32 - unknown line type
+gemara brachos 98 48 gemara32 - unknown line type
+rashi brachos 98 60 rashi31 - unknown line type
+rashi brachos 98 61 rashi31 - unknown line type
+gemara brachos 99 47 gemara32 - unknown line type
+rashi brachos 99 59 rashi31 - unknown line type
+rashi brachos 99 60 rashi31 - unknown line type
+rashi brachos 99 61 rashi31 - unknown line type
+rashi brachos 99 62 rashi31 - unknown line type
+rashi brachos 99 63 rashi31 - unknown line type
+rashi brachos 99 64 rashi31 - unknown line type
+rashi brachos 99 65 rashi31 - unknown line type
+rashi brachos 99 66 rashi31 - unknown line type
+rashi brachos 99 67 rashi31 - unknown line type
+rashi brachos 99 68 rashi31 - unknown line type
+gemara brachos 100 58 gemara32 - unknown line type
+gemara brachos 101 53 gemara32 - unknown line type
+rashi brachos 101 67 rashi31 - unknown line type
+rashi brachos 101 68 rashi31 - unknown line type
+rashi brachos 101 69 rashi31 - unknown line type
+gemara brachos 102 53 gemara32 - unknown line type
+gemara brachos 103 51 gemara32 - unknown line type
+rashi brachos 103 64 rashi31 - unknown line type
+rashi brachos 103 65 rashi31 - unknown line type
+rashi brachos 103 66 rashi31 - unknown line type
+rashi brachos 103 67 rashi31 - unknown line type
+gemara brachos 104 58 gemara32 - unknown line type
+gemara brachos 104 59 gemara32 - unknown line type
+gemara brachos 105 55 gemara32 - unknown line type
+rashi brachos 105 0 rashi31 - unknown line type
+gemara brachos 106 56 gemara32 - unknown line type
+rashi brachos 106 0 rashi31 - unknown line type
+gemara brachos 107 57 gemara11 - unknown line type
+gemara brachos 107 58 gemara32 - unknown line type
+gemara brachos 108 56 gemara32 - unknown line type
+rashi brachos 108 0 rashi31 - unknown line type
+gemara brachos 109 58 gemara11 - unknown line type
+gemara brachos 109 59 gemara32 - unknown line type
+gemara brachos 110 58 gemara32 - unknown line type
+gemara brachos 111 56 gemara32 - unknown line type
+gemara brachos 112 57 gemara11 - unknown line type
+gemara brachos 112 58 gemara32 - unknown line type
+rashi brachos 112 0 rashi31 - unknown line type
+gemara brachos 113 53 gemara32 - unknown line type
+rashi brachos 113 67 rashi31 - unknown line type
+gemara brachos 114 53 gemara32 - unknown line type
+rashi brachos 114 66 rashi31 - unknown line type
+rashi brachos 114 67 rashi31 - unknown line type
+rashi brachos 114 68 rashi31 - unknown line type
+rashi brachos 114 69 rashi31 - unknown line type
+rashi brachos 114 70 rashi31 - unknown line type
+gemara brachos 115 56 gemara32 - unknown line type
+gemara brachos 116 58 gemara11 - unknown line type
+gemara brachos 116 59 gemara32 - unknown line type
+gemara brachos 117 55 gemara32 - unknown line type
+rashi brachos 117 0 rashi31 - unknown line type
+gemara brachos 118 58 gemara32 - unknown line type
+gemara brachos 119 52 gemara32 - unknown line type
+rashi brachos 119 0 rashi31 - unknown line type
+gemara brachos 120 59 gemara32 - unknown line type
+gemara brachos 121 59 gemara32 - unknown line type
+gemara brachos 122 57 gemara11 - unknown line type
+gemara brachos 122 58 gemara32 - unknown line type
+gemara brachos 123 26 gemara32 - unknown line type
+rashi brachos 123 0 rashi31 - unknown line type

@@ -1,0 +1,14 @@
+sotah_34.png,1,2,1
+sotah_34.png,1,2,2
+sotah_34.png,1,2,3
+sotah_34.png,1,2,4
+sotah_34.png,1,2,5
+sotah_34.png,1,2,6
+sotah_34.png,1,2,7
+sotah_34.png,1,2,8
+sotah_34.png,1,2,9
+sotah_34.png,1,2,10
+sotah_34.png,1,2,11
+sotah_34.png,1,2,12
+sotah_34.png,1,2,13
+sotah_34.png,3,2,14

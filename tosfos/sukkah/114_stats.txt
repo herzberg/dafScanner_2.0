@@ -1,0 +1,16 @@
+sukkah_111.png,1,1,1
+sukkah_111.png,1,1,2
+sukkah_111.png,1,1,3
+sukkah_111.png,1,1,4
+sukkah_111.png,1,1,5
+sukkah_111.png,1,1,6
+sukkah_111.png,1,1,7
+sukkah_111.png,1,1,8
+sukkah_111.png,1,1,9
+sukkah_111.png,1,1,10
+sukkah_111.png,1,1,11
+sukkah_111.png,1,1,12
+sukkah_111.png,1,1,13
+sukkah_111.png,1,1,14
+sukkah_111.png,1,1,15
+sukkah_111.png,3,3,16

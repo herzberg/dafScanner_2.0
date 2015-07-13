@@ -1,0 +1,11 @@
+yoma_272.png,1,2,1
+yoma_272.png,1,2,2
+yoma_272.png,1,2,3
+yoma_272.png,1,2,4
+yoma_272.png,1,2,5
+yoma_272.png,1,2,6
+yoma_272.png,1,2,7
+yoma_272.png,1,2,8
+yoma_272.png,1,2,9
+yoma_272.png,1,2,10
+yoma_272.png,3,2,11

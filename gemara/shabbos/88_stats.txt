@@ -1,0 +1,17 @@
+shabbos_88.png,1,2,1
+shabbos_88.png,1,2,2
+shabbos_88.png,1,2,3
+shabbos_88.png,1,2,4
+shabbos_88.png,1,2,5
+shabbos_88.png,1,2,6
+shabbos_88.png,1,2,7
+shabbos_88.png,1,2,8
+shabbos_88.png,1,2,9
+shabbos_88.png,1,2,10
+shabbos_88.png,1,2,11
+shabbos_88.png,1,2,12
+shabbos_88.png,1,2,13
+shabbos_88.png,1,2,14
+shabbos_88.png,1,2,15
+shabbos_88.png,1,2,16
+shabbos_88.png,3,2,17

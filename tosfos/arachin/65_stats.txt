@@ -1,0 +1,14 @@
+arachin_65.png,1,1,1
+arachin_65.png,1,1,2
+arachin_65.png,1,1,3
+arachin_65.png,1,1,4
+arachin_65.png,1,1,5
+arachin_65.png,1,1,6
+arachin_65.png,1,1,7
+arachin_65.png,1,1,8
+arachin_65.png,1,1,9
+arachin_65.png,1,1,10
+arachin_65.png,1,1,11
+arachin_65.png,1,1,12
+arachin_65.png,1,1,13
+arachin_65.png,3,3,14

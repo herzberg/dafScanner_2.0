@@ -1,0 +1,11 @@
+nazir_31.png,1,2,1
+nazir_31.png,1,2,2
+nazir_31.png,1,2,3
+nazir_31.png,1,2,4
+nazir_31.png,1,2,5
+nazir_31.png,1,2,6
+nazir_31.png,1,2,7
+nazir_31.png,1,2,8
+nazir_31.png,1,2,9
+nazir_31.png,1,2,10
+nazir_31.png,3,2,11

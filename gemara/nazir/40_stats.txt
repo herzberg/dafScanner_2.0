@@ -1,0 +1,5 @@
+nazir_40.png,1,2,1
+nazir_40.png,1,2,2
+nazir_40.png,1,2,3
+nazir_40.png,1,2,4
+nazir_40.png,3,2,5

@@ -1,0 +1,10 @@
+makkos_41.png,1,1,1
+makkos_41.png,1,1,2
+makkos_41.png,1,1,3
+makkos_41.png,1,1,4
+makkos_41.png,1,1,5
+makkos_41.png,1,1,6
+makkos_41.png,1,1,7
+makkos_41.png,1,1,8
+makkos_41.png,1,1,9
+makkos_41.png,3,3,10

@@ -1,0 +1,3 @@
+nazir_408.png,1,2,1
+nazir_408.png,1,2,2
+nazir_408.png,1,2,3

@@ -1,0 +1,3 @@
+shabbos_226.png,1,2,1
+shabbos_226.png,3,3,2
+shabbos_226.png,3,3,3

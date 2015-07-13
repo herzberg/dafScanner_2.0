@@ -1,0 +1,16 @@
+yoma_341.png,1,3,1
+yoma_341.png,1,3,2
+yoma_341.png,1,3,3
+yoma_341.png,1,3,4
+yoma_341.png,1,3,5
+yoma_341.png,1,3,6
+yoma_341.png,1,3,7
+yoma_341.png,1,3,8
+yoma_341.png,1,3,9
+yoma_341.png,1,3,10
+yoma_341.png,1,3,11
+yoma_341.png,1,3,12
+yoma_341.png,1,3,13
+yoma_341.png,1,3,14
+yoma_341.png,1,3,15
+yoma_341.png,3,3,16

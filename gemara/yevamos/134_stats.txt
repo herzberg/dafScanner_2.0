@@ -1,0 +1,7 @@
+yevamos_131.png,1,2,1
+yevamos_131.png,1,2,2
+yevamos_131.png,1,2,3
+yevamos_131.png,1,2,4
+yevamos_131.png,1,2,5
+yevamos_131.png,1,2,6
+yevamos_131.png,3,2,7

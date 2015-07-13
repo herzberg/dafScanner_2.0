@@ -38,23 +38,42 @@
 clc, clear, close all;
 
 %debug
-showGemContour = 1;
+showGemContour = 0;
 showRashContour = 0;
 showTosContour = 0;
 showCutouts = 0;
 
 %35a,37b,48b
 %inputs
-mesechtaName = 'bechoros';
-startScanDafStr = '2b';
+mesechtas = dir('gemaraPics');
+mesechtas = mesechtas([mesechtas.isdir]);
+for k = 3:length(mesechtas) % start at 3 bc of . and ..
+disp('--------------------------------------------------------------------------------------------------------');
+mesechtaName = mesechtas(k).name
+disp('--------------------------------------------------------------------------------------------------------');
+startScanDafStr = '2a';
+
+realFiles = dir(['gemaraPics/' mesechtaName]);
+realFiles = realFiles(not([realFiles.isdir]));
+startMesDaf = Inf;
+for l = 1:length(realFiles);
+   tempName = realFiles(l).name;
+   startNumPos = find(tempName == '_',2)+1;
+   startNumPos = startNumPos(2);
+   endNumPos = find(tempName == '.',1)-1;
+   fileNum = str2double(tempName(startNumPos:endNumPos));
+   
+   if fileNum < startMesDaf
+       startMesDaf = fileNum;
+   end
+end
 
 numDafToScan = 1000;
-startMesDaf = 21;
 startScanDaf = dafStr2Int(startScanDafStr) + startMesDaf;
 
 botlines = zeros(1,numDafToScan);
 
-imcloseCoef = -10;
+imcloseCoef = -12;
 for i=startScanDaf:startScanDaf+numDafToScan-1
     isAmudAlef = mod(i-startMesDaf,2) == 0;
     
@@ -144,7 +163,11 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
     %continue;    
     
     perekBreakHeight = 50;
-    if yoyoyo(1) ~= -1 && yo(2)-botline(2) < perekBreakHeight
+    botYs = [yo(2),yoyo(2),yoyoyo(2)];
+    diffBotYs = diff(botYs);
+    %the second criteria checks that your other botlines aren't actually
+    %consecutive lines of rabenu chananel or rashi or whatever
+    if (yoyoyo(1) ~= -1 && yo(2)-botline(2) < perekBreakHeight) && sum(abs(diffBotYs(1)-diffBotYs) < 10) == 0
         botline = yoyo;
         yo = yoyoyo;
         %there's a perek break
@@ -189,27 +212,42 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
     %% RIGHT EDGE
     try
         start = topline(3);
-        [corn,dim,start,dir] = nextJunctionFinder(im,topright,start,2,'d',imcloseCoef);
+        [corn,dim,start,direction] = nextJunctionFinder(im,topright,start,2,'d',imcloseCoef);
 
-        cornPoint = [topright(2) + (topright(3)-topright(2))/2, corn(2) + (corn(3)-corn(2))/2];
+        
 
 
 
         if corn(2) > botline(2) % already reached bottom line, no need to check for right protrusion
+            cornPoint = [topright(2) + (topright(3)-topright(2))/2, corn(2) + (corn(3)-corn(2))/2];
             gemPointsR = [gemPointsR; cornPoint(1), botline(2) + 0.05*botline(1)];
             %plot([gemPointsR(end-1,1), gemPointsR(end,1)],[gemPointsR(end-1,2), gemPointsR(end,2)]);
             %disp('too far right')
         else 
-            gemPointsR = [gemPointsR; cornPoint];
+            cornPointPrev = [topright(2) + (topright(3)-topright(2))/2,corn(2) + (corn(3)-corn(2))/2];
+            %gemPointsR = [gemPointsR; cornPoint];
             %go right once
             %figure;imshow(im);hold on;plot([topRightPoint(1), cornPoint(1)],[topRightPoint(2), cornPoint(2)]);hold off;
-            [corn2,dim2,start2,dir] = nextJunctionFinder(im,corn,start,dim,'r',imcloseCoef);
+            [corn2,dim2,start2,direction] = nextJunctionFinder(im,corn,start,dim,'r',imcloseCoef);
+            %also check slightly above the corner and see if you can get
+            %farther left b/c sometimes you go too far into the gemara text
+            cornPrime = [corn(1) corn(2)-10 corn(3)-10];
+            [corn3,dim3,start3,direction3] = nextJunctionFinder(im,cornPrime,start,dim,'r',imcloseCoef);
+            
             cornPoint2 = [corn2(2) + (corn2(3)-corn2(2))/2, corn(2) + (corn(3)-corn(2))/2];
-            gemPointsR = [gemPointsR; cornPoint2];
-            %plot([gemPointsR(end-1,1),gemPointsR(end,1)],[gemPointsR(end-1,2),gemPointsR(end,2)]);
+            cornPoint3 = [corn3(2) + (corn3(3)-corn3(2))/2, cornPrime(2) + (cornPrime(3)-cornPrime(2))/2];
+            if cornPoint3(1) > cornPoint2(1) && abs(cornPoint3(1)-cornPointPrev(1)) > 30
+                disp('extra right');
+                cornPointPrev(2) = cornPrime(2) + (cornPrime(3)-cornPrime(2))/2;
+                cornPoint = cornPoint3;
+            else
+                cornPoint = cornPoint2;
+            end
+            gemPointsR = [gemPointsR; topRightPoint; cornPointPrev];
+            gemPointsR = [gemPointsR; cornPoint];
 
             %go down until botline
-            gemPointsR = [gemPointsR; cornPoint2(1), botline(2) + 0.05*botline(1)];
+            gemPointsR = [gemPointsR; cornPoint(1), botline(2) + 0.05*botline(1)];
             %plot([gemPointsR(end-1,1),gemPointsR(end,1)],[gemPointsR(end-1,2),gemPointsR(end,2)]);
         end
     catch e
@@ -220,30 +258,44 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
     %% LEFT EDGE
     try
         start = topline(3);
-        [corn,dim,start,dir] = nextJunctionFinder(im,topleft,start,2,'d',imcloseCoef);
+        [corn,dim,start,direction] = nextJunctionFinder(im,topleft,start,2,'d',imcloseCoef);
 
-        cornPoint = [topleft(2) + (topleft(3)-topleft(2))/2,corn(2) + (corn(3)-corn(2))/2];
         
-        figure;imshow(im);hold on;
+        
+        %figure;imshow(im);hold on;
         %leeway as to when we say the left edge has reached the bottom line
         botlinebuffer = 2;
         if corn(2) >= botline(2)-botlinebuffer % already reached bottom line, no need to check for left protrusion
+            cornPoint = [topleft(2) + (topleft(3)-topleft(2))/2,corn(2) + (corn(3)-corn(2))/2];
             gemPointsL = [gemPointsL; topLeftPoint; cornPoint(1), botline(2) + 0.05*botline(1)];
             %plot([gemPointsL(end-1,1), gemPointsL(end,1)],[gemPointsL(end-1,2), gemPointsL(end,2)]);
             %disp('too far left')
         else 
-            gemPointsL = [gemPointsL; topLeftPoint; cornPoint];
+            cornPointPrev = [topleft(2) + (topleft(3)-topleft(2))/2,corn(2) + (corn(3)-corn(2))/2];
             %go left once
-            plot([gemPointsL(end-1,1),gemPointsL(end,1)],[gemPointsL(end-1,2),gemPointsL(end,2)]);
-            [corn2,dim2,start2,dir] = nextJunctionFinder(im,corn,start,dim,'l',imcloseCoef);
-            [corn3,dim3,start3,dir3] = nextJunctionFinder(im,corn,start-corn(1),dim,'l',imcloseCoef);
+            %plot([gemPointsL(end-1,1),gemPointsL(end,1)],[gemPointsL(end-1,2),gemPointsL(end,2)]);
+            [corn2,dim2,start2,direction] = nextJunctionFinder(im,corn,start,dim,'l',imcloseCoef);
+            
+            %also check slightly above the corner and see if you can get
+            %farther left b/c sometimes you go too far into the gemara text
+            cornPrime = [corn(1) corn(2)-20 corn(3)-20];
+            [corn3,dim3,start3,direction3] = nextJunctionFinder(im,cornPrime,start,dim,'l',imcloseCoef);
+            
             cornPoint2 = [corn2(2) + (corn2(3)-corn2(2))/2, corn(2) + (corn(3)-corn(2))/2];
-            cornPoint3 = [corn3(2) + (corn3(3)-corn3(2))/2, corn(2) + (corn(3)-corn(2))/2];
-            gemPointsL = [gemPointsL; cornPoint2; cornPoint3];
-            plot([gemPointsL(end-1,1),gemPointsL(end,1)],[gemPointsL(end-1,2),gemPointsL(end,2)]);
-            plot([gemPointsL(end-1,1),gemPointsL(end,1)],[gemPointsL(end-1,2),gemPointsL(end,2)]);
+            cornPoint3 = [corn3(2) + (corn3(3)-corn3(2))/2, cornPrime(2) + (cornPrime(3)-cornPrime(2))/2];
+            if cornPoint3(1) < cornPoint2(1) && abs(cornPoint3(1)-cornPointPrev(1)) > 30
+                disp('extra left');
+                cornPointPrev(2) = cornPrime(2) + (cornPrime(3)-cornPrime(2))/2; %set to match cornPrime
+                cornPoint = cornPoint3;
+            else
+                cornPoint = cornPoint2;
+            end
+            gemPointsL = [gemPointsL; topLeftPoint; cornPointPrev];
+            gemPointsL = [gemPointsL; cornPoint];
+            %plot([gemPointsL(end-2,1),gemPointsL(end-1,1)],[gemPointsL(end-2,2),gemPointsL(end-1,2)]);
+            %plot([gemPointsL(end-2,1),gemPointsL(end,1)],[cornPrime(2),gemPointsL(end,2)]);
             %go down until botline
-            gemPointsL = [gemPointsL; cornPoint2(1), botline(2) + 0.05*botline(1)];
+            gemPointsL = [gemPointsL; cornPoint(1), botline(2) + 0.05*botline(1)];
             %plot([gemPointsL(end-1,1),gemPointsL(end,1)],[gemPointsL(end-1,2),gemPointsL(end,2)]);
         end
     catch e
@@ -306,8 +358,24 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
     
     %% CUT OUT THE SECTIONS!
     s=strcat(['gemaraPicsHQ/' mesechtaName '/' mesechtaName '_Page_' zeroCat],num2str(i),'.png');
+    zeroCatPrime = '';
+    if i-startMesDaf+3 < 10
+        zeroCatPrime = '00';
+    elseif (i-startMesDaf+3 < 100) 
+        zeroCatPrime = '0';
+    end
+    sprime = strcat(['gemaraPicsHQ/' mesechtaName '/' mesechtaName '_Page_' zeroCatPrime],num2str(i-startMesDaf+3),'.png');
+    sprimeprime = strcat(['gemaraPicsHQ/' mesechtaName '/' mesechtaName '_Page_' zeroCatPrime],num2str(i-startMesDaf+3),'.png');
     try 
-        imHq = imread(s);
+        try
+            imHq = imread(s);
+        catch
+            %in case hq is normalized daf and non-hq isn't...
+            try
+                imHq = imread(sprime);
+            catch
+                imHq = imread(
+        end
         xratio = size(imHq,1)/size(imOrig,1);
         yratio = size(imHq,2)/size(imOrig,2);
         %gemara
@@ -315,7 +383,7 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
         gemContour(:,1) = gemContour(:,1).*xratio;
         gemContour(:,2) = gemContour(:,2).*yratio;
         croppedGemara = cropBySectionContour(gemContour,imHq);
-        str = ['./results/cutoutGemara/' mesechtaName '/' mesechtaName '_' int2str(i) '.png'];
+        str = ['./results/cutoutGemara/' mesechtaName '/' mesechtaName '_' int2str(i-startMesDaf+3) '.png'];
         imwrite(croppedGemara,str);
         if showCutouts
             figure;imshow(croppedGemara);
@@ -326,7 +394,7 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
         rashContour(:,1) = rashContour(:,1).*xratio;
         rashContour(:,2) = rashContour(:,2).*yratio;
         croppedRashi = cropBySectionContour(rashContour,imHq);
-        str = ['./results/cutoutRashi/' mesechtaName '/' mesechtaName '_' int2str(i) '.png'];
+        str = ['./results/cutoutRashi/' mesechtaName '/' mesechtaName '_' int2str(i-startMesDaf+3) '.png'];
         imwrite(croppedRashi,str);
         if showCutouts
             figure;imshow(croppedRashi);
@@ -338,7 +406,7 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
             tosContour(:,1) = tosContour(:,1).*xratio;
             tosContour(:,2) = tosContour(:,2).*yratio;
             croppedTosfos = cropBySectionContour(tosContour,imHq);
-            str = ['./results/cutoutTosfos/' mesechtaName '/' mesechtaName '_' int2str(i) '.png'];
+            str = ['./results/cutoutTosfos/' mesechtaName '/' mesechtaName '_' int2str(i-startMesDaf+3) '.png'];
             imwrite(croppedTosfos,str);
             if showCutouts
                 figure;imshow(croppedTosfos);
@@ -347,6 +415,7 @@ for i=startScanDaf:startScanDaf+numDafToScan-1
     catch e
         disp('you don"t have hq for this daf.. :(');
     end
+end
 end
 
 

@@ -1,0 +1,16 @@
+makkos_45.png,2,1,1
+makkos_45.png,2,1,2
+makkos_45.png,2,1,3
+makkos_45.png,1,1,4
+makkos_45.png,1,1,5
+makkos_45.png,1,1,6
+makkos_45.png,1,1,7
+makkos_45.png,1,1,8
+makkos_45.png,1,1,9
+makkos_45.png,1,1,10
+makkos_45.png,1,1,11
+makkos_45.png,1,1,12
+makkos_45.png,1,1,13
+makkos_45.png,1,1,14
+makkos_45.png,1,1,15
+makkos_45.png,3,3,16

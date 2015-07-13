@@ -1,0 +1,8 @@
+niddah_4.png,1,1,1
+niddah_4.png,1,1,2
+niddah_4.png,1,1,3
+niddah_4.png,1,1,4
+niddah_4.png,1,1,5
+niddah_4.png,1,1,6
+niddah_4.png,1,1,7
+niddah_4.png,3,2,8
