@@ -1,0 +1,9 @@
+shabbos_237.png,1,1,1
+shabbos_237.png,1,1,2
+shabbos_237.png,1,1,3
+shabbos_237.png,1,1,4
+shabbos_237.png,1,1,5
+shabbos_237.png,1,1,6
+shabbos_237.png,1,1,7
+shabbos_237.png,1,1,8
+shabbos_237.png,1,1,9

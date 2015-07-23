@@ -1,0 +1,10 @@
+shekalim_29.png,1,2,1
+shekalim_29.png,1,2,2
+shekalim_29.png,1,2,3
+shekalim_29.png,1,2,4
+shekalim_29.png,1,2,5
+shekalim_29.png,1,2,6
+shekalim_29.png,1,2,7
+shekalim_29.png,1,2,8
+shekalim_29.png,1,2,9
+shekalim_29.png,1,2,10

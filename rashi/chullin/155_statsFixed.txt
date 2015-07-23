@@ -1,0 +1,5 @@
+chullin_155.png,2,2,1
+chullin_155.png,2,2,2
+chullin_155.png,2,2,3
+chullin_155.png,1,3,4
+chullin_155.png,1,3,5

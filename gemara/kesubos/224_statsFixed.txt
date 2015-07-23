@@ -1,0 +1,9 @@
+kesubos_224.png,1,2,1
+kesubos_224.png,1,2,2
+kesubos_224.png,2,2,3
+kesubos_224.png,2,2,4
+kesubos_224.png,2,2,5
+kesubos_224.png,2,2,6
+kesubos_224.png,2,2,7
+kesubos_224.png,1,2,8
+kesubos_224.png,2,2,9

@@ -1,0 +1,10 @@
+bechoros_85.png,2,1,1
+bechoros_85.png,2,1,2
+bechoros_85.png,2,1,3
+bechoros_85.png,2,1,4
+bechoros_85.png,1,1,5
+bechoros_85.png,1,1,6
+bechoros_85.png,1,1,7
+bechoros_85.png,1,1,8
+bechoros_85.png,1,1,9
+bechoros_85.png,1,1,10

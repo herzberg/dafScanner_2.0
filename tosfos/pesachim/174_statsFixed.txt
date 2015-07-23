@@ -1,0 +1,10 @@
+pesachim_174.png,1,3,1
+pesachim_174.png,1,3,2
+pesachim_174.png,1,3,3
+pesachim_174.png,1,3,4
+pesachim_174.png,1,3,5
+pesachim_174.png,1,3,6
+pesachim_174.png,1,3,7
+pesachim_174.png,1,3,8
+pesachim_174.png,1,3,9
+pesachim_174.png,1,3,10

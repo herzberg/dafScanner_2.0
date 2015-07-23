@@ -1,0 +1,2 @@
+bechoros_62.png,2,2,1
+bechoros_62.png,2,2,2

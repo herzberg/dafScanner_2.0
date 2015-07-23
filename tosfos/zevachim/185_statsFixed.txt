@@ -1,0 +1,9 @@
+zevachim_185.png,1,1,1
+zevachim_185.png,1,1,2
+zevachim_185.png,1,1,3
+zevachim_185.png,1,1,4
+zevachim_185.png,1,1,5
+zevachim_185.png,1,1,6
+zevachim_185.png,1,1,7
+zevachim_185.png,1,1,8
+zevachim_185.png,1,1,9

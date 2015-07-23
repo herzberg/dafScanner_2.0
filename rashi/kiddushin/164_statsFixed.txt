@@ -1,0 +1,4 @@
+kiddushin_164.png,3,1,1
+kiddushin_164.png,3,1,2
+kiddushin_164.png,3,1,3
+kiddushin_164.png,3,1,4

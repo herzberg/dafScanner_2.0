@@ -1,0 +1,5 @@
+bava_kama_147.png,2,1,1
+bava_kama_147.png,2,1,2
+bava_kama_147.png,2,1,3
+bava_kama_147.png,2,1,4
+bava_kama_147.png,1,1,5

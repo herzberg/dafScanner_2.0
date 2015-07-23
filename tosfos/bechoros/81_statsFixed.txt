@@ -1,0 +1,17 @@
+bechoros_81.png,2,1,1
+bechoros_81.png,2,1,2
+bechoros_81.png,2,1,3
+bechoros_81.png,2,1,4
+bechoros_81.png,1,1,5
+bechoros_81.png,1,1,6
+bechoros_81.png,1,1,7
+bechoros_81.png,1,1,8
+bechoros_81.png,1,1,9
+bechoros_81.png,1,1,10
+bechoros_81.png,1,1,11
+bechoros_81.png,1,1,12
+bechoros_81.png,1,1,13
+bechoros_81.png,1,1,14
+bechoros_81.png,1,1,15
+bechoros_81.png,1,1,16
+bechoros_81.png,1,1,17

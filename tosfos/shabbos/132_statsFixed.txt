@@ -1,0 +1,8 @@
+shabbos_132.png,1,3,1
+shabbos_132.png,1,3,2
+shabbos_132.png,1,3,3
+shabbos_132.png,1,3,4
+shabbos_132.png,1,3,5
+shabbos_132.png,1,3,6
+shabbos_132.png,1,3,7
+shabbos_132.png,1,3,8

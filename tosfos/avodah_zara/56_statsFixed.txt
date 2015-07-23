@@ -1,0 +1,15 @@
+avodah_zara_56.png,2,2,1
+avodah_zara_56.png,2,2,2
+avodah_zara_56.png,2,2,3
+avodah_zara_56.png,2,2,4
+avodah_zara_56.png,1,3,5
+avodah_zara_56.png,1,3,6
+avodah_zara_56.png,1,3,7
+avodah_zara_56.png,1,3,8
+avodah_zara_56.png,1,3,9
+avodah_zara_56.png,1,3,10
+avodah_zara_56.png,1,3,11
+avodah_zara_56.png,1,3,12
+avodah_zara_56.png,1,3,13
+avodah_zara_56.png,1,3,14
+avodah_zara_56.png,1,3,15

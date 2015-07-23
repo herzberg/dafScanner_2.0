@@ -1,0 +1,5 @@
+sotah_54.png,1,2,1
+sotah_54.png,1,2,2
+sotah_54.png,1,2,3
+sotah_54.png,1,2,4
+sotah_54.png,1,2,5

@@ -1,0 +1,7 @@
+sanhedrin_57.png,1,1,1
+sanhedrin_57.png,1,1,2
+sanhedrin_57.png,1,1,3
+sanhedrin_57.png,1,1,4
+sanhedrin_57.png,1,1,5
+sanhedrin_57.png,1,1,6
+sanhedrin_57.png,1,1,7

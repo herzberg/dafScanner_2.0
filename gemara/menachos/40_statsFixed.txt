@@ -1,0 +1,12 @@
+menachos_40.png,1,2,1
+menachos_40.png,1,2,2
+menachos_40.png,1,2,3
+menachos_40.png,1,2,4
+menachos_40.png,1,2,5
+menachos_40.png,1,2,6
+menachos_40.png,1,2,7
+menachos_40.png,1,2,8
+menachos_40.png,1,2,9
+menachos_40.png,1,2,10
+menachos_40.png,1,2,11
+menachos_40.png,1,2,12

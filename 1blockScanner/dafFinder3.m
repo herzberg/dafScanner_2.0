@@ -47,7 +47,7 @@ showCutouts = 0;
 %inputs
 mesechtas = dir('gemaraPics');
 mesechtas = mesechtas([mesechtas.isdir]);
-for k = 31:length(mesechtas) % start at 3 bc of . and ..
+for k = 11:11 %length(mesechtas) % start at 3 bc of . and ..
 disp('--------------------------------------------------------------------------------------------------------');
 mesechtaName = mesechtas(k).name
 disp('--------------------------------------------------------------------------------------------------------');

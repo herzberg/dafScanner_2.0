@@ -1,0 +1,8 @@
+nedarim_136.png,1,2,1
+nedarim_136.png,1,2,2
+nedarim_136.png,1,2,3
+nedarim_136.png,1,2,4
+nedarim_136.png,1,2,5
+nedarim_136.png,2,1,6
+nedarim_136.png,2,1,7
+nedarim_136.png,2,1,8

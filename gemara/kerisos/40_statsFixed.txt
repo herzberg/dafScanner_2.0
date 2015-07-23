@@ -1,0 +1,16 @@
+kerisos_40.png,1,2,1
+kerisos_40.png,1,2,2
+kerisos_40.png,1,2,3
+kerisos_40.png,1,2,4
+kerisos_40.png,1,2,5
+kerisos_40.png,1,2,6
+kerisos_40.png,1,2,7
+kerisos_40.png,1,2,8
+kerisos_40.png,1,2,9
+kerisos_40.png,1,2,10
+kerisos_40.png,1,2,11
+kerisos_40.png,1,2,12
+kerisos_40.png,1,2,13
+kerisos_40.png,1,2,14
+kerisos_40.png,1,2,15
+kerisos_40.png,1,2,16

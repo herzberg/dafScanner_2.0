@@ -1,6 +1,6 @@
 function [  ] = textToFiles( outpath,lines )
 %UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%   Detailed explanation goes 
     dafTextFile = fopen([outpath 'daf.txt'],'w');
     dafNumWordsFile = fopen([outpath 'dafNumWords.txt'],'w');
     dafNumChars = fopen([outpath 'dafNumChars.txt'],'w');
@@ -47,7 +47,7 @@ function [  ] = textToFiles( outpath,lines )
     end
     
     if(blankLineCount)
-       blankLineCount
+       %blankLineCount
     end
     fclose(dafTextFile);
     fclose(dafNumWordsFile);

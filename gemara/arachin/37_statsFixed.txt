@@ -1,0 +1,3 @@
+arachin_37.png,1,2,1
+arachin_37.png,1,2,2
+arachin_37.png,1,2,3

@@ -1,0 +1,8 @@
+shevous_71.png,1,2,1
+shevous_71.png,1,2,2
+shevous_71.png,1,2,3
+shevous_71.png,1,2,4
+shevous_71.png,1,2,5
+shevous_71.png,1,2,6
+shevous_71.png,1,2,7
+shevous_71.png,1,2,8

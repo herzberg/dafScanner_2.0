@@ -1,0 +1,7 @@
+bava_basra_253.png,1,1,1
+bava_basra_253.png,1,1,2
+bava_basra_253.png,1,1,3
+bava_basra_253.png,1,1,4
+bava_basra_253.png,1,1,5
+bava_basra_253.png,1,1,6
+bava_basra_253.png,1,1,7

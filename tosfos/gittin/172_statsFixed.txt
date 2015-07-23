@@ -1,0 +1,15 @@
+gittin_172.png,2,2,1
+gittin_172.png,2,2,2
+gittin_172.png,2,2,3
+gittin_172.png,2,2,4
+gittin_172.png,1,3,5
+gittin_172.png,1,3,6
+gittin_172.png,1,3,7
+gittin_172.png,1,3,8
+gittin_172.png,1,3,9
+gittin_172.png,1,3,10
+gittin_172.png,1,3,11
+gittin_172.png,1,3,12
+gittin_172.png,1,3,13
+gittin_172.png,1,3,14
+gittin_172.png,1,3,15

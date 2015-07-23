@@ -1,0 +1,17 @@
+kesubos_223.png,2,1,1
+kesubos_223.png,2,1,2
+kesubos_223.png,2,1,3
+kesubos_223.png,2,1,4
+kesubos_223.png,1,1,5
+kesubos_223.png,1,1,6
+kesubos_223.png,1,1,7
+kesubos_223.png,1,1,8
+kesubos_223.png,1,1,9
+kesubos_223.png,1,1,10
+kesubos_223.png,1,1,11
+kesubos_223.png,1,1,12
+kesubos_223.png,1,1,13
+kesubos_223.png,1,1,14
+kesubos_223.png,1,1,15
+kesubos_223.png,1,1,16
+kesubos_223.png,1,1,17

@@ -1,0 +1,2213 @@
+avodah_zara::3:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 28, in createFullDaf', '    text = getText(type, meschta, pageNum)', '  File "gemaraMaster.py", line 87, in getText', '    with open(fname) as f:', "IOError: [Errno 2] No such file or directory: '../gemara/avodah_zara/3_myDaf.txt'"]
+avodah_zara:gemara:4:56: unknown line type: 32
+avodah_zara:gemara:4:: ocr_stat_line_miscount: 56 57
+avodah_zara:rashi:4:: ocr_stat_line_miscount: 41 42
+avodah_zara:tosfos:4:: ocr_stat_line_miscount: 59 69
+avodah_zara:gemara:5:51: unknown line type: 32
+avodah_zara:gemara:5:: ocr_stat_line_miscount: 49 52
+avodah_zara:rashi:5:: ocr_stat_line_miscount: 45 46
+avodah_zara:tosfos:5:: ocr_stat_line_miscount: 61 64
+avodah_zara:gemara:6:55: unknown line type: 11
+avodah_zara:gemara:6:56: unknown line type: 32
+avodah_zara:gemara:6:: ocr_stat_line_miscount: 55 57
+avodah_zara:rashi:6:: ocr_stat_line_miscount: 33 34
+avodah_zara:tosfos:6:: ocr_stat_line_miscount: 50 60
+avodah_zara:gemara:7:50: unknown line type: 32
+avodah_zara:gemara:7:: ocr_stat_line_miscount: 50 51
+avodah_zara:rashi:7:0: unknown line type: 12
+avodah_zara::7:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:8:49: unknown line type: 32
+avodah_zara:gemara:8:: ocr_stat_line_miscount: 49 50
+avodah_zara:rashi:8:0: unknown line type: 12
+avodah_zara::8:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:9:52: unknown line type: 32
+avodah_zara:rashi:9:: ocr_stat_line_miscount: 26 36
+avodah_zara:tosfos:9:: ocr_stat_line_miscount: 26 54
+avodah_zara:gemara:10:38: unknown line type: 32
+avodah_zara:gemara:10:: ocr_stat_line_miscount: 38 39
+avodah_zara:rashi:10:: ocr_stat_line_miscount: 31 53
+avodah_zara:tosfos:10:51: unknown line type: 31
+avodah_zara:tosfos:10:52: unknown line type: 31
+avodah_zara:tosfos:10:53: unknown line type: 31
+avodah_zara:tosfos:10:54: unknown line type: 31
+avodah_zara:tosfos:10:55: unknown line type: 31
+avodah_zara:tosfos:10:56: unknown line type: 31
+avodah_zara:tosfos:10:57: unknown line type: 31
+avodah_zara:tosfos:10:58: unknown line type: 31
+avodah_zara:tosfos:10:59: unknown line type: 31
+avodah_zara:tosfos:10:60: unknown line type: 31
+avodah_zara:tosfos:10:61: unknown line type: 31
+avodah_zara:tosfos:10:62: unknown line type: 31
+avodah_zara:tosfos:10:63: unknown line type: 31
+avodah_zara:tosfos:10:64: unknown line type: 31
+avodah_zara:tosfos:10:65: unknown line type: 31
+avodah_zara:tosfos:10:: ocr_stat_line_miscount: 66 68
+avodah_zara:gemara:11:40: unknown line type: 32
+avodah_zara:gemara:11:: ocr_stat_line_miscount: 40 41
+avodah_zara:rashi:11:: ocr_stat_line_miscount: 44 55
+avodah_zara:tosfos:11:55: unknown line type: 31
+avodah_zara:tosfos:11:56: unknown line type: 31
+avodah_zara:tosfos:11:57: unknown line type: 31
+avodah_zara:tosfos:11:58: unknown line type: 31
+avodah_zara:tosfos:11:59: unknown line type: 31
+avodah_zara:tosfos:11:60: unknown line type: 31
+avodah_zara:tosfos:11:61: unknown line type: 31
+avodah_zara:tosfos:11:62: unknown line type: 31
+avodah_zara:tosfos:11:63: unknown line type: 31
+avodah_zara:tosfos:11:64: unknown line type: 31
+avodah_zara:tosfos:11:65: unknown line type: 31
+avodah_zara:tosfos:11:66: unknown line type: 31
+avodah_zara:tosfos:11:67: unknown line type: 31
+avodah_zara:tosfos:11:68: unknown line type: 31
+avodah_zara:tosfos:11:69: unknown line type: 31
+avodah_zara:tosfos:11:: ocr_stat_line_miscount: 54 72
+avodah_zara:gemara:12:52: unknown line type: 32
+avodah_zara:gemara:12:: ocr_stat_line_miscount: 52 53
+avodah_zara:rashi:12:: ocr_stat_line_miscount: 39 45
+avodah_zara:tosfos:12:: ocr_stat_line_miscount: 34 58
+avodah_zara:gemara:13:37: unknown line type: 32
+avodah_zara:gemara:13:: ocr_stat_line_miscount: 37 38
+avodah_zara:rashi:13:: ocr_stat_line_miscount: 30 47
+avodah_zara:tosfos:13:48: unknown line type: 31
+avodah_zara:tosfos:13:49: unknown line type: 31
+avodah_zara:tosfos:13:50: unknown line type: 31
+avodah_zara:tosfos:13:51: unknown line type: 31
+avodah_zara:tosfos:13:52: unknown line type: 31
+avodah_zara:tosfos:13:53: unknown line type: 31
+avodah_zara:tosfos:13:54: unknown line type: 31
+avodah_zara:tosfos:13:55: unknown line type: 31
+avodah_zara:tosfos:13:56: unknown line type: 31
+avodah_zara:tosfos:13:57: unknown line type: 31
+avodah_zara:tosfos:13:58: unknown line type: 31
+avodah_zara:tosfos:13:59: unknown line type: 31
+avodah_zara:tosfos:13:60: unknown line type: 31
+avodah_zara:tosfos:13:61: unknown line type: 31
+avodah_zara:tosfos:13:62: unknown line type: 31
+avodah_zara:tosfos:13:63: unknown line type: 31
+avodah_zara:tosfos:13:64: unknown line type: 31
+avodah_zara:tosfos:13:65: unknown line type: 31
+avodah_zara:tosfos:13:66: unknown line type: 31
+avodah_zara:tosfos:13:67: unknown line type: 31
+avodah_zara:tosfos:13:68: unknown line type: 31
+avodah_zara:tosfos:13:71: unknown line type: 12
+avodah_zara:tosfos:13:: ocr_stat_line_miscount: 68 73
+avodah_zara:gemara:14:46: unknown line type: 32
+avodah_zara:gemara:14:: ocr_stat_line_miscount: 46 47
+avodah_zara:rashi:14:59: unknown line type: 31
+avodah_zara:rashi:14:60: unknown line type: 31
+avodah_zara:rashi:14:61: unknown line type: 31
+avodah_zara:rashi:14:62: unknown line type: 31
+avodah_zara:rashi:14:63: unknown line type: 31
+avodah_zara:rashi:14:64: unknown line type: 31
+avodah_zara:rashi:14:65: unknown line type: 31
+avodah_zara:rashi:14:: ocr_stat_line_miscount: 57 67
+avodah_zara:tosfos:14:: ocr_stat_line_miscount: 14 31
+avodah_zara:gemara:15:51: unknown line type: 32
+avodah_zara:gemara:15:: ocr_stat_line_miscount: 51 52
+avodah_zara:rashi:15:64: unknown line type: 31
+avodah_zara:rashi:15:65: unknown line type: 31
+avodah_zara:rashi:15:66: unknown line type: 31
+avodah_zara:rashi:15:: ocr_stat_line_miscount: 60 68
+avodah_zara:tosfos:15:: ocr_stat_line_miscount: 9 11
+avodah_zara:gemara:16:56: unknown line type: 32
+avodah_zara:gemara:16:: ocr_stat_line_miscount: 56 57
+avodah_zara:rashi:16:: ocr_stat_line_miscount: 34 58
+avodah_zara:tosfos:16:3: unknown line type: 12
+avodah_zara:tosfos:16:: ocr_stat_line_miscount: 43 57
+avodah_zara:gemara:17:23: unknown line type: 32
+avodah_zara:gemara:17:: ocr_stat_line_miscount: 23 24
+avodah_zara:rashi:17:0: unknown line type: 31
+avodah_zara::17:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:18:19: unknown line type: 32
+avodah_zara:gemara:18:: ocr_stat_line_miscount: 19 20
+avodah_zara:rashi:18:: ocr_stat_line_miscount: 25 44
+avodah_zara:tosfos:18:44: unknown line type: 31
+avodah_zara:tosfos:18:45: unknown line type: 31
+avodah_zara:tosfos:18:46: unknown line type: 31
+avodah_zara:tosfos:18:47: unknown line type: 31
+avodah_zara:tosfos:18:48: unknown line type: 31
+avodah_zara:tosfos:18:49: unknown line type: 31
+avodah_zara:tosfos:18:50: unknown line type: 31
+avodah_zara:tosfos:18:51: unknown line type: 31
+avodah_zara:tosfos:18:52: unknown line type: 31
+avodah_zara:tosfos:18:53: unknown line type: 31
+avodah_zara:tosfos:18:54: unknown line type: 31
+avodah_zara:tosfos:18:55: unknown line type: 31
+avodah_zara:tosfos:18:56: unknown line type: 31
+avodah_zara:tosfos:18:57: unknown line type: 31
+avodah_zara:tosfos:18:58: unknown line type: 31
+avodah_zara:tosfos:18:59: unknown line type: 31
+avodah_zara:tosfos:18:60: unknown line type: 31
+avodah_zara:tosfos:18:61: unknown line type: 31
+avodah_zara:tosfos:18:62: unknown line type: 31
+avodah_zara:tosfos:18:63: unknown line type: 31
+avodah_zara:tosfos:18:64: unknown line type: 31
+avodah_zara:tosfos:18:65: unknown line type: 31
+avodah_zara:tosfos:18:66: unknown line type: 31
+avodah_zara:tosfos:18:67: unknown line type: 31
+avodah_zara:tosfos:18:68: unknown line type: 31
+avodah_zara:tosfos:18:: ocr_stat_line_miscount: 0 71
+avodah_zara:gemara:19:48: unknown line type: 32
+avodah_zara:gemara:19:: ocr_stat_line_miscount: 48 49
+avodah_zara:rashi:19:61: unknown line type: 31
+avodah_zara:rashi:19:62: unknown line type: 31
+avodah_zara:rashi:19:63: unknown line type: 31
+avodah_zara:rashi:19:64: unknown line type: 31
+avodah_zara:rashi:19:65: unknown line type: 31
+avodah_zara:rashi:19:66: unknown line type: 31
+avodah_zara:rashi:19:: ocr_stat_line_miscount: 63 69
+avodah_zara:tosfos:19:: ocr_stat_line_miscount: 49 51
+avodah_zara:gemara:20:50: unknown line type: 32
+avodah_zara:gemara:20:: ocr_stat_line_miscount: 50 51
+avodah_zara:rashi:20:: ocr_stat_line_miscount: 29 40
+avodah_zara:tosfos:20:: ocr_stat_line_miscount: 46 63
+avodah_zara:gemara:21:44: unknown line type: 32
+avodah_zara:gemara:21:: ocr_stat_line_miscount: 44 45
+avodah_zara:rashi:21:: ocr_stat_line_miscount: 24 35
+avodah_zara:tosfos:21:56: unknown line type: 31
+avodah_zara:tosfos:21:57: unknown line type: 31
+avodah_zara:tosfos:21:58: unknown line type: 31
+avodah_zara:tosfos:21:59: unknown line type: 31
+avodah_zara:tosfos:21:60: unknown line type: 31
+avodah_zara:tosfos:21:61: unknown line type: 31
+avodah_zara:tosfos:21:62: unknown line type: 31
+avodah_zara:tosfos:21:63: unknown line type: 31
+avodah_zara:tosfos:21:64: unknown line type: 31
+avodah_zara:tosfos:21:65: unknown line type: 31
+avodah_zara:tosfos:21:66: unknown line type: 31
+avodah_zara:tosfos:21:: ocr_stat_line_miscount: 66 71
+avodah_zara:gemara:22:45: unknown line type: 32
+avodah_zara:gemara:22:: ocr_stat_line_miscount: 45 46
+avodah_zara:rashi:22:57: unknown line type: 31
+avodah_zara:rashi:22:58: unknown line type: 31
+avodah_zara:rashi:22:59: unknown line type: 31
+avodah_zara:rashi:22:60: unknown line type: 31
+avodah_zara:rashi:22:61: unknown line type: 31
+avodah_zara:rashi:22:62: unknown line type: 31
+avodah_zara:rashi:22:63: unknown line type: 31
+avodah_zara:rashi:22:64: unknown line type: 31
+avodah_zara:rashi:22:65: unknown line type: 31
+avodah_zara:rashi:22:66: unknown line type: 31
+avodah_zara:rashi:22:67: unknown line type: 31
+avodah_zara:rashi:22:: ocr_stat_line_miscount: 62 71
+avodah_zara:tosfos:22:: ocr_stat_line_miscount: 11 47
+avodah_zara:gemara:23:39: unknown line type: 32
+avodah_zara:gemara:23:: ocr_stat_line_miscount: 39 40
+avodah_zara:rashi:23:68: unknown line type: 12
+avodah_zara:rashi:23:: ocr_stat_line_miscount: 59 70
+avodah_zara:tosfos:23:69: unknown line type: 31
+avodah_zara:tosfos:23:70: unknown line type: 31
+avodah_zara:tosfos:23:71: unknown line type: 31
+avodah_zara:tosfos:23:72: unknown line type: 31
+avodah_zara:tosfos:23:73: unknown line type: 31
+avodah_zara:tosfos:23:74: unknown line type: 31
+avodah_zara:tosfos:23:75: unknown line type: 31
+avodah_zara:tosfos:23:76: unknown line type: 31
+avodah_zara:tosfos:23:: ocr_stat_line_miscount: 19 80
+avodah_zara:gemara:24:31: unknown line type: 32
+avodah_zara:gemara:24:: ocr_stat_line_miscount: 31 32
+avodah_zara:rashi:24:: ocr_stat_line_miscount: 40 49
+avodah_zara:tosfos:24:48: unknown line type: 31
+avodah_zara:tosfos:24:49: unknown line type: 31
+avodah_zara:tosfos:24:50: unknown line type: 31
+avodah_zara:tosfos:24:51: unknown line type: 31
+avodah_zara:tosfos:24:52: unknown line type: 31
+avodah_zara:tosfos:24:53: unknown line type: 31
+avodah_zara:tosfos:24:54: unknown line type: 31
+avodah_zara:tosfos:24:55: unknown line type: 31
+avodah_zara:tosfos:24:56: unknown line type: 31
+avodah_zara:tosfos:24:57: unknown line type: 31
+avodah_zara:tosfos:24:58: unknown line type: 31
+avodah_zara:tosfos:24:59: unknown line type: 31
+avodah_zara:tosfos:24:60: unknown line type: 31
+avodah_zara:tosfos:24:61: unknown line type: 31
+avodah_zara:tosfos:24:62: unknown line type: 31
+avodah_zara:tosfos:24:63: unknown line type: 31
+avodah_zara:tosfos:24:64: unknown line type: 31
+avodah_zara:tosfos:24:: ocr_stat_line_miscount: 60 66
+avodah_zara:gemara:25:35: unknown line type: 32
+avodah_zara:gemara:25:: ocr_stat_line_miscount: 35 36
+avodah_zara:rashi:25:: ocr_stat_line_miscount: 31 33
+avodah_zara:tosfos:25:46: unknown line type: 31
+avodah_zara:tosfos:25:47: unknown line type: 31
+avodah_zara:tosfos:25:48: unknown line type: 31
+avodah_zara:tosfos:25:49: unknown line type: 31
+avodah_zara:tosfos:25:50: unknown line type: 31
+avodah_zara:tosfos:25:51: unknown line type: 31
+avodah_zara:tosfos:25:52: unknown line type: 31
+avodah_zara:tosfos:25:53: unknown line type: 31
+avodah_zara:tosfos:25:54: unknown line type: 31
+avodah_zara:tosfos:25:55: unknown line type: 31
+avodah_zara:tosfos:25:56: unknown line type: 31
+avodah_zara:tosfos:25:57: unknown line type: 31
+avodah_zara:tosfos:25:58: unknown line type: 31
+avodah_zara:tosfos:25:59: unknown line type: 31
+avodah_zara:tosfos:25:60: unknown line type: 31
+avodah_zara:tosfos:25:61: unknown line type: 31
+avodah_zara:tosfos:25:62: unknown line type: 31
+avodah_zara:tosfos:25:63: unknown line type: 31
+avodah_zara:tosfos:25:64: unknown line type: 31
+avodah_zara:tosfos:25:65: unknown line type: 31
+avodah_zara:tosfos:25:66: unknown line type: 31
+avodah_zara:tosfos:25:67: unknown line type: 31
+avodah_zara:tosfos:25:68: unknown line type: 31
+avodah_zara:tosfos:25:: ocr_stat_line_miscount: 68 72
+avodah_zara:gemara:26:57: unknown line type: 32
+avodah_zara:gemara:26:: ocr_stat_line_miscount: 48 58
+avodah_zara:rashi:26:: ocr_stat_line_miscount: 60 71
+avodah_zara:tosfos:26:: ocr_stat_line_miscount: 64 68
+avodah_zara:gemara:27:42: unknown line type: 32
+avodah_zara:gemara:27:: ocr_stat_line_miscount: 42 43
+avodah_zara:rashi:27:: ocr_stat_line_miscount: 60 63
+avodah_zara:tosfos:27:63: unknown line type: 31
+avodah_zara:tosfos:27:64: unknown line type: 31
+avodah_zara:tosfos:27:65: unknown line type: 31
+avodah_zara:tosfos:27:66: unknown line type: 31
+avodah_zara:tosfos:27:67: unknown line type: 31
+avodah_zara:tosfos:27:68: unknown line type: 31
+avodah_zara:tosfos:27:69: unknown line type: 31
+avodah_zara:tosfos:27:70: unknown line type: 31
+avodah_zara:tosfos:27:: ocr_stat_line_miscount: 4 73
+avodah_zara:gemara:28:46: unknown line type: 32
+avodah_zara:gemara:28:: ocr_stat_line_miscount: 46 47
+avodah_zara:rashi:28:: ocr_stat_line_miscount: 61 70
+avodah_zara:tosfos:28:69: unknown line type: 31
+avodah_zara:tosfos:28:70: unknown line type: 31
+avodah_zara:tosfos:28:71: unknown line type: 31
+avodah_zara:tosfos:28:72: unknown line type: 31
+avodah_zara:tosfos:28:73: unknown line type: 31
+avodah_zara:tosfos:28:74: unknown line type: 31
+avodah_zara:tosfos:28:75: unknown line type: 31
+avodah_zara:tosfos:28:76: unknown line type: 31
+avodah_zara:tosfos:28:77: unknown line type: 31
+avodah_zara:tosfos:28:: ocr_stat_line_miscount: 77 79
+avodah_zara:gemara:29:38: unknown line type: 32
+avodah_zara:gemara:29:: ocr_stat_line_miscount: 38 39
+avodah_zara:rashi:29:: ocr_stat_line_miscount: 54 64
+avodah_zara:tosfos:29:64: unknown line type: 31
+avodah_zara:tosfos:29:65: unknown line type: 31
+avodah_zara:tosfos:29:66: unknown line type: 31
+avodah_zara:tosfos:29:67: unknown line type: 31
+avodah_zara:tosfos:29:68: unknown line type: 31
+avodah_zara:tosfos:29:69: unknown line type: 31
+avodah_zara:tosfos:29:70: unknown line type: 31
+avodah_zara:tosfos:29:71: unknown line type: 31
+avodah_zara:tosfos:29:72: unknown line type: 31
+avodah_zara:tosfos:29:73: unknown line type: 31
+avodah_zara:tosfos:29:74: unknown line type: 31
+avodah_zara:tosfos:29:: ocr_stat_line_miscount: 72 77
+avodah_zara:gemara:30:59: unknown line type: 32
+avodah_zara:gemara:30:: ocr_stat_line_miscount: 59 60
+avodah_zara:rashi:30:: ocr_stat_line_miscount: 65 72
+avodah_zara:tosfos:30:: ocr_stat_line_miscount: 69 75
+avodah_zara:gemara:31:44: unknown line type: 32
+avodah_zara:gemara:31:: ocr_stat_line_miscount: 44 45
+avodah_zara:rashi:31:56: unknown line type: 31
+avodah_zara:rashi:31:57: unknown line type: 31
+avodah_zara:rashi:31:58: unknown line type: 31
+avodah_zara:rashi:31:59: unknown line type: 31
+avodah_zara:rashi:31:60: unknown line type: 31
+avodah_zara:rashi:31:61: unknown line type: 31
+avodah_zara:rashi:31:62: unknown line type: 31
+avodah_zara:rashi:31:63: unknown line type: 31
+avodah_zara:rashi:31:64: unknown line type: 31
+avodah_zara:rashi:31:65: unknown line type: 31
+avodah_zara:rashi:31:66: unknown line type: 31
+avodah_zara:rashi:31:: ocr_stat_line_miscount: 66 69
+avodah_zara:tosfos:31:: ocr_stat_line_miscount: 29 35
+avodah_zara:gemara:32:59: unknown line type: 32
+avodah_zara:gemara:32:: ocr_stat_line_miscount: 58 60
+avodah_zara:rashi:32:0: unknown line type: 12
+avodah_zara::32:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:33:59: unknown line type: 32
+avodah_zara:gemara:33:: ocr_stat_line_miscount: 59 60
+avodah_zara:rashi:33:: ocr_stat_line_miscount: 23 43
+avodah_zara:tosfos:33:: ocr_stat_line_miscount: 42 68
+avodah_zara:gemara:34:55: unknown line type: 32
+avodah_zara:gemara:34:: ocr_stat_line_miscount: 55 56
+avodah_zara:rashi:34:: ocr_stat_line_miscount: 44 66
+avodah_zara:tosfos:34:69: unknown line type: 31
+avodah_zara:tosfos:34:: ocr_stat_line_miscount: 33 72
+avodah_zara:gemara:35:54: unknown line type: 11
+avodah_zara:gemara:35:55: unknown line type: 32
+avodah_zara:gemara:35:: ocr_stat_line_miscount: 54 56
+avodah_zara:rashi:35:: ocr_stat_line_miscount: 35 36
+avodah_zara:tosfos:35:: ocr_stat_line_miscount: 24 47
+avodah_zara:gemara:36:53: unknown line type: 32
+avodah_zara:gemara:36:: ocr_stat_line_miscount: 53 54
+avodah_zara:rashi:36:66: unknown line type: 31
+avodah_zara:rashi:36:: ocr_stat_line_miscount: 64 70
+avodah_zara:tosfos:36:: ocr_stat_line_miscount: 10 24
+avodah_zara:gemara:37:50: unknown line type: 32
+avodah_zara:gemara:37:: ocr_stat_line_miscount: 50 51
+avodah_zara:rashi:37:63: unknown line type: 31
+avodah_zara:rashi:37:64: unknown line type: 31
+avodah_zara:rashi:37:65: unknown line type: 31
+avodah_zara:rashi:37:66: unknown line type: 31
+avodah_zara:rashi:37:67: unknown line type: 31
+avodah_zara:rashi:37:: ocr_stat_line_miscount: 52 70
+avodah_zara:tosfos:37:: ocr_stat_line_miscount: 32 35
+avodah_zara:gemara:38:59: unknown line type: 32
+avodah_zara:gemara:38:: ocr_stat_line_miscount: 57 60
+avodah_zara:rashi:38:0: unknown line type: 12
+avodah_zara::38:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:39:36: unknown line type: 32
+avodah_zara:gemara:39:: ocr_stat_line_miscount: 36 37
+avodah_zara:rashi:39:: ocr_stat_line_miscount: 16 47
+avodah_zara:tosfos:39:47: unknown line type: 31
+avodah_zara:tosfos:39:48: unknown line type: 31
+avodah_zara:tosfos:39:49: unknown line type: 31
+avodah_zara:tosfos:39:50: unknown line type: 31
+avodah_zara:tosfos:39:51: unknown line type: 31
+avodah_zara:tosfos:39:52: unknown line type: 31
+avodah_zara:tosfos:39:53: unknown line type: 31
+avodah_zara:tosfos:39:54: unknown line type: 31
+avodah_zara:tosfos:39:55: unknown line type: 31
+avodah_zara:tosfos:39:56: unknown line type: 31
+avodah_zara:tosfos:39:57: unknown line type: 31
+avodah_zara:tosfos:39:58: unknown line type: 31
+avodah_zara:tosfos:39:59: unknown line type: 31
+avodah_zara:tosfos:39:60: unknown line type: 31
+avodah_zara:tosfos:39:61: unknown line type: 31
+avodah_zara:tosfos:39:62: unknown line type: 31
+avodah_zara:tosfos:39:63: unknown line type: 31
+avodah_zara:tosfos:39:64: unknown line type: 31
+avodah_zara:tosfos:39:65: unknown line type: 31
+avodah_zara:tosfos:39:66: unknown line type: 31
+avodah_zara:tosfos:39:67: unknown line type: 31
+avodah_zara:tosfos:39:68: unknown line type: 31
+avodah_zara:tosfos:39:69: unknown line type: 31
+avodah_zara:tosfos:39:70: unknown line type: 31
+avodah_zara:tosfos:39:: ocr_stat_line_miscount: 64 73
+avodah_zara:gemara:40:54: unknown line type: 32
+avodah_zara:gemara:40:: ocr_stat_line_miscount: 54 55
+avodah_zara:rashi:40:67: unknown line type: 31
+avodah_zara:rashi:40:68: unknown line type: 31
+avodah_zara:rashi:40:: ocr_stat_line_miscount: 62 72
+avodah_zara:tosfos:40:: ocr_stat_line_miscount: 34 42
+avodah_zara:gemara:41:42: unknown line type: 32
+avodah_zara:gemara:41:: ocr_stat_line_miscount: 42 43
+avodah_zara:rashi:41:0: unknown line type: 12
+avodah_zara::41:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:42:15: unknown line type: 32
+avodah_zara:gemara:42:: ocr_stat_line_miscount: 15 16
+avodah_zara:rashi:42:0: unknown line type: 31
+avodah_zara::42:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:43:25: unknown line type: 32
+avodah_zara:gemara:43:: ocr_stat_line_miscount: 25 26
+avodah_zara:rashi:43:: ocr_stat_line_miscount: 38 42
+avodah_zara:tosfos:43:: ocr_stat_line_miscount: 34 36
+avodah_zara:gemara:44:44: unknown line type: 32
+avodah_zara:gemara:44:: ocr_stat_line_miscount: 44 45
+avodah_zara:rashi:44:56: unknown line type: 31
+avodah_zara:rashi:44:57: unknown line type: 31
+avodah_zara:rashi:44:59: unknown line type: 31
+avodah_zara:rashi:44:60: unknown line type: 31
+avodah_zara:rashi:44:61: unknown line type: 31
+avodah_zara:rashi:44:62: unknown line type: 31
+avodah_zara:rashi:44:63: unknown line type: 31
+avodah_zara:rashi:44:64: unknown line type: 31
+avodah_zara:rashi:44:65: unknown line type: 31
+avodah_zara:rashi:44:66: unknown line type: 31
+avodah_zara:rashi:44:67: unknown line type: 31
+avodah_zara:rashi:44:68: unknown line type: 12
+avodah_zara:rashi:44:: ocr_stat_line_miscount: 43 71
+avodah_zara:tosfos:44:: ocr_stat_line_miscount: 56 57
+avodah_zara:gemara:45:34: unknown line type: 32
+avodah_zara:gemara:45:: ocr_stat_line_miscount: 34 35
+avodah_zara:rashi:45:: ocr_stat_line_miscount: 26 44
+avodah_zara:tosfos:45:45: unknown line type: 31
+avodah_zara:tosfos:45:46: unknown line type: 31
+avodah_zara:tosfos:45:47: unknown line type: 31
+avodah_zara:tosfos:45:48: unknown line type: 31
+avodah_zara:tosfos:45:49: unknown line type: 31
+avodah_zara:tosfos:45:50: unknown line type: 31
+avodah_zara:tosfos:45:51: unknown line type: 31
+avodah_zara:tosfos:45:52: unknown line type: 31
+avodah_zara:tosfos:45:53: unknown line type: 31
+avodah_zara:tosfos:45:54: unknown line type: 31
+avodah_zara:tosfos:45:55: unknown line type: 31
+avodah_zara:tosfos:45:56: unknown line type: 31
+avodah_zara:tosfos:45:57: unknown line type: 31
+avodah_zara:tosfos:45:58: unknown line type: 31
+avodah_zara:tosfos:45:59: unknown line type: 31
+avodah_zara:tosfos:45:60: unknown line type: 31
+avodah_zara:tosfos:45:61: unknown line type: 31
+avodah_zara:tosfos:45:62: unknown line type: 31
+avodah_zara:tosfos:45:63: unknown line type: 31
+avodah_zara:tosfos:45:64: unknown line type: 31
+avodah_zara:tosfos:45:65: unknown line type: 31
+avodah_zara:tosfos:45:66: unknown line type: 31
+avodah_zara:tosfos:45:67: unknown line type: 31
+avodah_zara:tosfos:45:: ocr_stat_line_miscount: 52 70
+avodah_zara:gemara:46:33: unknown line type: 32
+avodah_zara:gemara:46:: ocr_stat_line_miscount: 33 34
+avodah_zara:rashi:46:: ocr_stat_line_miscount: 50 58
+avodah_zara:tosfos:46:56: unknown line type: 31
+avodah_zara:tosfos:46:57: unknown line type: 31
+avodah_zara:tosfos:46:58: unknown line type: 31
+avodah_zara:tosfos:46:59: unknown line type: 31
+avodah_zara:tosfos:46:60: unknown line type: 31
+avodah_zara:tosfos:46:61: unknown line type: 31
+avodah_zara:tosfos:46:62: unknown line type: 31
+avodah_zara:tosfos:46:63: unknown line type: 31
+avodah_zara:tosfos:46:64: unknown line type: 31
+avodah_zara:tosfos:46:65: unknown line type: 31
+avodah_zara:tosfos:46:66: unknown line type: 31
+avodah_zara:tosfos:46:67: unknown line type: 31
+avodah_zara:tosfos:46:68: unknown line type: 31
+avodah_zara:tosfos:46:69: unknown line type: 31
+avodah_zara:tosfos:46:70: unknown line type: 12
+avodah_zara:tosfos:46:: ocr_stat_line_miscount: 69 74
+avodah_zara:gemara:47:54: unknown line type: 11
+avodah_zara:gemara:47:55: unknown line type: 32
+avodah_zara:gemara:47:: ocr_stat_line_miscount: 54 56
+avodah_zara:rashi:47:: ocr_stat_line_miscount: 39 57
+avodah_zara:tosfos:47:: ocr_stat_line_miscount: 43 62
+avodah_zara:gemara:48:54: unknown line type: 32
+avodah_zara:gemara:48:: ocr_stat_line_miscount: 54 55
+avodah_zara:rashi:48:67: unknown line type: 31
+avodah_zara:rashi:48:68: unknown line type: 31
+avodah_zara:rashi:48:69: unknown line type: 31
+avodah_zara:rashi:48:70: unknown line type: 31
+avodah_zara:rashi:48:: ocr_stat_line_miscount: 70 73
+avodah_zara:tosfos:48:: ocr_stat_line_miscount: 64 66
+avodah_zara:gemara:49:57: unknown line type: 32
+avodah_zara:gemara:49:: ocr_stat_line_miscount: 48 58
+avodah_zara:rashi:49:0: unknown line type: 31
+avodah_zara::49:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:50:32: unknown line type: 32
+avodah_zara:gemara:50:: ocr_stat_line_miscount: 32 33
+avodah_zara:rashi:50:: ocr_stat_line_miscount: 62 70
+avodah_zara:tosfos:50:70: unknown line type: 31
+avodah_zara:tosfos:50:71: unknown line type: 31
+avodah_zara:tosfos:50:72: unknown line type: 31
+avodah_zara:tosfos:50:73: unknown line type: 31
+avodah_zara:tosfos:50:: ocr_stat_line_miscount: 75 77
+avodah_zara:gemara:51:54: unknown line type: 32
+avodah_zara:gemara:51:: ocr_stat_line_miscount: 53 55
+avodah_zara:rashi:51:0: unknown line type: 12
+avodah_zara::51:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:52:36: unknown line type: 32
+avodah_zara:gemara:52:: ocr_stat_line_miscount: 38 37
+avodah_zara::52:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 34, in createFullDaf', '    body += writeLines(text, lineTypes)', '  File "gemaraMaster.py", line 79, in writeLines', '    lineType = lineTypes[i]', 'IndexError: list index out of range']
+avodah_zara:gemara:53:47: unknown line type: 32
+avodah_zara:gemara:53:: ocr_stat_line_miscount: 47 48
+avodah_zara:rashi:53:: ocr_stat_line_miscount: 18 47
+avodah_zara:tosfos:53:60: unknown line type: 31
+avodah_zara:tosfos:53:61: unknown line type: 31
+avodah_zara:tosfos:53:62: unknown line type: 31
+avodah_zara:tosfos:53:63: unknown line type: 31
+avodah_zara:tosfos:53:64: unknown line type: 31
+avodah_zara:tosfos:53:65: unknown line type: 31
+avodah_zara:tosfos:53:66: unknown line type: 31
+avodah_zara:tosfos:53:67: unknown line type: 31
+avodah_zara:tosfos:53:68: unknown line type: 31
+avodah_zara:tosfos:53:69: unknown line type: 31
+avodah_zara:tosfos:53:70: unknown line type: 31
+avodah_zara:tosfos:53:: ocr_stat_line_miscount: 62 73
+avodah_zara:gemara:54:34: unknown line type: 32
+avodah_zara:gemara:54:: ocr_stat_line_miscount: 34 35
+avodah_zara:rashi:54:: ocr_stat_line_miscount: 37 43
+avodah_zara:tosfos:54:45: unknown line type: 31
+avodah_zara:tosfos:54:46: unknown line type: 31
+avodah_zara:tosfos:54:47: unknown line type: 31
+avodah_zara:tosfos:54:48: unknown line type: 31
+avodah_zara:tosfos:54:49: unknown line type: 31
+avodah_zara:tosfos:54:50: unknown line type: 31
+avodah_zara:tosfos:54:51: unknown line type: 31
+avodah_zara:tosfos:54:52: unknown line type: 31
+avodah_zara:tosfos:54:53: unknown line type: 31
+avodah_zara:tosfos:54:54: unknown line type: 31
+avodah_zara:tosfos:54:55: unknown line type: 31
+avodah_zara:tosfos:54:56: unknown line type: 31
+avodah_zara:tosfos:54:57: unknown line type: 31
+avodah_zara:tosfos:54:58: unknown line type: 31
+avodah_zara:tosfos:54:59: unknown line type: 31
+avodah_zara:tosfos:54:60: unknown line type: 31
+avodah_zara:tosfos:54:61: unknown line type: 31
+avodah_zara:tosfos:54:62: unknown line type: 31
+avodah_zara:tosfos:54:63: unknown line type: 31
+avodah_zara:tosfos:54:64: unknown line type: 31
+avodah_zara:tosfos:54:65: unknown line type: 31
+avodah_zara:tosfos:54:66: unknown line type: 31
+avodah_zara:tosfos:54:67: unknown line type: 31
+avodah_zara:tosfos:54:68: unknown line type: 31
+avodah_zara:tosfos:54:69: unknown line type: 31
+avodah_zara:tosfos:54:70: unknown line type: 31
+avodah_zara:tosfos:54:71: unknown line type: 31
+avodah_zara:tosfos:54:72: unknown line type: 31
+avodah_zara:tosfos:54:: ocr_stat_line_miscount: 71 74
+avodah_zara:gemara:55:43: unknown line type: 32
+avodah_zara:gemara:55:: ocr_stat_line_miscount: 43 44
+avodah_zara:rashi:55:55: unknown line type: 31
+avodah_zara:rashi:55:56: unknown line type: 31
+avodah_zara:rashi:55:57: unknown line type: 31
+avodah_zara:rashi:55:58: unknown line type: 31
+avodah_zara:rashi:55:59: unknown line type: 31
+avodah_zara:rashi:55:60: unknown line type: 31
+avodah_zara:rashi:55:61: unknown line type: 31
+avodah_zara:rashi:55:62: unknown line type: 31
+avodah_zara:rashi:55:63: unknown line type: 31
+avodah_zara:rashi:55:64: unknown line type: 31
+avodah_zara:rashi:55:65: unknown line type: 31
+avodah_zara:rashi:55:66: unknown line type: 31
+avodah_zara:rashi:55:: ocr_stat_line_miscount: 65 69
+avodah_zara:tosfos:55:: ocr_stat_line_miscount: 13 29
+avodah_zara:gemara:56:42: unknown line type: 32
+avodah_zara:gemara:56:: ocr_stat_line_miscount: 42 43
+avodah_zara:rashi:56:54: unknown line type: 31
+avodah_zara:rashi:56:55: unknown line type: 31
+avodah_zara:rashi:56:56: unknown line type: 31
+avodah_zara:rashi:56:57: unknown line type: 31
+avodah_zara:rashi:56:58: unknown line type: 31
+avodah_zara:rashi:56:59: unknown line type: 31
+avodah_zara:rashi:56:60: unknown line type: 31
+avodah_zara:rashi:56:61: unknown line type: 31
+avodah_zara:rashi:56:62: unknown line type: 31
+avodah_zara:rashi:56:63: unknown line type: 31
+avodah_zara:rashi:56:64: unknown line type: 31
+avodah_zara:rashi:56:65: unknown line type: 31
+avodah_zara:rashi:56:66: unknown line type: 31
+avodah_zara:rashi:56:: ocr_stat_line_miscount: 67 69
+avodah_zara:tosfos:56:: ocr_stat_line_miscount: 15 16
+avodah_zara:gemara:57:53: unknown line type: 32
+avodah_zara:gemara:57:: ocr_stat_line_miscount: 53 54
+avodah_zara:rashi:57:66: unknown line type: 31
+avodah_zara:rashi:57:67: unknown line type: 31
+avodah_zara:rashi:57:68: unknown line type: 31
+avodah_zara:rashi:57:69: unknown line type: 31
+avodah_zara:rashi:57:: ocr_stat_line_miscount: 68 72
+avodah_zara:tosfos:57:: ocr_stat_line_miscount: 2 55
+avodah_zara:gemara:58:55: unknown line type: 32
+avodah_zara:gemara:58:: ocr_stat_line_miscount: 55 56
+avodah_zara:rashi:58:: ocr_stat_line_miscount: 71 73
+avodah_zara:tosfos:58:71: unknown line type: 31
+avodah_zara:tosfos:58:: ocr_stat_line_miscount: 51 75
+avodah_zara:gemara:59:51: unknown line type: 32
+avodah_zara:gemara:59:: ocr_stat_line_miscount: 51 52
+avodah_zara:rashi:59:: ocr_stat_line_miscount: 53 55
+avodah_zara:tosfos:59:: ocr_stat_line_miscount: 37 44
+avodah_zara:gemara:60:42: unknown line type: 32
+avodah_zara:gemara:60:: ocr_stat_line_miscount: 42 43
+avodah_zara:rashi:60:0: unknown line type: 12
+avodah_zara::60:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:61:55: unknown line type: 32
+avodah_zara:gemara:61:: ocr_stat_line_miscount: 43 56
+avodah_zara:rashi:61:: ocr_stat_line_miscount: 38 49
+avodah_zara:tosfos:61:: ocr_stat_line_miscount: 66 67
+avodah_zara:gemara:62:36: unknown line type: 32
+avodah_zara:gemara:62:: ocr_stat_line_miscount: 36 37
+avodah_zara:rashi:62:: ocr_stat_line_miscount: 42 48
+avodah_zara:tosfos:62:47: unknown line type: 31
+avodah_zara:tosfos:62:48: unknown line type: 31
+avodah_zara:tosfos:62:49: unknown line type: 31
+avodah_zara:tosfos:62:50: unknown line type: 31
+avodah_zara:tosfos:62:51: unknown line type: 31
+avodah_zara:tosfos:62:52: unknown line type: 31
+avodah_zara:tosfos:62:53: unknown line type: 31
+avodah_zara:tosfos:62:54: unknown line type: 31
+avodah_zara:tosfos:62:55: unknown line type: 31
+avodah_zara:tosfos:62:56: unknown line type: 31
+avodah_zara:tosfos:62:57: unknown line type: 31
+avodah_zara:tosfos:62:58: unknown line type: 31
+avodah_zara:tosfos:62:59: unknown line type: 31
+avodah_zara:tosfos:62:60: unknown line type: 31
+avodah_zara:tosfos:62:61: unknown line type: 31
+avodah_zara:tosfos:62:62: unknown line type: 31
+avodah_zara:tosfos:62:63: unknown line type: 31
+avodah_zara:tosfos:62:64: unknown line type: 31
+avodah_zara:tosfos:62:65: unknown line type: 31
+avodah_zara:tosfos:62:66: unknown line type: 31
+avodah_zara:tosfos:62:67: unknown line type: 31
+avodah_zara:tosfos:62:68: unknown line type: 31
+avodah_zara:tosfos:62:69: unknown line type: 31
+avodah_zara:tosfos:62:: ocr_stat_line_miscount: 70 71
+avodah_zara:gemara:63:30: unknown line type: 32
+avodah_zara:gemara:63:: ocr_stat_line_miscount: 30 31
+avodah_zara:rashi:63:: ocr_stat_line_miscount: 19 28
+avodah_zara:tosfos:63:41: unknown line type: 31
+avodah_zara:tosfos:63:42: unknown line type: 31
+avodah_zara:tosfos:63:43: unknown line type: 31
+avodah_zara:tosfos:63:44: unknown line type: 31
+avodah_zara:tosfos:63:45: unknown line type: 31
+avodah_zara:tosfos:63:46: unknown line type: 31
+avodah_zara:tosfos:63:47: unknown line type: 31
+avodah_zara:tosfos:63:48: unknown line type: 31
+avodah_zara:tosfos:63:49: unknown line type: 31
+avodah_zara:tosfos:63:50: unknown line type: 31
+avodah_zara:tosfos:63:51: unknown line type: 31
+avodah_zara:tosfos:63:52: unknown line type: 31
+avodah_zara:tosfos:63:53: unknown line type: 31
+avodah_zara:tosfos:63:54: unknown line type: 31
+avodah_zara:tosfos:63:55: unknown line type: 31
+avodah_zara:tosfos:63:56: unknown line type: 31
+avodah_zara:tosfos:63:57: unknown line type: 31
+avodah_zara:tosfos:63:58: unknown line type: 31
+avodah_zara:tosfos:63:59: unknown line type: 31
+avodah_zara:tosfos:63:60: unknown line type: 31
+avodah_zara:tosfos:63:61: unknown line type: 31
+avodah_zara:tosfos:63:62: unknown line type: 31
+avodah_zara:tosfos:63:63: unknown line type: 31
+avodah_zara:tosfos:63:64: unknown line type: 31
+avodah_zara:tosfos:63:65: unknown line type: 31
+avodah_zara:tosfos:63:66: unknown line type: 31
+avodah_zara:tosfos:63:67: unknown line type: 31
+avodah_zara:tosfos:63:: ocr_stat_line_miscount: 68 70
+avodah_zara:gemara:64:23: unknown line type: 32
+avodah_zara:gemara:64:: ocr_stat_line_miscount: 23 24
+avodah_zara:rashi:64:: ocr_stat_line_miscount: 20 31
+avodah_zara:tosfos:64:33: unknown line type: 31
+avodah_zara:tosfos:64:34: unknown line type: 31
+avodah_zara:tosfos:64:35: unknown line type: 31
+avodah_zara:tosfos:64:36: unknown line type: 31
+avodah_zara:tosfos:64:37: unknown line type: 31
+avodah_zara:tosfos:64:38: unknown line type: 31
+avodah_zara:tosfos:64:39: unknown line type: 31
+avodah_zara:tosfos:64:40: unknown line type: 31
+avodah_zara:tosfos:64:41: unknown line type: 31
+avodah_zara:tosfos:64:42: unknown line type: 31
+avodah_zara:tosfos:64:43: unknown line type: 31
+avodah_zara:tosfos:64:44: unknown line type: 31
+avodah_zara:tosfos:64:45: unknown line type: 31
+avodah_zara:tosfos:64:46: unknown line type: 31
+avodah_zara:tosfos:64:47: unknown line type: 31
+avodah_zara:tosfos:64:48: unknown line type: 31
+avodah_zara:tosfos:64:49: unknown line type: 31
+avodah_zara:tosfos:64:50: unknown line type: 31
+avodah_zara:tosfos:64:51: unknown line type: 31
+avodah_zara:tosfos:64:52: unknown line type: 31
+avodah_zara:tosfos:64:53: unknown line type: 31
+avodah_zara:tosfos:64:54: unknown line type: 31
+avodah_zara:tosfos:64:55: unknown line type: 31
+avodah_zara:tosfos:64:56: unknown line type: 31
+avodah_zara:tosfos:64:57: unknown line type: 31
+avodah_zara:tosfos:64:58: unknown line type: 31
+avodah_zara:tosfos:64:59: unknown line type: 31
+avodah_zara:tosfos:64:60: unknown line type: 31
+avodah_zara:tosfos:64:61: unknown line type: 31
+avodah_zara:tosfos:64:62: unknown line type: 31
+avodah_zara:tosfos:64:63: unknown line type: 31
+avodah_zara:tosfos:64:64: unknown line type: 31
+avodah_zara:tosfos:64:65: unknown line type: 31
+avodah_zara:tosfos:64:66: unknown line type: 31
+avodah_zara:tosfos:64:67: unknown line type: 31
+avodah_zara:tosfos:64:68: unknown line type: 31
+avodah_zara:tosfos:64:69: unknown line type: 31
+avodah_zara:tosfos:64:70: unknown line type: 31
+avodah_zara:tosfos:64:71: unknown line type: 31
+avodah_zara:tosfos:64:72: unknown line type: 31
+avodah_zara:tosfos:64:73: unknown line type: 31
+avodah_zara:tosfos:64:74: unknown line type: 31
+avodah_zara:tosfos:64:: ocr_stat_line_miscount: 7 76
+avodah_zara:gemara:65:45: unknown line type: 32
+avodah_zara:gemara:65:: ocr_stat_line_miscount: 45 46
+avodah_zara:rashi:65:: ocr_stat_line_miscount: 45 53
+avodah_zara:tosfos:65:57: unknown line type: 31
+avodah_zara:tosfos:65:58: unknown line type: 31
+avodah_zara:tosfos:65:59: unknown line type: 31
+avodah_zara:tosfos:65:60: unknown line type: 31
+avodah_zara:tosfos:65:61: unknown line type: 31
+avodah_zara:tosfos:65:62: unknown line type: 31
+avodah_zara:tosfos:65:63: unknown line type: 31
+avodah_zara:tosfos:65:64: unknown line type: 31
+avodah_zara:tosfos:65:65: unknown line type: 31
+avodah_zara:tosfos:65:66: unknown line type: 31
+avodah_zara:tosfos:65:67: unknown line type: 31
+avodah_zara:tosfos:65:: ocr_stat_line_miscount: 11 71
+avodah_zara:gemara:66:40: unknown line type: 32
+avodah_zara:gemara:66:: ocr_stat_line_miscount: 40 41
+avodah_zara:rashi:66:: ocr_stat_line_miscount: 34 39
+avodah_zara:tosfos:66:52: unknown line type: 31
+avodah_zara:tosfos:66:53: unknown line type: 31
+avodah_zara:tosfos:66:54: unknown line type: 31
+avodah_zara:tosfos:66:55: unknown line type: 31
+avodah_zara:tosfos:66:56: unknown line type: 31
+avodah_zara:tosfos:66:57: unknown line type: 31
+avodah_zara:tosfos:66:58: unknown line type: 31
+avodah_zara:tosfos:66:59: unknown line type: 31
+avodah_zara:tosfos:66:60: unknown line type: 31
+avodah_zara:tosfos:66:61: unknown line type: 31
+avodah_zara:tosfos:66:62: unknown line type: 31
+avodah_zara:tosfos:66:63: unknown line type: 31
+avodah_zara:tosfos:66:64: unknown line type: 31
+avodah_zara:tosfos:66:65: unknown line type: 31
+avodah_zara:tosfos:66:66: unknown line type: 31
+avodah_zara:tosfos:66:67: unknown line type: 31
+avodah_zara:tosfos:66:68: unknown line type: 31
+avodah_zara:tosfos:66:69: unknown line type: 31
+avodah_zara:tosfos:66:70: unknown line type: 31
+avodah_zara:tosfos:66:: ocr_stat_line_miscount: 54 73
+avodah_zara:gemara:67:25: unknown line type: 32
+avodah_zara:gemara:67:: ocr_stat_line_miscount: 25 26
+avodah_zara:rashi:67:0: unknown line type: 31
+avodah_zara::67:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:68:50: unknown line type: 32
+avodah_zara:gemara:68:: ocr_stat_line_miscount: 50 51
+avodah_zara:rashi:68:: ocr_stat_line_miscount: 53 75
+avodah_zara:tosfos:68:67: unknown line type: 12
+avodah_zara:tosfos:68:73: unknown line type: 31
+avodah_zara:tosfos:68:: ocr_stat_line_miscount: 51 75
+avodah_zara:gemara:69:32: unknown line type: 32
+avodah_zara:gemara:69:: ocr_stat_line_miscount: 32 33
+avodah_zara:rashi:69:: ocr_stat_line_miscount: 37 38
+avodah_zara:tosfos:69:43: unknown line type: 31
+avodah_zara:tosfos:69:44: unknown line type: 31
+avodah_zara:tosfos:69:45: unknown line type: 31
+avodah_zara:tosfos:69:46: unknown line type: 31
+avodah_zara:tosfos:69:47: unknown line type: 31
+avodah_zara:tosfos:69:48: unknown line type: 31
+avodah_zara:tosfos:69:49: unknown line type: 31
+avodah_zara:tosfos:69:50: unknown line type: 31
+avodah_zara:tosfos:69:51: unknown line type: 31
+avodah_zara:tosfos:69:52: unknown line type: 31
+avodah_zara:tosfos:69:53: unknown line type: 31
+avodah_zara:tosfos:69:54: unknown line type: 31
+avodah_zara:tosfos:69:55: unknown line type: 31
+avodah_zara:tosfos:69:56: unknown line type: 31
+avodah_zara:tosfos:69:57: unknown line type: 31
+avodah_zara:tosfos:69:58: unknown line type: 31
+avodah_zara:tosfos:69:59: unknown line type: 31
+avodah_zara:tosfos:69:60: unknown line type: 31
+avodah_zara:tosfos:69:61: unknown line type: 31
+avodah_zara:tosfos:69:62: unknown line type: 31
+avodah_zara:tosfos:69:63: unknown line type: 31
+avodah_zara:tosfos:69:64: unknown line type: 31
+avodah_zara:tosfos:69:65: unknown line type: 31
+avodah_zara:tosfos:69:66: unknown line type: 31
+avodah_zara:tosfos:69:67: unknown line type: 31
+avodah_zara:tosfos:69:68: unknown line type: 31
+avodah_zara:tosfos:69:69: unknown line type: 31
+avodah_zara:tosfos:69:70: unknown line type: 31
+avodah_zara:tosfos:69:71: unknown line type: 31
+avodah_zara:tosfos:69:: ocr_stat_line_miscount: 71 74
+avodah_zara:gemara:70:52: unknown line type: 32
+avodah_zara:gemara:70:: ocr_stat_line_miscount: 52 53
+avodah_zara:rashi:70:65: unknown line type: 31
+avodah_zara:rashi:70:66: unknown line type: 31
+avodah_zara:rashi:70:67: unknown line type: 31
+avodah_zara:rashi:70:68: unknown line type: 31
+avodah_zara:rashi:70:: ocr_stat_line_miscount: 63 71
+avodah_zara:tosfos:70:: ocr_stat_line_miscount: 37 46
+avodah_zara:gemara:71:32: unknown line type: 32
+avodah_zara:gemara:71:: ocr_stat_line_miscount: 32 33
+avodah_zara:rashi:71:0: unknown line type: 31
+avodah_zara::71:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:72:48: unknown line type: 32
+avodah_zara:gemara:72:: ocr_stat_line_miscount: 48 49
+avodah_zara:rashi:72:: ocr_stat_line_miscount: 28 42
+avodah_zara:tosfos:72:61: unknown line type: 31
+avodah_zara:tosfos:72:62: unknown line type: 31
+avodah_zara:tosfos:72:63: unknown line type: 31
+avodah_zara:tosfos:72:64: unknown line type: 31
+avodah_zara:tosfos:72:65: unknown line type: 31
+avodah_zara:tosfos:72:66: unknown line type: 31
+avodah_zara:tosfos:72:67: unknown line type: 31
+avodah_zara:tosfos:72:68: unknown line type: 31
+avodah_zara:tosfos:72:69: unknown line type: 31
+avodah_zara:tosfos:72:70: unknown line type: 31
+avodah_zara:tosfos:72:: ocr_stat_line_miscount: 8 74
+avodah_zara:gemara:73:35: unknown line type: 32
+avodah_zara:gemara:73:: ocr_stat_line_miscount: 35 36
+avodah_zara:rashi:73:0: unknown line type: 31
+avodah_zara::73:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:74:52: unknown line type: 32
+avodah_zara:gemara:74:: ocr_stat_line_miscount: 52 53
+avodah_zara:rashi:74:: ocr_stat_line_miscount: 33 59
+avodah_zara:tosfos:74:65: unknown line type: 31
+avodah_zara:tosfos:74:66: unknown line type: 12
+avodah_zara:tosfos:74:: ocr_stat_line_miscount: 61 69
+avodah_zara:gemara:75:41: unknown line type: 32
+avodah_zara:gemara:75:: ocr_stat_line_miscount: 41 42
+avodah_zara:rashi:75:: ocr_stat_line_miscount: 28 37
+avodah_zara:tosfos:75:53: unknown line type: 31
+avodah_zara:tosfos:75:54: unknown line type: 31
+avodah_zara:tosfos:75:55: unknown line type: 31
+avodah_zara:tosfos:75:56: unknown line type: 31
+avodah_zara:tosfos:75:57: unknown line type: 31
+avodah_zara:tosfos:75:58: unknown line type: 31
+avodah_zara:tosfos:75:59: unknown line type: 31
+avodah_zara:tosfos:75:60: unknown line type: 31
+avodah_zara:tosfos:75:61: unknown line type: 31
+avodah_zara:tosfos:75:62: unknown line type: 31
+avodah_zara:tosfos:75:63: unknown line type: 31
+avodah_zara:tosfos:75:64: unknown line type: 31
+avodah_zara:tosfos:75:65: unknown line type: 31
+avodah_zara:tosfos:75:66: unknown line type: 31
+avodah_zara:tosfos:75:67: unknown line type: 31
+avodah_zara:tosfos:75:: ocr_stat_line_miscount: 66 70
+avodah_zara:gemara:76:57: unknown line type: 32
+avodah_zara:gemara:76:: ocr_stat_line_miscount: 57 58
+avodah_zara:rashi:76:: ocr_stat_line_miscount: 45 66
+avodah_zara:tosfos:76:: ocr_stat_line_miscount: 0 37
+avodah_zara:gemara:77:54: unknown line type: 32
+avodah_zara:gemara:77:: ocr_stat_line_miscount: 54 55
+avodah_zara:rashi:77:: ocr_stat_line_miscount: 27 39
+avodah_zara:tosfos:77:: ocr_stat_line_miscount: 53 59
+avodah_zara:gemara:78:54: unknown line type: 32
+avodah_zara:gemara:78:57: unknown line type: 32
+avodah_zara:gemara:78:60: unknown line type: 32
+avodah_zara:gemara:78:61: unknown line type: 32
+avodah_zara:gemara:78:64: unknown line type: 32
+avodah_zara:gemara:78:: ocr_stat_line_miscount: 51 65
+avodah_zara:rashi:78:: ocr_stat_line_miscount: 53 71
+avodah_zara:tosfos:78:: ocr_stat_line_miscount: 31 33
+avodah_zara:gemara:79:51: unknown line type: 32
+avodah_zara:gemara:79:: ocr_stat_line_miscount: 51 52
+avodah_zara:rashi:79:: ocr_stat_line_miscount: 35 45
+avodah_zara:tosfos:79:64: unknown line type: 31
+avodah_zara:tosfos:79:65: unknown line type: 31
+avodah_zara:tosfos:79:66: unknown line type: 31
+avodah_zara:tosfos:79:67: unknown line type: 31
+avodah_zara:tosfos:79:68: unknown line type: 31
+avodah_zara:tosfos:79:69: unknown line type: 31
+avodah_zara:tosfos:79:70: unknown line type: 31
+avodah_zara:tosfos:79:: ocr_stat_line_miscount: 42 72
+avodah_zara:gemara:80:38: unknown line type: 32
+avodah_zara:gemara:80:: ocr_stat_line_miscount: 38 39
+avodah_zara:rashi:80:: ocr_stat_line_miscount: 30 43
+avodah_zara:tosfos:80:49: unknown line type: 31
+avodah_zara:tosfos:80:51: unknown line type: 31
+avodah_zara:tosfos:80:52: unknown line type: 31
+avodah_zara:tosfos:80:53: unknown line type: 31
+avodah_zara:tosfos:80:54: unknown line type: 31
+avodah_zara:tosfos:80:55: unknown line type: 31
+avodah_zara:tosfos:80:: ocr_stat_line_miscount: 47 58
+avodah_zara:gemara:81:26: unknown line type: 32
+avodah_zara:gemara:81:: ocr_stat_line_miscount: 26 27
+avodah_zara:rashi:81:: ocr_stat_line_miscount: 18 26
+avodah_zara:tosfos:81:36: unknown line type: 31
+avodah_zara:tosfos:81:37: unknown line type: 31
+avodah_zara:tosfos:81:38: unknown line type: 31
+avodah_zara:tosfos:81:39: unknown line type: 31
+avodah_zara:tosfos:81:40: unknown line type: 31
+avodah_zara:tosfos:81:41: unknown line type: 31
+avodah_zara:tosfos:81:42: unknown line type: 31
+avodah_zara:tosfos:81:43: unknown line type: 31
+avodah_zara:tosfos:81:44: unknown line type: 31
+avodah_zara:tosfos:81:45: unknown line type: 31
+avodah_zara:tosfos:81:46: unknown line type: 31
+avodah_zara:tosfos:81:47: unknown line type: 31
+avodah_zara:tosfos:81:48: unknown line type: 31
+avodah_zara:tosfos:81:49: unknown line type: 31
+avodah_zara:tosfos:81:50: unknown line type: 31
+avodah_zara:tosfos:81:51: unknown line type: 31
+avodah_zara:tosfos:81:52: unknown line type: 31
+avodah_zara:tosfos:81:53: unknown line type: 31
+avodah_zara:tosfos:81:54: unknown line type: 31
+avodah_zara:tosfos:81:55: unknown line type: 31
+avodah_zara:tosfos:81:56: unknown line type: 31
+avodah_zara:tosfos:81:57: unknown line type: 31
+avodah_zara:tosfos:81:58: unknown line type: 31
+avodah_zara:tosfos:81:59: unknown line type: 31
+avodah_zara:tosfos:81:60: unknown line type: 31
+avodah_zara:tosfos:81:61: unknown line type: 31
+avodah_zara:tosfos:81:62: unknown line type: 31
+avodah_zara:tosfos:81:63: unknown line type: 31
+avodah_zara:tosfos:81:64: unknown line type: 31
+avodah_zara:tosfos:81:65: unknown line type: 31
+avodah_zara:tosfos:81:66: unknown line type: 31
+avodah_zara:tosfos:81:67: unknown line type: 31
+avodah_zara:tosfos:81:: ocr_stat_line_miscount: 55 69
+avodah_zara:gemara:82:37: unknown line type: 32
+avodah_zara:gemara:82:: ocr_stat_line_miscount: 37 38
+avodah_zara:rashi:82:: ocr_stat_line_miscount: 59 66
+avodah_zara:tosfos:82:49: unknown line type: 12
+avodah_zara:tosfos:82:65: unknown line type: 31
+avodah_zara:tosfos:82:66: unknown line type: 31
+avodah_zara:tosfos:82:67: unknown line type: 31
+avodah_zara:tosfos:82:68: unknown line type: 31
+avodah_zara:tosfos:82:69: unknown line type: 31
+avodah_zara:tosfos:82:: ocr_stat_line_miscount: 70 72
+avodah_zara:gemara:83:52: unknown line type: 32
+avodah_zara:gemara:83:: ocr_stat_line_miscount: 52 53
+avodah_zara:rashi:83:73: unknown line type: 12
+avodah_zara:rashi:83:: ocr_stat_line_miscount: 61 75
+avodah_zara:tosfos:83:: ocr_stat_line_miscount: 64 76
+avodah_zara:gemara:84:53: unknown line type: 32
+avodah_zara:gemara:84:: ocr_stat_line_miscount: 53 54
+avodah_zara:rashi:84:68: unknown line type: 31
+avodah_zara:rashi:84:69: unknown line type: 31
+avodah_zara:rashi:84:70: unknown line type: 31
+avodah_zara:rashi:84:: ocr_stat_line_miscount: 67 72
+avodah_zara:tosfos:84:: ocr_stat_line_miscount: 45 64
+avodah_zara:gemara:85:50: unknown line type: 32
+avodah_zara:gemara:85:: ocr_stat_line_miscount: 50 51
+avodah_zara:rashi:85:: ocr_stat_line_miscount: 49 55
+avodah_zara:tosfos:85:63: unknown line type: 31
+avodah_zara:tosfos:85:64: unknown line type: 31
+avodah_zara:tosfos:85:65: unknown line type: 31
+avodah_zara:tosfos:85:: ocr_stat_line_miscount: 64 68
+avodah_zara:gemara:86:37: unknown line type: 32
+avodah_zara:gemara:86:: ocr_stat_line_miscount: 37 38
+avodah_zara:rashi:86:: ocr_stat_line_miscount: 24 32
+avodah_zara:tosfos:86:48: unknown line type: 31
+avodah_zara:tosfos:86:49: unknown line type: 31
+avodah_zara:tosfos:86:50: unknown line type: 31
+avodah_zara:tosfos:86:51: unknown line type: 31
+avodah_zara:tosfos:86:52: unknown line type: 31
+avodah_zara:tosfos:86:53: unknown line type: 31
+avodah_zara:tosfos:86:54: unknown line type: 31
+avodah_zara:tosfos:86:55: unknown line type: 31
+avodah_zara:tosfos:86:56: unknown line type: 31
+avodah_zara:tosfos:86:57: unknown line type: 31
+avodah_zara:tosfos:86:58: unknown line type: 31
+avodah_zara:tosfos:86:59: unknown line type: 31
+avodah_zara:tosfos:86:60: unknown line type: 31
+avodah_zara:tosfos:86:61: unknown line type: 31
+avodah_zara:tosfos:86:62: unknown line type: 31
+avodah_zara:tosfos:86:63: unknown line type: 31
+avodah_zara:tosfos:86:64: unknown line type: 31
+avodah_zara:tosfos:86:65: unknown line type: 31
+avodah_zara:tosfos:86:66: unknown line type: 31
+avodah_zara:tosfos:86:67: unknown line type: 31
+avodah_zara:tosfos:86:68: unknown line type: 31
+avodah_zara:tosfos:86:: ocr_stat_line_miscount: 68 70
+avodah_zara:gemara:87:48: unknown line type: 32
+avodah_zara:gemara:87:: ocr_stat_line_miscount: 48 49
+avodah_zara:rashi:87:61: unknown line type: 31
+avodah_zara:rashi:87:62: unknown line type: 31
+avodah_zara:rashi:87:63: unknown line type: 31
+avodah_zara:rashi:87:64: unknown line type: 31
+avodah_zara:rashi:87:65: unknown line type: 31
+avodah_zara:rashi:87:66: unknown line type: 31
+avodah_zara:rashi:87:67: unknown line type: 31
+avodah_zara:rashi:87:: ocr_stat_line_miscount: 57 70
+avodah_zara:tosfos:87:: ocr_stat_line_miscount: 33 46
+avodah_zara:gemara:88:43: unknown line type: 32
+avodah_zara:gemara:88:: ocr_stat_line_miscount: 43 44
+avodah_zara:rashi:88:: ocr_stat_line_miscount: 39 41
+avodah_zara:tosfos:88:55: unknown line type: 31
+avodah_zara:tosfos:88:56: unknown line type: 31
+avodah_zara:tosfos:88:57: unknown line type: 31
+avodah_zara:tosfos:88:58: unknown line type: 31
+avodah_zara:tosfos:88:59: unknown line type: 31
+avodah_zara:tosfos:88:60: unknown line type: 31
+avodah_zara:tosfos:88:61: unknown line type: 31
+avodah_zara:tosfos:88:62: unknown line type: 31
+avodah_zara:tosfos:88:63: unknown line type: 31
+avodah_zara:tosfos:88:64: unknown line type: 31
+avodah_zara:tosfos:88:: ocr_stat_line_miscount: 66 69
+avodah_zara:gemara:89:16: unknown line type: 32
+avodah_zara:gemara:89:: ocr_stat_line_miscount: 16 17
+avodah_zara:rashi:89:43: unknown line type: 12
+avodah_zara:rashi:89:: ocr_stat_line_miscount: 39 44
+avodah_zara:tosfos:89:44: unknown line type: 31
+avodah_zara:tosfos:89:45: unknown line type: 31
+avodah_zara:tosfos:89:46: unknown line type: 31
+avodah_zara:tosfos:89:47: unknown line type: 31
+avodah_zara:tosfos:89:48: unknown line type: 31
+avodah_zara:tosfos:89:49: unknown line type: 31
+avodah_zara:tosfos:89:50: unknown line type: 31
+avodah_zara:tosfos:89:51: unknown line type: 31
+avodah_zara:tosfos:89:52: unknown line type: 31
+avodah_zara:tosfos:89:53: unknown line type: 31
+avodah_zara:tosfos:89:54: unknown line type: 31
+avodah_zara:tosfos:89:55: unknown line type: 31
+avodah_zara:tosfos:89:56: unknown line type: 31
+avodah_zara:tosfos:89:57: unknown line type: 31
+avodah_zara:tosfos:89:58: unknown line type: 31
+avodah_zara:tosfos:89:59: unknown line type: 31
+avodah_zara:tosfos:89:60: unknown line type: 31
+avodah_zara:tosfos:89:61: unknown line type: 31
+avodah_zara:tosfos:89:62: unknown line type: 31
+avodah_zara:tosfos:89:63: unknown line type: 31
+avodah_zara:tosfos:89:64: unknown line type: 31
+avodah_zara:tosfos:89:: ocr_stat_line_miscount: 56 67
+avodah_zara:gemara:90:47: unknown line type: 32
+avodah_zara:gemara:90:: ocr_stat_line_miscount: 47 48
+avodah_zara:rashi:90:0: unknown line type: 12
+avodah_zara::90:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:91:44: unknown line type: 32
+avodah_zara:gemara:91:: ocr_stat_line_miscount: 44 45
+avodah_zara:rashi:91:57: unknown line type: 31
+avodah_zara:rashi:91:58: unknown line type: 31
+avodah_zara:rashi:91:59: unknown line type: 31
+avodah_zara:rashi:91:60: unknown line type: 31
+avodah_zara:rashi:91:61: unknown line type: 31
+avodah_zara:rashi:91:62: unknown line type: 31
+avodah_zara:rashi:91:63: unknown line type: 31
+avodah_zara:rashi:91:64: unknown line type: 31
+avodah_zara:rashi:91:65: unknown line type: 31
+avodah_zara:rashi:91:66: unknown line type: 31
+avodah_zara:rashi:91:67: unknown line type: 31
+avodah_zara:rashi:91:68: unknown line type: 31
+avodah_zara:rashi:91:69: unknown line type: 31
+avodah_zara:rashi:91:: ocr_stat_line_miscount: 58 74
+avodah_zara:tosfos:91:: ocr_stat_line_miscount: 30 42
+avodah_zara:gemara:92:38: unknown line type: 32
+avodah_zara:gemara:92:: ocr_stat_line_miscount: 38 39
+avodah_zara:rashi:92:51: unknown line type: 31
+avodah_zara:rashi:92:52: unknown line type: 31
+avodah_zara:rashi:92:53: unknown line type: 31
+avodah_zara:rashi:92:54: unknown line type: 31
+avodah_zara:rashi:92:55: unknown line type: 31
+avodah_zara:rashi:92:56: unknown line type: 31
+avodah_zara:rashi:92:57: unknown line type: 31
+avodah_zara:rashi:92:58: unknown line type: 31
+avodah_zara:rashi:92:59: unknown line type: 31
+avodah_zara:rashi:92:60: unknown line type: 31
+avodah_zara:rashi:92:61: unknown line type: 31
+avodah_zara:rashi:92:62: unknown line type: 31
+avodah_zara:rashi:92:63: unknown line type: 31
+avodah_zara:rashi:92:64: unknown line type: 31
+avodah_zara:rashi:92:65: unknown line type: 31
+avodah_zara:rashi:92:66: unknown line type: 31
+avodah_zara:rashi:92:: ocr_stat_line_miscount: 64 68
+avodah_zara:tosfos:92:50: unknown line type: 12
+avodah_zara:tosfos:92:: ocr_stat_line_miscount: 47 52
+avodah_zara:gemara:93:51: unknown line type: 32
+avodah_zara:gemara:93:: ocr_stat_line_miscount: 51 52
+avodah_zara:rashi:93:70: unknown line type: 12
+avodah_zara:rashi:93:: ocr_stat_line_miscount: 57 72
+avodah_zara:tosfos:93:71: unknown line type: 31
+avodah_zara:tosfos:93:: ocr_stat_line_miscount: 67 75
+avodah_zara:gemara:94:36: unknown line type: 32
+avodah_zara:gemara:94:: ocr_stat_line_miscount: 36 37
+avodah_zara:rashi:94:73: unknown line type: 31
+avodah_zara:rashi:94:74: unknown line type: 31
+avodah_zara:rashi:94:: ocr_stat_line_miscount: 71 78
+avodah_zara:tosfos:94:71: unknown line type: 12
+avodah_zara:tosfos:94:72: unknown line type: 12
+avodah_zara:tosfos:94:: ocr_stat_line_miscount: 71 74
+avodah_zara:gemara:95:44: unknown line type: 32
+avodah_zara:gemara:95:: ocr_stat_line_miscount: 44 45
+avodah_zara:rashi:95:56: unknown line type: 31
+avodah_zara:rashi:95:57: unknown line type: 31
+avodah_zara:rashi:95:58: unknown line type: 31
+avodah_zara:rashi:95:59: unknown line type: 31
+avodah_zara:rashi:95:60: unknown line type: 31
+avodah_zara:rashi:95:61: unknown line type: 31
+avodah_zara:rashi:95:62: unknown line type: 31
+avodah_zara:rashi:95:63: unknown line type: 31
+avodah_zara:rashi:95:64: unknown line type: 31
+avodah_zara:rashi:95:65: unknown line type: 31
+avodah_zara:rashi:95:66: unknown line type: 31
+avodah_zara:rashi:95:: ocr_stat_line_miscount: 64 69
+avodah_zara:tosfos:95:: ocr_stat_line_miscount: 33 35
+avodah_zara:gemara:96:48: unknown line type: 32
+avodah_zara:gemara:96:: ocr_stat_line_miscount: 48 49
+avodah_zara:rashi:96:61: unknown line type: 31
+avodah_zara:rashi:96:62: unknown line type: 31
+avodah_zara:rashi:96:63: unknown line type: 31
+avodah_zara:rashi:96:64: unknown line type: 31
+avodah_zara:rashi:96:65: unknown line type: 31
+avodah_zara:rashi:96:66: unknown line type: 31
+avodah_zara:rashi:96:67: unknown line type: 31
+avodah_zara:rashi:96:68: unknown line type: 31
+avodah_zara:rashi:96:69: unknown line type: 31
+avodah_zara:rashi:96:: ocr_stat_line_miscount: 66 72
+avodah_zara:tosfos:96:: ocr_stat_line_miscount: 41 53
+avodah_zara:gemara:97:39: unknown line type: 32
+avodah_zara:gemara:97:: ocr_stat_line_miscount: 39 40
+avodah_zara:rashi:97:70: unknown line type: 31
+avodah_zara:rashi:97:71: unknown line type: 31
+avodah_zara:rashi:97:72: unknown line type: 31
+avodah_zara:rashi:97:: ocr_stat_line_miscount: 71 75
+avodah_zara:tosfos:97:: ocr_stat_line_miscount: 21 70
+avodah_zara:gemara:98:55: unknown line type: 32
+avodah_zara:gemara:98:: ocr_stat_line_miscount: 55 56
+avodah_zara:rashi:98:69: unknown line type: 31
+avodah_zara:rashi:98:70: unknown line type: 31
+avodah_zara:rashi:98:71: unknown line type: 31
+avodah_zara:rashi:98:: ocr_stat_line_miscount: 56 74
+avodah_zara:tosfos:98:: ocr_stat_line_miscount: 46 52
+avodah_zara:gemara:99:38: unknown line type: 32
+avodah_zara:gemara:99:: ocr_stat_line_miscount: 38 39
+avodah_zara:rashi:99:: ocr_stat_line_miscount: 35 43
+avodah_zara:tosfos:99:50: unknown line type: 31
+avodah_zara:tosfos:99:51: unknown line type: 31
+avodah_zara:tosfos:99:52: unknown line type: 31
+avodah_zara:tosfos:99:53: unknown line type: 31
+avodah_zara:tosfos:99:54: unknown line type: 31
+avodah_zara:tosfos:99:55: unknown line type: 31
+avodah_zara:tosfos:99:56: unknown line type: 31
+avodah_zara:tosfos:99:57: unknown line type: 31
+avodah_zara:tosfos:99:58: unknown line type: 31
+avodah_zara:tosfos:99:59: unknown line type: 31
+avodah_zara:tosfos:99:60: unknown line type: 31
+avodah_zara:tosfos:99:61: unknown line type: 31
+avodah_zara:tosfos:99:62: unknown line type: 31
+avodah_zara:tosfos:99:63: unknown line type: 31
+avodah_zara:tosfos:99:64: unknown line type: 31
+avodah_zara:tosfos:99:65: unknown line type: 31
+avodah_zara:tosfos:99:66: unknown line type: 31
+avodah_zara:tosfos:99:67: unknown line type: 31
+avodah_zara:tosfos:99:68: unknown line type: 31
+avodah_zara:tosfos:99:69: unknown line type: 31
+avodah_zara:tosfos:99:70: unknown line type: 31
+avodah_zara:tosfos:99:: ocr_stat_line_miscount: 69 72
+avodah_zara:gemara:100:47: unknown line type: 32
+avodah_zara:gemara:100:: ocr_stat_line_miscount: 47 48
+avodah_zara:rashi:100:: ocr_stat_line_miscount: 60 67
+avodah_zara:tosfos:100:66: unknown line type: 31
+avodah_zara:tosfos:100:67: unknown line type: 31
+avodah_zara:tosfos:100:68: unknown line type: 31
+avodah_zara:tosfos:100:: ocr_stat_line_miscount: 19 72
+avodah_zara:gemara:101:49: unknown line type: 32
+avodah_zara:gemara:101:: ocr_stat_line_miscount: 49 50
+avodah_zara:rashi:101:0: unknown line type: 31
+avodah_zara::101:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:102:51: unknown line type: 32
+avodah_zara:gemara:102:: ocr_stat_line_miscount: 51 52
+avodah_zara:rashi:102:1: unknown line type: 31
+avodah_zara:rashi:102:2: unknown line type: 31
+avodah_zara:rashi:102:3: unknown line type: 31
+avodah_zara:rashi:102:4: unknown line type: 31
+avodah_zara:rashi:102:65: unknown line type: 31
+avodah_zara:rashi:102:66: unknown line type: 31
+avodah_zara:rashi:102:67: unknown line type: 31
+avodah_zara:rashi:102:68: unknown line type: 31
+avodah_zara:rashi:102:69: unknown line type: 31
+avodah_zara:rashi:102:: ocr_stat_line_miscount: 67 71
+avodah_zara:tosfos:102:: ocr_stat_line_miscount: 0 17
+avodah_zara:gemara:103:55: unknown line type: 32
+avodah_zara:gemara:103:: ocr_stat_line_miscount: 55 56
+avodah_zara:rashi:103:68: unknown line type: 31
+avodah_zara:rashi:103:: ocr_stat_line_miscount: 50 71
+avodah_zara:tosfos:103:: ocr_stat_line_miscount: 21 30
+avodah_zara:gemara:104:46: unknown line type: 32
+avodah_zara:gemara:104:: ocr_stat_line_miscount: 46 47
+avodah_zara:rashi:104:59: unknown line type: 31
+avodah_zara:rashi:104:60: unknown line type: 31
+avodah_zara:rashi:104:61: unknown line type: 31
+avodah_zara:rashi:104:62: unknown line type: 31
+avodah_zara:rashi:104:63: unknown line type: 31
+avodah_zara:rashi:104:64: unknown line type: 31
+avodah_zara:rashi:104:65: unknown line type: 31
+avodah_zara:rashi:104:66: unknown line type: 31
+avodah_zara:rashi:104:67: unknown line type: 31
+avodah_zara:rashi:104:68: unknown line type: 31
+avodah_zara:rashi:104:: ocr_stat_line_miscount: 63 70
+avodah_zara:tosfos:104:: ocr_stat_line_miscount: 36 40
+avodah_zara:gemara:105:45: unknown line type: 32
+avodah_zara:gemara:105:: ocr_stat_line_miscount: 45 46
+avodah_zara:rashi:105:58: unknown line type: 31
+avodah_zara:rashi:105:59: unknown line type: 31
+avodah_zara:rashi:105:60: unknown line type: 31
+avodah_zara:rashi:105:61: unknown line type: 31
+avodah_zara:rashi:105:62: unknown line type: 31
+avodah_zara:rashi:105:63: unknown line type: 31
+avodah_zara:rashi:105:64: unknown line type: 31
+avodah_zara:rashi:105:65: unknown line type: 31
+avodah_zara:rashi:105:66: unknown line type: 31
+avodah_zara:rashi:105:67: unknown line type: 31
+avodah_zara:rashi:105:68: unknown line type: 31
+avodah_zara:rashi:105:: ocr_stat_line_miscount: 61 72
+avodah_zara:tosfos:105:: ocr_stat_line_miscount: 47 48
+avodah_zara:gemara:106:52: unknown line type: 32
+avodah_zara:gemara:106:: ocr_stat_line_miscount: 52 53
+avodah_zara:rashi:106:65: unknown line type: 31
+avodah_zara:rashi:106:: ocr_stat_line_miscount: 39 68
+avodah_zara:tosfos:106:: ocr_stat_line_miscount: 14 43
+avodah_zara:gemara:107:35: unknown line type: 32
+avodah_zara:rashi:107:: ocr_stat_line_miscount: 27 40
+avodah_zara:tosfos:107:46: unknown line type: 31
+avodah_zara:tosfos:107:47: unknown line type: 31
+avodah_zara:tosfos:107:48: unknown line type: 31
+avodah_zara:tosfos:107:49: unknown line type: 31
+avodah_zara:tosfos:107:50: unknown line type: 31
+avodah_zara:tosfos:107:51: unknown line type: 31
+avodah_zara:tosfos:107:52: unknown line type: 31
+avodah_zara:tosfos:107:53: unknown line type: 31
+avodah_zara:tosfos:107:54: unknown line type: 31
+avodah_zara:tosfos:107:55: unknown line type: 31
+avodah_zara:tosfos:107:56: unknown line type: 31
+avodah_zara:tosfos:107:57: unknown line type: 31
+avodah_zara:tosfos:107:58: unknown line type: 31
+avodah_zara:tosfos:107:59: unknown line type: 31
+avodah_zara:tosfos:107:60: unknown line type: 31
+avodah_zara:tosfos:107:61: unknown line type: 31
+avodah_zara:tosfos:107:62: unknown line type: 31
+avodah_zara:tosfos:107:63: unknown line type: 31
+avodah_zara:tosfos:107:64: unknown line type: 31
+avodah_zara:tosfos:107:65: unknown line type: 31
+avodah_zara:tosfos:107:66: unknown line type: 31
+avodah_zara:tosfos:107:67: unknown line type: 31
+avodah_zara:tosfos:107:68: unknown line type: 31
+avodah_zara:tosfos:107:69: unknown line type: 31
+avodah_zara:tosfos:107:: ocr_stat_line_miscount: 70 73
+avodah_zara:gemara:108:48: unknown line type: 32
+avodah_zara:gemara:108:: ocr_stat_line_miscount: 48 49
+avodah_zara:rashi:108:: ocr_stat_line_miscount: 48 50
+avodah_zara:tosfos:108:: ocr_stat_line_miscount: 11 13
+avodah_zara:gemara:109:38: unknown line type: 32
+avodah_zara:gemara:109:: ocr_stat_line_miscount: 38 39
+avodah_zara:rashi:109:: ocr_stat_line_miscount: 34 35
+avodah_zara:tosfos:109:49: unknown line type: 31
+avodah_zara:tosfos:109:50: unknown line type: 31
+avodah_zara:tosfos:109:51: unknown line type: 31
+avodah_zara:tosfos:109:52: unknown line type: 31
+avodah_zara:tosfos:109:53: unknown line type: 31
+avodah_zara:tosfos:109:54: unknown line type: 31
+avodah_zara:tosfos:109:55: unknown line type: 31
+avodah_zara:tosfos:109:56: unknown line type: 31
+avodah_zara:tosfos:109:57: unknown line type: 31
+avodah_zara:tosfos:109:58: unknown line type: 31
+avodah_zara:tosfos:109:59: unknown line type: 31
+avodah_zara:tosfos:109:60: unknown line type: 31
+avodah_zara:tosfos:109:61: unknown line type: 31
+avodah_zara:tosfos:109:62: unknown line type: 31
+avodah_zara:tosfos:109:64: unknown line type: 31
+avodah_zara:tosfos:109:: ocr_stat_line_miscount: 62 66
+avodah_zara:gemara:110:21: unknown line type: 32
+avodah_zara:gemara:110:: ocr_stat_line_miscount: 21 22
+avodah_zara:rashi:110:: ocr_stat_line_miscount: 31 40
+avodah_zara:tosfos:110:40: unknown line type: 31
+avodah_zara:tosfos:110:41: unknown line type: 31
+avodah_zara:tosfos:110:42: unknown line type: 31
+avodah_zara:tosfos:110:43: unknown line type: 31
+avodah_zara:tosfos:110:44: unknown line type: 31
+avodah_zara:tosfos:110:45: unknown line type: 31
+avodah_zara:tosfos:110:46: unknown line type: 31
+avodah_zara:tosfos:110:47: unknown line type: 31
+avodah_zara:tosfos:110:48: unknown line type: 31
+avodah_zara:tosfos:110:49: unknown line type: 31
+avodah_zara:tosfos:110:50: unknown line type: 31
+avodah_zara:tosfos:110:51: unknown line type: 31
+avodah_zara:tosfos:110:52: unknown line type: 31
+avodah_zara:tosfos:110:53: unknown line type: 31
+avodah_zara:tosfos:110:54: unknown line type: 31
+avodah_zara:tosfos:110:55: unknown line type: 31
+avodah_zara:tosfos:110:56: unknown line type: 31
+avodah_zara:tosfos:110:57: unknown line type: 31
+avodah_zara:tosfos:110:58: unknown line type: 31
+avodah_zara:tosfos:110:59: unknown line type: 31
+avodah_zara:tosfos:110:60: unknown line type: 31
+avodah_zara:tosfos:110:61: unknown line type: 31
+avodah_zara:tosfos:110:62: unknown line type: 31
+avodah_zara:tosfos:110:63: unknown line type: 31
+avodah_zara:tosfos:110:: ocr_stat_line_miscount: 64 66
+avodah_zara:gemara:111:17: unknown line type: 32
+avodah_zara:gemara:111:: ocr_stat_line_miscount: 17 18
+avodah_zara:rashi:111:30: unknown line type: 12
+avodah_zara:rashi:111:: ocr_stat_line_miscount: 16 32
+avodah_zara:tosfos:111:31: unknown line type: 31
+avodah_zara:tosfos:111:32: unknown line type: 31
+avodah_zara:tosfos:111:33: unknown line type: 31
+avodah_zara:tosfos:111:34: unknown line type: 31
+avodah_zara:tosfos:111:35: unknown line type: 31
+avodah_zara:tosfos:111:36: unknown line type: 31
+avodah_zara:tosfos:111:37: unknown line type: 31
+avodah_zara:tosfos:111:38: unknown line type: 31
+avodah_zara:tosfos:111:39: unknown line type: 31
+avodah_zara:tosfos:111:40: unknown line type: 31
+avodah_zara:tosfos:111:41: unknown line type: 31
+avodah_zara:tosfos:111:42: unknown line type: 31
+avodah_zara:tosfos:111:43: unknown line type: 31
+avodah_zara:tosfos:111:44: unknown line type: 31
+avodah_zara:tosfos:111:45: unknown line type: 31
+avodah_zara:tosfos:111:46: unknown line type: 31
+avodah_zara:tosfos:111:47: unknown line type: 31
+avodah_zara:tosfos:111:48: unknown line type: 31
+avodah_zara:tosfos:111:49: unknown line type: 31
+avodah_zara:tosfos:111:50: unknown line type: 31
+avodah_zara:tosfos:111:51: unknown line type: 31
+avodah_zara:tosfos:111:52: unknown line type: 31
+avodah_zara:tosfos:111:53: unknown line type: 31
+avodah_zara:tosfos:111:54: unknown line type: 31
+avodah_zara:tosfos:111:55: unknown line type: 31
+avodah_zara:tosfos:111:56: unknown line type: 31
+avodah_zara:tosfos:111:57: unknown line type: 31
+avodah_zara:tosfos:111:58: unknown line type: 31
+avodah_zara:tosfos:111:59: unknown line type: 31
+avodah_zara:tosfos:111:60: unknown line type: 31
+avodah_zara:tosfos:111:61: unknown line type: 31
+avodah_zara:tosfos:111:62: unknown line type: 31
+avodah_zara:tosfos:111:63: unknown line type: 31
+avodah_zara:tosfos:111:64: unknown line type: 31
+avodah_zara:tosfos:111:65: unknown line type: 31
+avodah_zara:tosfos:111:66: unknown line type: 31
+avodah_zara:tosfos:111:: ocr_stat_line_miscount: 61 68
+avodah_zara:gemara:112:15: unknown line type: 32
+avodah_zara:gemara:112:: ocr_stat_line_miscount: 15 16
+avodah_zara:rashi:112:: ocr_stat_line_miscount: 12 22
+avodah_zara:tosfos:112:23: unknown line type: 31
+avodah_zara:tosfos:112:24: unknown line type: 31
+avodah_zara:tosfos:112:25: unknown line type: 31
+avodah_zara:tosfos:112:26: unknown line type: 31
+avodah_zara:tosfos:112:27: unknown line type: 31
+avodah_zara:tosfos:112:28: unknown line type: 31
+avodah_zara:tosfos:112:29: unknown line type: 31
+avodah_zara:tosfos:112:30: unknown line type: 31
+avodah_zara:tosfos:112:31: unknown line type: 31
+avodah_zara:tosfos:112:32: unknown line type: 31
+avodah_zara:tosfos:112:33: unknown line type: 31
+avodah_zara:tosfos:112:34: unknown line type: 31
+avodah_zara:tosfos:112:35: unknown line type: 31
+avodah_zara:tosfos:112:36: unknown line type: 31
+avodah_zara:tosfos:112:37: unknown line type: 31
+avodah_zara:tosfos:112:38: unknown line type: 31
+avodah_zara:tosfos:112:39: unknown line type: 31
+avodah_zara:tosfos:112:40: unknown line type: 31
+avodah_zara:tosfos:112:41: unknown line type: 31
+avodah_zara:tosfos:112:42: unknown line type: 31
+avodah_zara:tosfos:112:43: unknown line type: 31
+avodah_zara:tosfos:112:44: unknown line type: 31
+avodah_zara:tosfos:112:45: unknown line type: 31
+avodah_zara:tosfos:112:46: unknown line type: 31
+avodah_zara:tosfos:112:47: unknown line type: 31
+avodah_zara:tosfos:112:48: unknown line type: 31
+avodah_zara:tosfos:112:49: unknown line type: 31
+avodah_zara:tosfos:112:50: unknown line type: 31
+avodah_zara:tosfos:112:51: unknown line type: 31
+avodah_zara:tosfos:112:52: unknown line type: 31
+avodah_zara:tosfos:112:53: unknown line type: 31
+avodah_zara:tosfos:112:54: unknown line type: 31
+avodah_zara:tosfos:112:55: unknown line type: 31
+avodah_zara:tosfos:112:56: unknown line type: 31
+avodah_zara:tosfos:112:57: unknown line type: 31
+avodah_zara:tosfos:112:58: unknown line type: 31
+avodah_zara:tosfos:112:59: unknown line type: 31
+avodah_zara:tosfos:112:60: unknown line type: 31
+avodah_zara:tosfos:112:61: unknown line type: 31
+avodah_zara:tosfos:112:62: unknown line type: 31
+avodah_zara:tosfos:112:63: unknown line type: 31
+avodah_zara:tosfos:112:64: unknown line type: 31
+avodah_zara:tosfos:112:65: unknown line type: 31
+avodah_zara:tosfos:112:66: unknown line type: 31
+avodah_zara:tosfos:112:: ocr_stat_line_miscount: 67 69
+avodah_zara:gemara:113:28: unknown line type: 32
+avodah_zara:gemara:113:: ocr_stat_line_miscount: 28 29
+avodah_zara:rashi:113:: ocr_stat_line_miscount: 7 21
+avodah_zara:tosfos:113:38: unknown line type: 31
+avodah_zara:tosfos:113:39: unknown line type: 31
+avodah_zara:tosfos:113:40: unknown line type: 31
+avodah_zara:tosfos:113:41: unknown line type: 31
+avodah_zara:tosfos:113:42: unknown line type: 31
+avodah_zara:tosfos:113:43: unknown line type: 31
+avodah_zara:tosfos:113:44: unknown line type: 31
+avodah_zara:tosfos:113:45: unknown line type: 31
+avodah_zara:tosfos:113:46: unknown line type: 31
+avodah_zara:tosfos:113:47: unknown line type: 31
+avodah_zara:tosfos:113:48: unknown line type: 31
+avodah_zara:tosfos:113:49: unknown line type: 31
+avodah_zara:tosfos:113:50: unknown line type: 31
+avodah_zara:tosfos:113:51: unknown line type: 31
+avodah_zara:tosfos:113:52: unknown line type: 31
+avodah_zara:tosfos:113:53: unknown line type: 31
+avodah_zara:tosfos:113:54: unknown line type: 31
+avodah_zara:tosfos:113:55: unknown line type: 31
+avodah_zara:tosfos:113:56: unknown line type: 31
+avodah_zara:tosfos:113:57: unknown line type: 31
+avodah_zara:tosfos:113:58: unknown line type: 31
+avodah_zara:tosfos:113:59: unknown line type: 31
+avodah_zara:tosfos:113:60: unknown line type: 31
+avodah_zara:tosfos:113:61: unknown line type: 31
+avodah_zara:tosfos:113:62: unknown line type: 31
+avodah_zara:tosfos:113:63: unknown line type: 31
+avodah_zara:tosfos:113:64: unknown line type: 31
+avodah_zara:tosfos:113:65: unknown line type: 31
+avodah_zara:tosfos:113:66: unknown line type: 31
+avodah_zara:tosfos:113:67: unknown line type: 31
+avodah_zara:tosfos:113:68: unknown line type: 31
+avodah_zara:tosfos:113:: ocr_stat_line_miscount: 33 70
+avodah_zara:gemara:114:22: unknown line type: 32
+avodah_zara:gemara:114:: ocr_stat_line_miscount: 22 23
+avodah_zara:rashi:114:: ocr_stat_line_miscount: 26 28
+avodah_zara:tosfos:114:31: unknown line type: 31
+avodah_zara:tosfos:114:32: unknown line type: 31
+avodah_zara:tosfos:114:33: unknown line type: 31
+avodah_zara:tosfos:114:34: unknown line type: 31
+avodah_zara:tosfos:114:35: unknown line type: 31
+avodah_zara:tosfos:114:36: unknown line type: 31
+avodah_zara:tosfos:114:37: unknown line type: 31
+avodah_zara:tosfos:114:38: unknown line type: 31
+avodah_zara:tosfos:114:39: unknown line type: 31
+avodah_zara:tosfos:114:40: unknown line type: 31
+avodah_zara:tosfos:114:41: unknown line type: 31
+avodah_zara:tosfos:114:42: unknown line type: 31
+avodah_zara:tosfos:114:43: unknown line type: 31
+avodah_zara:tosfos:114:44: unknown line type: 31
+avodah_zara:tosfos:114:45: unknown line type: 31
+avodah_zara:tosfos:114:46: unknown line type: 31
+avodah_zara:tosfos:114:47: unknown line type: 31
+avodah_zara:tosfos:114:48: unknown line type: 31
+avodah_zara:tosfos:114:49: unknown line type: 31
+avodah_zara:tosfos:114:50: unknown line type: 31
+avodah_zara:tosfos:114:51: unknown line type: 31
+avodah_zara:tosfos:114:52: unknown line type: 31
+avodah_zara:tosfos:114:53: unknown line type: 31
+avodah_zara:tosfos:114:54: unknown line type: 31
+avodah_zara:tosfos:114:55: unknown line type: 31
+avodah_zara:tosfos:114:56: unknown line type: 31
+avodah_zara:tosfos:114:57: unknown line type: 31
+avodah_zara:tosfos:114:58: unknown line type: 31
+avodah_zara:tosfos:114:59: unknown line type: 31
+avodah_zara:tosfos:114:60: unknown line type: 31
+avodah_zara:tosfos:114:61: unknown line type: 31
+avodah_zara:tosfos:114:62: unknown line type: 31
+avodah_zara:tosfos:114:63: unknown line type: 31
+avodah_zara:tosfos:114:64: unknown line type: 31
+avodah_zara:tosfos:114:65: unknown line type: 31
+avodah_zara:tosfos:114:66: unknown line type: 31
+avodah_zara:tosfos:114:67: unknown line type: 31
+avodah_zara:tosfos:114:68: unknown line type: 31
+avodah_zara:tosfos:114:69: unknown line type: 31
+avodah_zara:tosfos:114:: ocr_stat_line_miscount: 33 72
+avodah_zara:gemara:115:27: unknown line type: 32
+avodah_zara:gemara:115:: ocr_stat_line_miscount: 27 28
+avodah_zara:rashi:115:46: unknown line type: 12
+avodah_zara:rashi:115:: ocr_stat_line_miscount: 43 48
+avodah_zara:tosfos:115:47: unknown line type: 31
+avodah_zara:tosfos:115:48: unknown line type: 31
+avodah_zara:tosfos:115:49: unknown line type: 31
+avodah_zara:tosfos:115:50: unknown line type: 31
+avodah_zara:tosfos:115:51: unknown line type: 31
+avodah_zara:tosfos:115:52: unknown line type: 31
+avodah_zara:tosfos:115:53: unknown line type: 31
+avodah_zara:tosfos:115:54: unknown line type: 31
+avodah_zara:tosfos:115:55: unknown line type: 31
+avodah_zara:tosfos:115:56: unknown line type: 31
+avodah_zara:tosfos:115:57: unknown line type: 31
+avodah_zara:tosfos:115:58: unknown line type: 31
+avodah_zara:tosfos:115:59: unknown line type: 31
+avodah_zara:tosfos:115:60: unknown line type: 31
+avodah_zara:tosfos:115:61: unknown line type: 31
+avodah_zara:tosfos:115:62: unknown line type: 31
+avodah_zara:tosfos:115:63: unknown line type: 31
+avodah_zara:tosfos:115:64: unknown line type: 31
+avodah_zara:tosfos:115:65: unknown line type: 31
+avodah_zara:tosfos:115:66: unknown line type: 31
+avodah_zara:tosfos:115:: ocr_stat_line_miscount: 24 69
+avodah_zara:gemara:116:28: unknown line type: 32
+avodah_zara:gemara:116:: ocr_stat_line_miscount: 28 29
+avodah_zara:rashi:116:: ocr_stat_line_miscount: 27 37
+avodah_zara:tosfos:116:38: unknown line type: 31
+avodah_zara:tosfos:116:39: unknown line type: 31
+avodah_zara:tosfos:116:40: unknown line type: 31
+avodah_zara:tosfos:116:41: unknown line type: 31
+avodah_zara:tosfos:116:42: unknown line type: 31
+avodah_zara:tosfos:116:43: unknown line type: 31
+avodah_zara:tosfos:116:44: unknown line type: 31
+avodah_zara:tosfos:116:45: unknown line type: 31
+avodah_zara:tosfos:116:46: unknown line type: 31
+avodah_zara:tosfos:116:47: unknown line type: 31
+avodah_zara:tosfos:116:48: unknown line type: 31
+avodah_zara:tosfos:116:49: unknown line type: 31
+avodah_zara:tosfos:116:50: unknown line type: 31
+avodah_zara:tosfos:116:51: unknown line type: 31
+avodah_zara:tosfos:116:52: unknown line type: 31
+avodah_zara:tosfos:116:53: unknown line type: 31
+avodah_zara:tosfos:116:54: unknown line type: 31
+avodah_zara:tosfos:116:55: unknown line type: 31
+avodah_zara:tosfos:116:56: unknown line type: 31
+avodah_zara:tosfos:116:57: unknown line type: 31
+avodah_zara:tosfos:116:58: unknown line type: 31
+avodah_zara:tosfos:116:59: unknown line type: 31
+avodah_zara:tosfos:116:60: unknown line type: 31
+avodah_zara:tosfos:116:61: unknown line type: 31
+avodah_zara:tosfos:116:62: unknown line type: 31
+avodah_zara:tosfos:116:63: unknown line type: 31
+avodah_zara:tosfos:116:64: unknown line type: 31
+avodah_zara:tosfos:116:65: unknown line type: 31
+avodah_zara:tosfos:116:66: unknown line type: 31
+avodah_zara:tosfos:116:67: unknown line type: 31
+avodah_zara:tosfos:116:68: unknown line type: 31
+avodah_zara:tosfos:116:: ocr_stat_line_miscount: 67 71
+avodah_zara:gemara:117:27: unknown line type: 32
+avodah_zara:gemara:117:: ocr_stat_line_miscount: 27 28
+avodah_zara:rashi:117:0: unknown line type: 31
+avodah_zara::117:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:118:19: unknown line type: 32
+avodah_zara:gemara:118:: ocr_stat_line_miscount: 19 20
+avodah_zara:rashi:118:: ocr_stat_line_miscount: 26 32
+avodah_zara:tosfos:118:31: unknown line type: 31
+avodah_zara:tosfos:118:32: unknown line type: 31
+avodah_zara:tosfos:118:33: unknown line type: 31
+avodah_zara:tosfos:118:34: unknown line type: 31
+avodah_zara:tosfos:118:35: unknown line type: 31
+avodah_zara:tosfos:118:36: unknown line type: 31
+avodah_zara:tosfos:118:37: unknown line type: 31
+avodah_zara:tosfos:118:38: unknown line type: 31
+avodah_zara:tosfos:118:39: unknown line type: 31
+avodah_zara:tosfos:118:40: unknown line type: 31
+avodah_zara:tosfos:118:41: unknown line type: 31
+avodah_zara:tosfos:118:42: unknown line type: 31
+avodah_zara:tosfos:118:43: unknown line type: 31
+avodah_zara:tosfos:118:44: unknown line type: 31
+avodah_zara:tosfos:118:45: unknown line type: 31
+avodah_zara:tosfos:118:46: unknown line type: 31
+avodah_zara:tosfos:118:47: unknown line type: 31
+avodah_zara:tosfos:118:48: unknown line type: 31
+avodah_zara:tosfos:118:49: unknown line type: 31
+avodah_zara:tosfos:118:50: unknown line type: 31
+avodah_zara:tosfos:118:51: unknown line type: 31
+avodah_zara:tosfos:118:52: unknown line type: 31
+avodah_zara:tosfos:118:53: unknown line type: 31
+avodah_zara:tosfos:118:54: unknown line type: 31
+avodah_zara:tosfos:118:55: unknown line type: 31
+avodah_zara:tosfos:118:56: unknown line type: 31
+avodah_zara:tosfos:118:57: unknown line type: 31
+avodah_zara:tosfos:118:58: unknown line type: 31
+avodah_zara:tosfos:118:59: unknown line type: 31
+avodah_zara:tosfos:118:60: unknown line type: 31
+avodah_zara:tosfos:118:61: unknown line type: 31
+avodah_zara:tosfos:118:62: unknown line type: 31
+avodah_zara:tosfos:118:63: unknown line type: 31
+avodah_zara:tosfos:118:64: unknown line type: 31
+avodah_zara:tosfos:118:65: unknown line type: 31
+avodah_zara:tosfos:118:66: unknown line type: 31
+avodah_zara:tosfos:118:67: unknown line type: 31
+avodah_zara:tosfos:118:68: unknown line type: 31
+avodah_zara:tosfos:118:69: unknown line type: 31
+avodah_zara:tosfos:118:70: unknown line type: 31
+avodah_zara:tosfos:118:71: unknown line type: 31
+avodah_zara:tosfos:118:72: unknown line type: 31
+avodah_zara:tosfos:118:73: unknown line type: 31
+avodah_zara:tosfos:118:74: unknown line type: 31
+avodah_zara:tosfos:118:: ocr_stat_line_miscount: 68 77
+avodah_zara:gemara:119:22: unknown line type: 32
+avodah_zara:gemara:119:: ocr_stat_line_miscount: 22 23
+avodah_zara:rashi:119:42: unknown line type: 12
+avodah_zara:rashi:119:: ocr_stat_line_miscount: 28 44
+avodah_zara:tosfos:119:43: unknown line type: 31
+avodah_zara:tosfos:119:44: unknown line type: 31
+avodah_zara:tosfos:119:45: unknown line type: 31
+avodah_zara:tosfos:119:46: unknown line type: 31
+avodah_zara:tosfos:119:47: unknown line type: 31
+avodah_zara:tosfos:119:48: unknown line type: 31
+avodah_zara:tosfos:119:49: unknown line type: 31
+avodah_zara:tosfos:119:50: unknown line type: 31
+avodah_zara:tosfos:119:51: unknown line type: 31
+avodah_zara:tosfos:119:52: unknown line type: 31
+avodah_zara:tosfos:119:53: unknown line type: 31
+avodah_zara:tosfos:119:54: unknown line type: 31
+avodah_zara:tosfos:119:55: unknown line type: 31
+avodah_zara:tosfos:119:56: unknown line type: 31
+avodah_zara:tosfos:119:57: unknown line type: 31
+avodah_zara:tosfos:119:58: unknown line type: 31
+avodah_zara:tosfos:119:59: unknown line type: 31
+avodah_zara:tosfos:119:60: unknown line type: 31
+avodah_zara:tosfos:119:61: unknown line type: 31
+avodah_zara:tosfos:119:62: unknown line type: 31
+avodah_zara:tosfos:119:63: unknown line type: 31
+avodah_zara:tosfos:119:64: unknown line type: 31
+avodah_zara:tosfos:119:65: unknown line type: 31
+avodah_zara:tosfos:119:66: unknown line type: 31
+avodah_zara:tosfos:119:67: unknown line type: 31
+avodah_zara:tosfos:119:68: unknown line type: 31
+avodah_zara:tosfos:119:69: unknown line type: 31
+avodah_zara:tosfos:119:: ocr_stat_line_miscount: 61 72
+avodah_zara:gemara:120:44: unknown line type: 32
+avodah_zara:gemara:120:: ocr_stat_line_miscount: 44 45
+avodah_zara:rashi:120:: ocr_stat_line_miscount: 63 69
+avodah_zara:tosfos:120:68: unknown line type: 31
+avodah_zara:tosfos:120:: ocr_stat_line_miscount: 69 72
+avodah_zara:gemara:121:24: unknown line type: 32
+avodah_zara:gemara:121:: ocr_stat_line_miscount: 24 25
+avodah_zara:rashi:121:36: unknown line type: 12
+avodah_zara:rashi:121:37: unknown line type: 12
+avodah_zara:rashi:121:: ocr_stat_line_miscount: 33 38
+avodah_zara:tosfos:121:36: unknown line type: 31
+avodah_zara:tosfos:121:37: unknown line type: 31
+avodah_zara:tosfos:121:38: unknown line type: 31
+avodah_zara:tosfos:121:39: unknown line type: 31
+avodah_zara:tosfos:121:40: unknown line type: 31
+avodah_zara:tosfos:121:41: unknown line type: 31
+avodah_zara:tosfos:121:42: unknown line type: 31
+avodah_zara:tosfos:121:43: unknown line type: 31
+avodah_zara:tosfos:121:44: unknown line type: 31
+avodah_zara:tosfos:121:45: unknown line type: 31
+avodah_zara:tosfos:121:46: unknown line type: 31
+avodah_zara:tosfos:121:47: unknown line type: 31
+avodah_zara:tosfos:121:48: unknown line type: 31
+avodah_zara:tosfos:121:49: unknown line type: 31
+avodah_zara:tosfos:121:50: unknown line type: 31
+avodah_zara:tosfos:121:51: unknown line type: 31
+avodah_zara:tosfos:121:52: unknown line type: 31
+avodah_zara:tosfos:121:53: unknown line type: 31
+avodah_zara:tosfos:121:54: unknown line type: 31
+avodah_zara:tosfos:121:55: unknown line type: 31
+avodah_zara:tosfos:121:56: unknown line type: 31
+avodah_zara:tosfos:121:57: unknown line type: 31
+avodah_zara:tosfos:121:58: unknown line type: 31
+avodah_zara:tosfos:121:59: unknown line type: 31
+avodah_zara:tosfos:121:60: unknown line type: 31
+avodah_zara:tosfos:121:61: unknown line type: 31
+avodah_zara:tosfos:121:62: unknown line type: 31
+avodah_zara:tosfos:121:63: unknown line type: 31
+avodah_zara:tosfos:121:64: unknown line type: 31
+avodah_zara:tosfos:121:65: unknown line type: 31
+avodah_zara:tosfos:121:66: unknown line type: 31
+avodah_zara:tosfos:121:67: unknown line type: 31
+avodah_zara:tosfos:121:68: unknown line type: 31
+avodah_zara:tosfos:121:69: unknown line type: 31
+avodah_zara:tosfos:121:70: unknown line type: 31
+avodah_zara:tosfos:121:: ocr_stat_line_miscount: 67 73
+avodah_zara:gemara:122:41: unknown line type: 32
+avodah_zara:gemara:122:: ocr_stat_line_miscount: 34 42
+avodah_zara:rashi:122:: ocr_stat_line_miscount: 45 51
+avodah_zara:tosfos:122:: ocr_stat_line_miscount: 19 22
+avodah_zara:gemara:123:24: unknown line type: 32
+avodah_zara:gemara:123:: ocr_stat_line_miscount: 24 25
+avodah_zara:rashi:123:: ocr_stat_line_miscount: 16 24
+avodah_zara:tosfos:123:34: unknown line type: 31
+avodah_zara:tosfos:123:35: unknown line type: 31
+avodah_zara:tosfos:123:36: unknown line type: 31
+avodah_zara:tosfos:123:37: unknown line type: 31
+avodah_zara:tosfos:123:38: unknown line type: 31
+avodah_zara:tosfos:123:39: unknown line type: 31
+avodah_zara:tosfos:123:40: unknown line type: 31
+avodah_zara:tosfos:123:41: unknown line type: 31
+avodah_zara:tosfos:123:43: unknown line type: 31
+avodah_zara:tosfos:123:44: unknown line type: 31
+avodah_zara:tosfos:123:45: unknown line type: 31
+avodah_zara:tosfos:123:46: unknown line type: 31
+avodah_zara:tosfos:123:47: unknown line type: 31
+avodah_zara:tosfos:123:48: unknown line type: 31
+avodah_zara:tosfos:123:49: unknown line type: 31
+avodah_zara:tosfos:123:50: unknown line type: 31
+avodah_zara:tosfos:123:51: unknown line type: 31
+avodah_zara:tosfos:123:52: unknown line type: 31
+avodah_zara:tosfos:123:53: unknown line type: 31
+avodah_zara:tosfos:123:54: unknown line type: 31
+avodah_zara:tosfos:123:55: unknown line type: 31
+avodah_zara:tosfos:123:56: unknown line type: 31
+avodah_zara:tosfos:123:57: unknown line type: 31
+avodah_zara:tosfos:123:58: unknown line type: 31
+avodah_zara:tosfos:123:59: unknown line type: 31
+avodah_zara:tosfos:123:60: unknown line type: 31
+avodah_zara:tosfos:123:61: unknown line type: 31
+avodah_zara:tosfos:123:62: unknown line type: 31
+avodah_zara:tosfos:123:63: unknown line type: 31
+avodah_zara:tosfos:123:64: unknown line type: 31
+avodah_zara:tosfos:123:65: unknown line type: 31
+avodah_zara:tosfos:123:: ocr_stat_line_miscount: 63 68
+avodah_zara:gemara:124:34: unknown line type: 32
+avodah_zara:gemara:124:: ocr_stat_line_miscount: 33 35
+avodah_zara:rashi:124:: ocr_stat_line_miscount: 30 44
+avodah_zara:tosfos:124:44: unknown line type: 31
+avodah_zara:tosfos:124:45: unknown line type: 31
+avodah_zara:tosfos:124:46: unknown line type: 31
+avodah_zara:tosfos:124:47: unknown line type: 31
+avodah_zara:tosfos:124:48: unknown line type: 31
+avodah_zara:tosfos:124:49: unknown line type: 31
+avodah_zara:tosfos:124:50: unknown line type: 31
+avodah_zara:tosfos:124:51: unknown line type: 31
+avodah_zara:tosfos:124:52: unknown line type: 31
+avodah_zara:tosfos:124:53: unknown line type: 31
+avodah_zara:tosfos:124:54: unknown line type: 31
+avodah_zara:tosfos:124:55: unknown line type: 31
+avodah_zara:tosfos:124:56: unknown line type: 31
+avodah_zara:tosfos:124:57: unknown line type: 31
+avodah_zara:tosfos:124:58: unknown line type: 31
+avodah_zara:tosfos:124:59: unknown line type: 31
+avodah_zara:tosfos:124:60: unknown line type: 31
+avodah_zara:tosfos:124:61: unknown line type: 31
+avodah_zara:tosfos:124:62: unknown line type: 31
+avodah_zara:tosfos:124:63: unknown line type: 31
+avodah_zara:tosfos:124:64: unknown line type: 31
+avodah_zara:tosfos:124:65: unknown line type: 31
+avodah_zara:tosfos:124:66: unknown line type: 31
+avodah_zara:tosfos:124:67: unknown line type: 31
+avodah_zara:tosfos:124:68: unknown line type: 31
+avodah_zara:tosfos:124:: ocr_stat_line_miscount: 66 71
+avodah_zara:gemara:125:28: unknown line type: 32
+avodah_zara:gemara:125:: ocr_stat_line_miscount: 28 29
+avodah_zara:rashi:125:: ocr_stat_line_miscount: 14 25
+avodah_zara:tosfos:125:38: unknown line type: 31
+avodah_zara:tosfos:125:39: unknown line type: 31
+avodah_zara:tosfos:125:40: unknown line type: 31
+avodah_zara:tosfos:125:41: unknown line type: 31
+avodah_zara:tosfos:125:42: unknown line type: 31
+avodah_zara:tosfos:125:43: unknown line type: 31
+avodah_zara:tosfos:125:44: unknown line type: 31
+avodah_zara:tosfos:125:45: unknown line type: 31
+avodah_zara:tosfos:125:46: unknown line type: 31
+avodah_zara:tosfos:125:47: unknown line type: 31
+avodah_zara:tosfos:125:48: unknown line type: 31
+avodah_zara:tosfos:125:49: unknown line type: 31
+avodah_zara:tosfos:125:50: unknown line type: 31
+avodah_zara:tosfos:125:51: unknown line type: 31
+avodah_zara:tosfos:125:52: unknown line type: 31
+avodah_zara:tosfos:125:53: unknown line type: 31
+avodah_zara:tosfos:125:54: unknown line type: 31
+avodah_zara:tosfos:125:55: unknown line type: 31
+avodah_zara:tosfos:125:56: unknown line type: 31
+avodah_zara:tosfos:125:57: unknown line type: 31
+avodah_zara:tosfos:125:58: unknown line type: 31
+avodah_zara:tosfos:125:59: unknown line type: 31
+avodah_zara:tosfos:125:60: unknown line type: 31
+avodah_zara:tosfos:125:61: unknown line type: 31
+avodah_zara:tosfos:125:62: unknown line type: 31
+avodah_zara:tosfos:125:63: unknown line type: 31
+avodah_zara:tosfos:125:64: unknown line type: 31
+avodah_zara:tosfos:125:65: unknown line type: 31
+avodah_zara:tosfos:125:66: unknown line type: 31
+avodah_zara:tosfos:125:67: unknown line type: 31
+avodah_zara:tosfos:125:68: unknown line type: 31
+avodah_zara:tosfos:125:69: unknown line type: 31
+avodah_zara:tosfos:125:: ocr_stat_line_miscount: 36 71
+avodah_zara:gemara:126:35: unknown line type: 32
+avodah_zara:gemara:126:: ocr_stat_line_miscount: 35 36
+avodah_zara:rashi:126:: ocr_stat_line_miscount: 56 64
+avodah_zara:tosfos:126:64: unknown line type: 31
+avodah_zara:tosfos:126:65: unknown line type: 31
+avodah_zara:tosfos:126:66: unknown line type: 31
+avodah_zara:tosfos:126:67: unknown line type: 31
+avodah_zara:tosfos:126:68: unknown line type: 31
+avodah_zara:tosfos:126:69: unknown line type: 31
+avodah_zara:tosfos:126:: ocr_stat_line_miscount: 49 72
+avodah_zara:gemara:127:42: unknown line type: 32
+avodah_zara:gemara:127:: ocr_stat_line_miscount: 42 43
+avodah_zara:rashi:127:: ocr_stat_line_miscount: 43 60
+avodah_zara:tosfos:127:61: unknown line type: 31
+avodah_zara:tosfos:127:62: unknown line type: 31
+avodah_zara:tosfos:127:63: unknown line type: 31
+avodah_zara:tosfos:127:64: unknown line type: 31
+avodah_zara:tosfos:127:65: unknown line type: 31
+avodah_zara:tosfos:127:66: unknown line type: 31
+avodah_zara:tosfos:127:: ocr_stat_line_miscount: 29 69
+avodah_zara:gemara:128:42: unknown line type: 32
+avodah_zara:gemara:128:: ocr_stat_line_miscount: 42 43
+avodah_zara:rashi:128:: ocr_stat_line_miscount: 42 52
+avodah_zara:tosfos:128:54: unknown line type: 31
+avodah_zara:tosfos:128:55: unknown line type: 31
+avodah_zara:tosfos:128:56: unknown line type: 31
+avodah_zara:tosfos:128:57: unknown line type: 31
+avodah_zara:tosfos:128:58: unknown line type: 31
+avodah_zara:tosfos:128:59: unknown line type: 31
+avodah_zara:tosfos:128:60: unknown line type: 31
+avodah_zara:tosfos:128:61: unknown line type: 31
+avodah_zara:tosfos:128:62: unknown line type: 31
+avodah_zara:tosfos:128:63: unknown line type: 31
+avodah_zara:tosfos:128:64: unknown line type: 31
+avodah_zara:tosfos:128:65: unknown line type: 31
+avodah_zara:tosfos:128:66: unknown line type: 31
+avodah_zara:tosfos:128:67: unknown line type: 31
+avodah_zara:tosfos:128:68: unknown line type: 31
+avodah_zara:tosfos:128:69: unknown line type: 31
+avodah_zara:tosfos:128:: ocr_stat_line_miscount: 67 72
+avodah_zara:gemara:129:47: unknown line type: 32
+avodah_zara:gemara:129:: ocr_stat_line_miscount: 47 48
+avodah_zara:rashi:129:: ocr_stat_line_miscount: 21 44
+avodah_zara:tosfos:129:60: unknown line type: 31
+avodah_zara:tosfos:129:61: unknown line type: 31
+avodah_zara:tosfos:129:62: unknown line type: 31
+avodah_zara:tosfos:129:63: unknown line type: 31
+avodah_zara:tosfos:129:64: unknown line type: 31
+avodah_zara:tosfos:129:: ocr_stat_line_miscount: 33 66
+avodah_zara:gemara:130:35: unknown line type: 32
+avodah_zara:gemara:130:: ocr_stat_line_miscount: 35 36
+avodah_zara:rashi:130:: ocr_stat_line_miscount: 48 55
+avodah_zara:tosfos:130:54: unknown line type: 31
+avodah_zara:tosfos:130:55: unknown line type: 31
+avodah_zara:tosfos:130:56: unknown line type: 31
+avodah_zara:tosfos:130:57: unknown line type: 31
+avodah_zara:tosfos:130:58: unknown line type: 31
+avodah_zara:tosfos:130:59: unknown line type: 31
+avodah_zara:tosfos:130:60: unknown line type: 31
+avodah_zara:tosfos:130:61: unknown line type: 31
+avodah_zara:tosfos:130:62: unknown line type: 31
+avodah_zara:tosfos:130:63: unknown line type: 31
+avodah_zara:tosfos:130:64: unknown line type: 31
+avodah_zara:tosfos:130:65: unknown line type: 31
+avodah_zara:tosfos:130:66: unknown line type: 31
+avodah_zara:tosfos:130:67: unknown line type: 31
+avodah_zara:tosfos:130:68: unknown line type: 31
+avodah_zara:tosfos:130:69: unknown line type: 31
+avodah_zara:tosfos:130:70: unknown line type: 31
+avodah_zara:tosfos:130:71: unknown line type: 31
+avodah_zara:tosfos:130:72: unknown line type: 31
+avodah_zara:tosfos:130:: ocr_stat_line_miscount: 71 76
+avodah_zara:gemara:131:33: unknown line type: 32
+avodah_zara:gemara:131:: ocr_stat_line_miscount: 33 34
+avodah_zara:rashi:131:: ocr_stat_line_miscount: 21 36
+avodah_zara:tosfos:131:44: unknown line type: 31
+avodah_zara:tosfos:131:45: unknown line type: 31
+avodah_zara:tosfos:131:46: unknown line type: 31
+avodah_zara:tosfos:131:47: unknown line type: 31
+avodah_zara:tosfos:131:48: unknown line type: 31
+avodah_zara:tosfos:131:49: unknown line type: 31
+avodah_zara:tosfos:131:50: unknown line type: 31
+avodah_zara:tosfos:131:51: unknown line type: 31
+avodah_zara:tosfos:131:52: unknown line type: 31
+avodah_zara:tosfos:131:53: unknown line type: 31
+avodah_zara:tosfos:131:54: unknown line type: 31
+avodah_zara:tosfos:131:55: unknown line type: 31
+avodah_zara:tosfos:131:56: unknown line type: 31
+avodah_zara:tosfos:131:57: unknown line type: 31
+avodah_zara:tosfos:131:58: unknown line type: 31
+avodah_zara:tosfos:131:59: unknown line type: 31
+avodah_zara:tosfos:131:60: unknown line type: 31
+avodah_zara:tosfos:131:61: unknown line type: 31
+avodah_zara:tosfos:131:62: unknown line type: 31
+avodah_zara:tosfos:131:63: unknown line type: 31
+avodah_zara:tosfos:131:64: unknown line type: 31
+avodah_zara:tosfos:131:65: unknown line type: 31
+avodah_zara:tosfos:131:66: unknown line type: 31
+avodah_zara:tosfos:131:67: unknown line type: 31
+avodah_zara:tosfos:131:68: unknown line type: 31
+avodah_zara:tosfos:131:70: unknown line type: 12
+avodah_zara:tosfos:131:: ocr_stat_line_miscount: 53 72
+avodah_zara:gemara:132:19: unknown line type: 32
+avodah_zara:gemara:132:: ocr_stat_line_miscount: 19 20
+avodah_zara:rashi:132:: ocr_stat_line_miscount: 15 21
+avodah_zara:tosfos:132:28: unknown line type: 31
+avodah_zara:tosfos:132:29: unknown line type: 31
+avodah_zara:tosfos:132:30: unknown line type: 31
+avodah_zara:tosfos:132:31: unknown line type: 31
+avodah_zara:tosfos:132:32: unknown line type: 31
+avodah_zara:tosfos:132:33: unknown line type: 31
+avodah_zara:tosfos:132:34: unknown line type: 31
+avodah_zara:tosfos:132:35: unknown line type: 31
+avodah_zara:tosfos:132:36: unknown line type: 31
+avodah_zara:tosfos:132:37: unknown line type: 31
+avodah_zara:tosfos:132:38: unknown line type: 31
+avodah_zara:tosfos:132:39: unknown line type: 31
+avodah_zara:tosfos:132:40: unknown line type: 31
+avodah_zara:tosfos:132:41: unknown line type: 31
+avodah_zara:tosfos:132:42: unknown line type: 31
+avodah_zara:tosfos:132:43: unknown line type: 31
+avodah_zara:tosfos:132:44: unknown line type: 31
+avodah_zara:tosfos:132:45: unknown line type: 31
+avodah_zara:tosfos:132:46: unknown line type: 31
+avodah_zara:tosfos:132:47: unknown line type: 31
+avodah_zara:tosfos:132:48: unknown line type: 31
+avodah_zara:tosfos:132:49: unknown line type: 31
+avodah_zara:tosfos:132:50: unknown line type: 31
+avodah_zara:tosfos:132:51: unknown line type: 31
+avodah_zara:tosfos:132:52: unknown line type: 31
+avodah_zara:tosfos:132:53: unknown line type: 31
+avodah_zara:tosfos:132:54: unknown line type: 31
+avodah_zara:tosfos:132:55: unknown line type: 31
+avodah_zara:tosfos:132:56: unknown line type: 31
+avodah_zara:tosfos:132:57: unknown line type: 31
+avodah_zara:tosfos:132:58: unknown line type: 31
+avodah_zara:tosfos:132:59: unknown line type: 31
+avodah_zara:tosfos:132:60: unknown line type: 31
+avodah_zara:tosfos:132:61: unknown line type: 31
+avodah_zara:tosfos:132:62: unknown line type: 31
+avodah_zara:tosfos:132:63: unknown line type: 31
+avodah_zara:tosfos:132:64: unknown line type: 31
+avodah_zara:tosfos:132:65: unknown line type: 31
+avodah_zara:tosfos:132:66: unknown line type: 31
+avodah_zara:tosfos:132:67: unknown line type: 31
+avodah_zara:tosfos:132:68: unknown line type: 31
+avodah_zara:tosfos:132:69: unknown line type: 31
+avodah_zara:tosfos:132:: ocr_stat_line_miscount: 31 72
+avodah_zara:gemara:133:26: unknown line type: 32
+avodah_zara:gemara:133:: ocr_stat_line_miscount: 26 27
+avodah_zara:rashi:133:44: unknown line type: 12
+avodah_zara:rashi:133:45: unknown line type: 12
+avodah_zara:rashi:133:: ocr_stat_line_miscount: 45 47
+avodah_zara:tosfos:133:45: unknown line type: 31
+avodah_zara:tosfos:133:46: unknown line type: 31
+avodah_zara:tosfos:133:47: unknown line type: 31
+avodah_zara:tosfos:133:48: unknown line type: 31
+avodah_zara:tosfos:133:49: unknown line type: 31
+avodah_zara:tosfos:133:50: unknown line type: 31
+avodah_zara:tosfos:133:51: unknown line type: 31
+avodah_zara:tosfos:133:52: unknown line type: 31
+avodah_zara:tosfos:133:53: unknown line type: 31
+avodah_zara:tosfos:133:54: unknown line type: 31
+avodah_zara:tosfos:133:55: unknown line type: 31
+avodah_zara:tosfos:133:56: unknown line type: 31
+avodah_zara:tosfos:133:57: unknown line type: 31
+avodah_zara:tosfos:133:58: unknown line type: 31
+avodah_zara:tosfos:133:59: unknown line type: 31
+avodah_zara:tosfos:133:60: unknown line type: 31
+avodah_zara:tosfos:133:61: unknown line type: 31
+avodah_zara:tosfos:133:62: unknown line type: 31
+avodah_zara:tosfos:133:63: unknown line type: 31
+avodah_zara:tosfos:133:64: unknown line type: 31
+avodah_zara:tosfos:133:65: unknown line type: 31
+avodah_zara:tosfos:133:66: unknown line type: 31
+avodah_zara:tosfos:133:67: unknown line type: 31
+avodah_zara:tosfos:133:68: unknown line type: 31
+avodah_zara:tosfos:133:69: unknown line type: 31
+avodah_zara:tosfos:133:70: unknown line type: 31
+avodah_zara:tosfos:133:71: unknown line type: 31
+avodah_zara:tosfos:133:: ocr_stat_line_miscount: 3 73
+avodah_zara:gemara:134:18: unknown line type: 32
+avodah_zara:gemara:134:: ocr_stat_line_miscount: 18 19
+avodah_zara:rashi:134:: ocr_stat_line_miscount: 17 25
+avodah_zara:tosfos:134:27: unknown line type: 31
+avodah_zara:tosfos:134:28: unknown line type: 31
+avodah_zara:tosfos:134:29: unknown line type: 31
+avodah_zara:tosfos:134:30: unknown line type: 31
+avodah_zara:tosfos:134:31: unknown line type: 31
+avodah_zara:tosfos:134:32: unknown line type: 31
+avodah_zara:tosfos:134:33: unknown line type: 31
+avodah_zara:tosfos:134:34: unknown line type: 31
+avodah_zara:tosfos:134:35: unknown line type: 31
+avodah_zara:tosfos:134:36: unknown line type: 31
+avodah_zara:tosfos:134:37: unknown line type: 31
+avodah_zara:tosfos:134:38: unknown line type: 31
+avodah_zara:tosfos:134:39: unknown line type: 31
+avodah_zara:tosfos:134:40: unknown line type: 31
+avodah_zara:tosfos:134:41: unknown line type: 31
+avodah_zara:tosfos:134:42: unknown line type: 31
+avodah_zara:tosfos:134:43: unknown line type: 31
+avodah_zara:tosfos:134:44: unknown line type: 31
+avodah_zara:tosfos:134:45: unknown line type: 31
+avodah_zara:tosfos:134:46: unknown line type: 31
+avodah_zara:tosfos:134:47: unknown line type: 31
+avodah_zara:tosfos:134:48: unknown line type: 31
+avodah_zara:tosfos:134:49: unknown line type: 31
+avodah_zara:tosfos:134:50: unknown line type: 31
+avodah_zara:tosfos:134:51: unknown line type: 31
+avodah_zara:tosfos:134:52: unknown line type: 31
+avodah_zara:tosfos:134:53: unknown line type: 31
+avodah_zara:tosfos:134:54: unknown line type: 31
+avodah_zara:tosfos:134:55: unknown line type: 31
+avodah_zara:tosfos:134:56: unknown line type: 31
+avodah_zara:tosfos:134:57: unknown line type: 31
+avodah_zara:tosfos:134:58: unknown line type: 31
+avodah_zara:tosfos:134:59: unknown line type: 31
+avodah_zara:tosfos:134:60: unknown line type: 31
+avodah_zara:tosfos:134:61: unknown line type: 31
+avodah_zara:tosfos:134:62: unknown line type: 31
+avodah_zara:tosfos:134:63: unknown line type: 31
+avodah_zara:tosfos:134:64: unknown line type: 31
+avodah_zara:tosfos:134:65: unknown line type: 31
+avodah_zara:tosfos:134:66: unknown line type: 31
+avodah_zara:tosfos:134:67: unknown line type: 31
+avodah_zara:tosfos:134:: ocr_stat_line_miscount: 57 69
+avodah_zara:gemara:135:23: unknown line type: 32
+avodah_zara:gemara:135:: ocr_stat_line_miscount: 31 24
+avodah_zara::135:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 34, in createFullDaf', '    body += writeLines(text, lineTypes)', '  File "gemaraMaster.py", line 79, in writeLines', '    lineType = lineTypes[i]', 'IndexError: list index out of range']
+avodah_zara:gemara:136:40: unknown line type: 32
+avodah_zara:gemara:136:: ocr_stat_line_miscount: 40 41
+avodah_zara:rashi:136:: ocr_stat_line_miscount: 25 44
+avodah_zara:tosfos:136:52: unknown line type: 31
+avodah_zara:tosfos:136:53: unknown line type: 31
+avodah_zara:tosfos:136:54: unknown line type: 31
+avodah_zara:tosfos:136:55: unknown line type: 31
+avodah_zara:tosfos:136:56: unknown line type: 31
+avodah_zara:tosfos:136:57: unknown line type: 31
+avodah_zara:tosfos:136:58: unknown line type: 31
+avodah_zara:tosfos:136:59: unknown line type: 31
+avodah_zara:tosfos:136:60: unknown line type: 31
+avodah_zara:tosfos:136:61: unknown line type: 31
+avodah_zara:tosfos:136:62: unknown line type: 31
+avodah_zara:tosfos:136:63: unknown line type: 31
+avodah_zara:tosfos:136:64: unknown line type: 31
+avodah_zara:tosfos:136:65: unknown line type: 31
+avodah_zara:tosfos:136:66: unknown line type: 31
+avodah_zara:tosfos:136:: ocr_stat_line_miscount: 65 69
+avodah_zara:gemara:137:39: unknown line type: 32
+avodah_zara:gemara:137:: ocr_stat_line_miscount: 38 40
+avodah_zara:rashi:137:53: unknown line type: 12
+avodah_zara:rashi:137:: ocr_stat_line_miscount: 40 55
+avodah_zara:tosfos:137:53: unknown line type: 31
+avodah_zara:tosfos:137:54: unknown line type: 31
+avodah_zara:tosfos:137:55: unknown line type: 31
+avodah_zara:tosfos:137:56: unknown line type: 31
+avodah_zara:tosfos:137:57: unknown line type: 31
+avodah_zara:tosfos:137:58: unknown line type: 31
+avodah_zara:tosfos:137:59: unknown line type: 31
+avodah_zara:tosfos:137:60: unknown line type: 31
+avodah_zara:tosfos:137:61: unknown line type: 31
+avodah_zara:tosfos:137:62: unknown line type: 31
+avodah_zara:tosfos:137:63: unknown line type: 31
+avodah_zara:tosfos:137:64: unknown line type: 31
+avodah_zara:tosfos:137:65: unknown line type: 31
+avodah_zara:tosfos:137:66: unknown line type: 31
+avodah_zara:tosfos:137:67: unknown line type: 31
+avodah_zara:tosfos:137:68: unknown line type: 31
+avodah_zara:tosfos:137:: ocr_stat_line_miscount: 62 72
+avodah_zara:gemara:138:39: unknown line type: 32
+avodah_zara:gemara:138:: ocr_stat_line_miscount: 39 40
+avodah_zara:rashi:138:: ocr_stat_line_miscount: 32 48
+avodah_zara:tosfos:138:51: unknown line type: 31
+avodah_zara:tosfos:138:52: unknown line type: 31
+avodah_zara:tosfos:138:53: unknown line type: 31
+avodah_zara:tosfos:138:54: unknown line type: 31
+avodah_zara:tosfos:138:55: unknown line type: 31
+avodah_zara:tosfos:138:56: unknown line type: 31
+avodah_zara:tosfos:138:57: unknown line type: 31
+avodah_zara:tosfos:138:58: unknown line type: 31
+avodah_zara:tosfos:138:59: unknown line type: 31
+avodah_zara:tosfos:138:60: unknown line type: 31
+avodah_zara:tosfos:138:61: unknown line type: 31
+avodah_zara:tosfos:138:62: unknown line type: 31
+avodah_zara:tosfos:138:63: unknown line type: 31
+avodah_zara:tosfos:138:64: unknown line type: 31
+avodah_zara:tosfos:138:65: unknown line type: 31
+avodah_zara:tosfos:138:66: unknown line type: 31
+avodah_zara:tosfos:138:67: unknown line type: 31
+avodah_zara:tosfos:138:68: unknown line type: 31
+avodah_zara:tosfos:138:69: unknown line type: 31
+avodah_zara:tosfos:138:70: unknown line type: 31
+avodah_zara:tosfos:138:71: unknown line type: 31
+avodah_zara:tosfos:138:: ocr_stat_line_miscount: 69 74
+avodah_zara:gemara:139:51: unknown line type: 32
+avodah_zara:gemara:139:: ocr_stat_line_miscount: 51 52
+avodah_zara:rashi:139:: ocr_stat_line_miscount: 49 61
+avodah_zara:tosfos:139:65: unknown line type: 31
+avodah_zara:tosfos:139:66: unknown line type: 31
+avodah_zara:tosfos:139:67: unknown line type: 31
+avodah_zara:tosfos:139:: ocr_stat_line_miscount: 6 71
+avodah_zara:gemara:140:42: unknown line type: 32
+avodah_zara:gemara:140:: ocr_stat_line_miscount: 42 43
+avodah_zara:rashi:140:: ocr_stat_line_miscount: 50 60
+avodah_zara:tosfos:140:57: unknown line type: 31
+avodah_zara:tosfos:140:58: unknown line type: 31
+avodah_zara:tosfos:140:59: unknown line type: 31
+avodah_zara:tosfos:140:60: unknown line type: 31
+avodah_zara:tosfos:140:61: unknown line type: 31
+avodah_zara:tosfos:140:62: unknown line type: 31
+avodah_zara:tosfos:140:63: unknown line type: 31
+avodah_zara:tosfos:140:: ocr_stat_line_miscount: 64 66
+avodah_zara:gemara:141:28: unknown line type: 32
+avodah_zara:gemara:141:: ocr_stat_line_miscount: 28 29
+avodah_zara:rashi:141:51: unknown line type: 12
+avodah_zara:rashi:141:52: unknown line type: 12
+avodah_zara:rashi:141:: ocr_stat_line_miscount: 51 54
+avodah_zara:tosfos:141:52: unknown line type: 31
+avodah_zara:tosfos:141:53: unknown line type: 31
+avodah_zara:tosfos:141:54: unknown line type: 31
+avodah_zara:tosfos:141:55: unknown line type: 31
+avodah_zara:tosfos:141:56: unknown line type: 31
+avodah_zara:tosfos:141:57: unknown line type: 31
+avodah_zara:tosfos:141:58: unknown line type: 31
+avodah_zara:tosfos:141:59: unknown line type: 31
+avodah_zara:tosfos:141:60: unknown line type: 31
+avodah_zara:tosfos:141:61: unknown line type: 31
+avodah_zara:tosfos:141:62: unknown line type: 31
+avodah_zara:tosfos:141:63: unknown line type: 31
+avodah_zara:tosfos:141:64: unknown line type: 31
+avodah_zara:tosfos:141:65: unknown line type: 31
+avodah_zara:tosfos:141:66: unknown line type: 31
+avodah_zara:tosfos:141:67: unknown line type: 31
+avodah_zara:tosfos:141:68: unknown line type: 31
+avodah_zara:tosfos:141:69: unknown line type: 31
+avodah_zara:tosfos:141:70: unknown line type: 31
+avodah_zara:tosfos:141:71: unknown line type: 31
+avodah_zara:tosfos:141:72: unknown line type: 31
+avodah_zara:tosfos:141:73: unknown line type: 31
+avodah_zara:tosfos:141:74: unknown line type: 31
+avodah_zara:tosfos:141:: ocr_stat_line_miscount: 44 77
+avodah_zara:gemara:142:43: unknown line type: 32
+avodah_zara:gemara:142:: ocr_stat_line_miscount: 43 44
+avodah_zara:rashi:142:: ocr_stat_line_miscount: 56 65
+avodah_zara:tosfos:142:65: unknown line type: 31
+avodah_zara:tosfos:142:66: unknown line type: 31
+avodah_zara:tosfos:142:67: unknown line type: 31
+avodah_zara:tosfos:142:68: unknown line type: 31
+avodah_zara:tosfos:142:69: unknown line type: 31
+avodah_zara:tosfos:142:70: unknown line type: 31
+avodah_zara:tosfos:142:71: unknown line type: 31
+avodah_zara:tosfos:142:: ocr_stat_line_miscount: 54 74
+avodah_zara:gemara:143:41: unknown line type: 32
+avodah_zara:gemara:143:: ocr_stat_line_miscount: 41 42
+avodah_zara:rashi:143:0: unknown line type: 31
+avodah_zara::143:: ['Traceback (most recent call last):', '  File "gemaraMaster.py", line 19, in createAllDafs', '    createFullDaf(meschta, pageNum)', '  File "gemaraMaster.py", line 29, in createFullDaf', '    lineTypes = getLineTypes(type, meschta, pageNum)', '  File "gemaraMaster.py", line 59, in getLineTypes', '    lineTypes.append(lineType)', "UnboundLocalError: local variable 'lineType' referenced before assignment"]
+avodah_zara:gemara:144:36: unknown line type: 32
+avodah_zara:gemara:144:: ocr_stat_line_miscount: 36 37
+avodah_zara:rashi:144:: ocr_stat_line_miscount: 41 60
+avodah_zara:tosfos:144:59: unknown line type: 31
+avodah_zara:tosfos:144:60: unknown line type: 31
+avodah_zara:tosfos:144:61: unknown line type: 31
+avodah_zara:tosfos:144:62: unknown line type: 31
+avodah_zara:tosfos:144:63: unknown line type: 31
+avodah_zara:tosfos:144:64: unknown line type: 31
+avodah_zara:tosfos:144:65: unknown line type: 31
+avodah_zara:tosfos:144:66: unknown line type: 31
+avodah_zara:tosfos:144:67: unknown line type: 31
+avodah_zara:tosfos:144:68: unknown line type: 31
+avodah_zara:tosfos:144:69: unknown line type: 31
+avodah_zara:tosfos:144:70: unknown line type: 31
+avodah_zara:tosfos:144:: ocr_stat_line_miscount: 72 73
+avodah_zara:gemara:145:40: unknown line type: 32
+avodah_zara:gemara:145:: ocr_stat_line_miscount: 40 41
+avodah_zara:rashi:145:53: unknown line type: 12
+avodah_zara:rashi:145:54: unknown line type: 12
+avodah_zara:rashi:145:: ocr_stat_line_miscount: 49 55
+avodah_zara:tosfos:145:54: unknown line type: 31
+avodah_zara:tosfos:145:55: unknown line type: 31
+avodah_zara:tosfos:145:56: unknown line type: 31
+avodah_zara:tosfos:145:57: unknown line type: 31
+avodah_zara:tosfos:145:58: unknown line type: 31
+avodah_zara:tosfos:145:59: unknown line type: 31
+avodah_zara:tosfos:145:60: unknown line type: 31
+avodah_zara:tosfos:145:61: unknown line type: 31
+avodah_zara:tosfos:145:62: unknown line type: 31
+avodah_zara:tosfos:145:63: unknown line type: 31
+avodah_zara:tosfos:145:64: unknown line type: 31
+avodah_zara:tosfos:145:65: unknown line type: 31
+avodah_zara:tosfos:145:66: unknown line type: 31
+avodah_zara:tosfos:145:67: unknown line type: 31
+avodah_zara:tosfos:145:68: unknown line type: 31
+avodah_zara:tosfos:145:69: unknown line type: 31
+avodah_zara:tosfos:145:: ocr_stat_line_miscount: 3 73
+avodah_zara:gemara:146:43: unknown line type: 32
+avodah_zara:gemara:146:: ocr_stat_line_miscount: 43 44
+avodah_zara:rashi:146:: ocr_stat_line_miscount: 48 67
+avodah_zara:tosfos:146:: ocr_stat_line_miscount: 61 66
+avodah_zara:gemara:147:29: unknown line type: 32
+avodah_zara:gemara:147:: ocr_stat_line_miscount: 29 30
+avodah_zara:rashi:147:52: unknown line type: 12
+avodah_zara:rashi:147:53: unknown line type: 31
+avodah_zara:rashi:147:54: unknown line type: 31
+avodah_zara:rashi:147:55: unknown line type: 31
+avodah_zara:rashi:147:56: unknown line type: 31
+avodah_zara:rashi:147:57: unknown line type: 31
+avodah_zara:rashi:147:58: unknown line type: 31
+avodah_zara:rashi:147:59: unknown line type: 31
+avodah_zara:rashi:147:60: unknown line type: 31
+avodah_zara:rashi:147:61: unknown line type: 31
+avodah_zara:rashi:147:62: unknown line type: 31
+avodah_zara:rashi:147:63: unknown line type: 31
+avodah_zara:rashi:147:64: unknown line type: 31
+avodah_zara:rashi:147:65: unknown line type: 31
+avodah_zara:rashi:147:: ocr_stat_line_miscount: 61 68
+avodah_zara:tosfos:147:53: unknown line type: 31
+avodah_zara:tosfos:147:54: unknown line type: 31
+avodah_zara:tosfos:147:55: unknown line type: 31
+avodah_zara:tosfos:147:56: unknown line type: 31
+avodah_zara:tosfos:147:57: unknown line type: 31
+avodah_zara:tosfos:147:58: unknown line type: 31
+avodah_zara:tosfos:147:59: unknown line type: 31
+avodah_zara:tosfos:147:60: unknown line type: 31
+avodah_zara:tosfos:147:61: unknown line type: 31
+avodah_zara:tosfos:147:62: unknown line type: 31
+avodah_zara:tosfos:147:63: unknown line type: 31
+avodah_zara:tosfos:147:64: unknown line type: 31
+avodah_zara:tosfos:147:65: unknown line type: 31
+avodah_zara:tosfos:147:: ocr_stat_line_miscount: 14 68
+avodah_zara:gemara:148:40: unknown line type: 32
+avodah_zara:gemara:148:: ocr_stat_line_miscount: 40 41
+avodah_zara:rashi:148:: ocr_stat_line_miscount: 62 63
+avodah_zara:tosfos:148:63: unknown line type: 31
+avodah_zara:tosfos:148:64: unknown line type: 31
+avodah_zara:tosfos:148:65: unknown line type: 31
+avodah_zara:tosfos:148:66: unknown line type: 31
+avodah_zara:tosfos:148:67: unknown line type: 31
+avodah_zara:tosfos:148:68: unknown line type: 31
+avodah_zara:tosfos:148:: ocr_stat_line_miscount: 61 71
+avodah_zara:gemara:149:33: unknown line type: 32
+avodah_zara:gemara:149:: ocr_stat_line_miscount: 33 34
+avodah_zara:rashi:149:50: unknown line type: 31
+avodah_zara:rashi:149:51: unknown line type: 31
+avodah_zara:rashi:149:52: unknown line type: 31
+avodah_zara:rashi:149:53: unknown line type: 31
+avodah_zara:rashi:149:54: unknown line type: 31
+avodah_zara:rashi:149:55: unknown line type: 31
+avodah_zara:rashi:149:56: unknown line type: 31
+avodah_zara:rashi:149:57: unknown line type: 31
+avodah_zara:rashi:149:58: unknown line type: 31
+avodah_zara:rashi:149:59: unknown line type: 31
+avodah_zara:rashi:149:60: unknown line type: 31
+avodah_zara:rashi:149:61: unknown line type: 31
+avodah_zara:rashi:149:: ocr_stat_line_miscount: 63 64
+avodah_zara:tosfos:149:: ocr_stat_line_miscount: 49 52
+avodah_zara:gemara:150:57: unknown line type: 11
+avodah_zara:gemara:150:58: unknown line type: 32
+avodah_zara:gemara:150:: ocr_stat_line_miscount: 57 59
+avodah_zara:rashi:150:: ocr_stat_line_miscount: 55 56
+avodah_zara:tosfos:150:: ocr_stat_line_miscount: 24 71
+avodah_zara:gemara:151:40: unknown line type: 32
+avodah_zara:gemara:151:: ocr_stat_line_miscount: 40 41
+avodah_zara:rashi:151:64: unknown line type: 12
+avodah_zara:rashi:151:65: unknown line type: 12
+avodah_zara:rashi:151:: ocr_stat_line_miscount: 65 67
+avodah_zara:tosfos:151:65: unknown line type: 31
+avodah_zara:tosfos:151:66: unknown line type: 31
+avodah_zara:tosfos:151:: ocr_stat_line_miscount: 26 70
+avodah_zara:gemara:152:22: unknown line type: 32
+avodah_zara:gemara:152:: ocr_stat_line_miscount: 22 23
+avodah_zara:rashi:152:: ocr_stat_line_miscount: 16 32
+avodah_zara:tosfos:152:: ocr_stat_line_miscount: 45 47

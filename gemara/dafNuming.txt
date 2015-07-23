@@ -1,1 +1,0 @@
-the daf numbers have been normilized so that the frsit daf (2a) is 3, 2b is 4... etc (instead of random starting numbers)

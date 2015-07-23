@@ -1,0 +1,6 @@
+bechoros_44.png,1,2,1
+bechoros_44.png,1,2,2
+bechoros_44.png,1,2,3
+bechoros_44.png,1,2,4
+bechoros_44.png,1,2,5
+bechoros_44.png,1,2,6

@@ -1,0 +1,12 @@
+bava_kama_224.png,1,2,1
+bava_kama_224.png,1,2,2
+bava_kama_224.png,1,2,3
+bava_kama_224.png,1,2,4
+bava_kama_224.png,1,2,5
+bava_kama_224.png,1,2,6
+bava_kama_224.png,1,2,7
+bava_kama_224.png,1,2,8
+bava_kama_224.png,2,2,9
+bava_kama_224.png,2,2,10
+bava_kama_224.png,2,2,11
+bava_kama_224.png,3,2,12

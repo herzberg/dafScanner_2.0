@@ -1,0 +1,15 @@
+yevamos_18.png,1,2,1
+yevamos_18.png,1,2,2
+yevamos_18.png,1,2,3
+yevamos_18.png,1,2,4
+yevamos_18.png,1,2,5
+yevamos_18.png,1,2,6
+yevamos_18.png,1,2,7
+yevamos_18.png,1,2,8
+yevamos_18.png,1,2,9
+yevamos_18.png,2,2,10
+yevamos_18.png,2,2,11
+yevamos_18.png,2,2,12
+yevamos_18.png,2,2,13
+yevamos_18.png,2,2,14
+yevamos_18.png,2,2,15

@@ -1,0 +1,16 @@
+pesachim_220.png,1,2,1
+pesachim_220.png,1,2,2
+pesachim_220.png,1,2,3
+pesachim_220.png,1,2,4
+pesachim_220.png,1,2,5
+pesachim_220.png,1,2,6
+pesachim_220.png,1,2,7
+pesachim_220.png,1,2,8
+pesachim_220.png,1,2,9
+pesachim_220.png,1,2,10
+pesachim_220.png,1,2,11
+pesachim_220.png,1,2,12
+pesachim_220.png,1,2,13
+pesachim_220.png,1,2,14
+pesachim_220.png,1,2,15
+pesachim_220.png,1,2,16

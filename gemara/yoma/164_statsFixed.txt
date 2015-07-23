@@ -1,0 +1,10 @@
+yoma_164.png,1,2,1
+yoma_164.png,1,2,2
+yoma_164.png,1,2,3
+yoma_164.png,1,2,4
+yoma_164.png,1,2,5
+yoma_164.png,1,2,6
+yoma_164.png,1,2,7
+yoma_164.png,1,2,8
+yoma_164.png,1,2,9
+yoma_164.png,2,1,10

@@ -3,15 +3,13 @@
 # Eli Friedman
 # Katie Kroik
 # Doni Schwartz
+import traceback
 
-
-# Writes the top of the HTML File
-	# AUTOMATE THINGS LIKE TITLE, KEYWORDS, DESCRIPTION
 
 def main():
-	meschta = 'brachos'
+	meschta = 'avodah_zara' #'brachos'
 	startPage = 3
-	maxPage = 123
+	maxPage = 152 #123
 	createAllDafs(meschta,maxPage,startPage)
 	
 	
@@ -20,19 +18,18 @@ def createAllDafs(meschta,maxPage,startPage = 3):
 		try:
 			createFullDaf(meschta, pageNum)
 		except:
-			pass
+			logger(traceback.format_exc().splitlines(),meschta, '', pageNum)
 
 def createFullDaf(meschta, pageNum):
 	body  = headers # Write the beginning before the line stuff
 
-	types = ['gemara', 'rashi'] #tosfos
+	types = ['gemara', 'rashi','tosfos'] #tosfos
 	for type in types:
 		text = getText(type, meschta, pageNum)
 		lineTypes = getLineTypes(type, meschta, pageNum)
 		if len(lineTypes) != len(text):
-			print("ocr_stat_line_miscount: %s %s %s: %s_%s " %(meschta, type, pageNum, len(text), len(lineTypes)))
-		#	logger("Error: " + meschta + ' ' + type + ' '  + str(pageNum) + ' len(lineTypes) != len(text)')
-		#	return
+			logger("ocr_stat_line_miscount: %s %s" % (len(text),len(lineTypes)),meschta, type, pageNum)
+
 		body += '<div class="' + type + '"><span>\n'
 		body += writeLines(text, lineTypes)
 		
@@ -57,7 +54,7 @@ def getLineTypes(type, meschta, pageNum):
 		try:
 			lineType = typeDict[type + nums[1] + nums[2]]
 		except:
-			logger(type + ' ' + meschta + " " + str(pageNum) + " " + str(i) +  " " + type + nums[1] + nums[2] + ' - unknown line type')
+			logger('unknown line type: ' + nums[1] + nums[2],meschta, type, pageNum, i)
 			
 		lineTypes.append(lineType)
 		i += 1
@@ -92,10 +89,13 @@ def getText(type, meschta, pageNum):
 	return text
 	
 
-log = open('log.txt','w')
-def logger(message):
-	print(message)
-	log.write(message +'\n')
+def logger(message,meschta='',type='',dafNum='',line='',doPrint=True):
+	line = '%s:%s:%s:%s: %s' % (meschta,type,dafNum,line,message)
+	if doPrint:
+		print(line)
+	logger.file.write(line + '\n')
+
+logger.file = open('log.txt','w')
 	
 def getDivriHamasKil(rText): #not sure how much it can do
 	start = rText.find(':')
@@ -111,6 +111,8 @@ def getDivriHamasKil(rText): #not sure how much it can do
 		rText += '<b>'
 		rText += temp[end+1:]
 
+# Writes the top of the HTML File
+	# AUTOMATE THINGS LIKE TITLE, KEYWORDS, DESCRIPTION
 
 headers = """<!DOCTYPE html>
 

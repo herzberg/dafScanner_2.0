@@ -1,0 +1,12 @@
+brachos_35.png,1,1,1
+brachos_35.png,1,1,2
+brachos_35.png,1,1,3
+brachos_35.png,1,1,4
+brachos_35.png,1,1,5
+brachos_35.png,1,1,6
+brachos_35.png,1,1,7
+brachos_35.png,1,1,8
+brachos_35.png,1,1,9
+brachos_35.png,1,1,10
+brachos_35.png,1,1,11
+brachos_35.png,1,1,12

@@ -1,0 +1,13 @@
+pesachim_186.png,2,2,1
+pesachim_186.png,2,2,2
+pesachim_186.png,2,2,3
+pesachim_186.png,2,2,4
+pesachim_186.png,1,3,5
+pesachim_186.png,1,3,6
+pesachim_186.png,1,3,7
+pesachim_186.png,1,3,8
+pesachim_186.png,1,3,9
+pesachim_186.png,1,3,10
+pesachim_186.png,1,3,11
+pesachim_186.png,1,3,12
+pesachim_186.png,1,3,13

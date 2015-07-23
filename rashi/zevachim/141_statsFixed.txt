@@ -1,0 +1,14 @@
+zevachim_141.png,2,2,1
+zevachim_141.png,2,2,2
+zevachim_141.png,2,2,3
+zevachim_141.png,2,2,4
+zevachim_141.png,1,3,5
+zevachim_141.png,1,3,6
+zevachim_141.png,1,3,7
+zevachim_141.png,1,3,8
+zevachim_141.png,1,3,9
+zevachim_141.png,2,2,10
+zevachim_141.png,2,2,11
+zevachim_141.png,2,2,12
+zevachim_141.png,2,2,13
+zevachim_141.png,2,2,14

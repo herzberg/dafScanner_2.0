@@ -1,0 +1,15 @@
+menachos_79.png,1,2,1
+menachos_79.png,1,2,2
+menachos_79.png,1,2,3
+menachos_79.png,1,2,4
+menachos_79.png,1,2,5
+menachos_79.png,1,2,6
+menachos_79.png,1,2,7
+menachos_79.png,1,2,8
+menachos_79.png,1,2,9
+menachos_79.png,1,2,10
+menachos_79.png,1,2,11
+menachos_79.png,1,2,12
+menachos_79.png,1,2,13
+menachos_79.png,1,2,14
+menachos_79.png,1,2,15

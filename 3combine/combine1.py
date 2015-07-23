@@ -1,17 +1,51 @@
 import json
 import pdb
-import sys
+import sys,traceback
 from fuzzywuzzy import fuzz
 import re
 import copy
-
-#globals
-log = open('log.txt','w')
-quotesLog = open('quotesLog.txt','w')
-flagLog = open('flagLog.txt','w')
-allHebBooks = []
+import os
+from pprint import pprint
 
 
+def main():
+	directory = '../gemara/'
+	meschtas = [os.path.join(directory,o) for o in os.listdir(directory) if os.path.isdir(os.path.join(directory,o))]
+	i = 0
+	for meschtaDir in meschtas:
+		meschta = meschtaDir.replace(directory,'')
+		maxPage = findMaxPage(meschta)
+		logger('\tmaxPage: %s' %maxPage,meschta)
+		startPage = 3
+		correctDaf = getGemara(meschta,maxPage, startPage, 'gemara')
+		correctRashi = getGemara(meschta,maxPage, startPage, 'rashi')
+		correctTosfos = getGemara(meschta,maxPage, startPage, 'tosfos')
+		i +=1
+		if i>6:
+			break
+		
+	logger.file.close()
+
+def findMaxPage(meschta):
+	types = ['gemara','rashi','tosfos']
+	i = 0
+	maxPages = [0,0,0]
+	for type in types:
+		meschtaDir = '../%s/%s/' %(type,meschta)
+		files = [os.path.join(meschtaDir,o) for o in os.listdir(meschtaDir) if not os.path.isdir(os.path.join(meschtaDir,o))]
+		for file in files:
+			name = file.replace(meschtaDir,'')
+			name = re.sub('_.*.txt','',name)
+			try:
+				if int(name) > maxPages[i]:
+					maxPages[i] = int(name)
+			except:
+				pass
+		i += 1
+	if ( maxPages[0] !=  maxPages[1]) or  (maxPages[0] !=  maxPages[2]):
+		logger('\tmaxPages are diff: %s '  % maxPages,meschta)
+	return max(maxPages)
+	
 def showFoundQuotes(pattern,text,doRemove):
 	found = re.findall(pattern,text)
 	if(len(found) >0):
@@ -23,12 +57,11 @@ def showFoundQuotes(pattern,text,doRemove):
 		for item in found:
 			displayFound += removeType+ item + ' from ' + text + "\n" 
 		if not doRemove:
-			print(removeType + "Source")
-		log.write(displayFound)
-		quotesLog.write(displayFound)
+			logger(removeType + "Source")
+		#print(displayFound)
 		if doRemove:
 			text = re.sub(pattern, "", text)
-			quotesLog.write("\t" + text + "\n")
+			#quotesLog.write("\t" + text + "\n")
 	return text
 
 def removeQuotes(text):
@@ -79,13 +112,6 @@ def getMesText(fileName):
 	json_data.close()
 	return data['text']
 	
-def flag(lineNum, error = "unknown", printIt = False):
-	errorExpression = "Error: " + str(lineNum)+ " " + error  
-	log.write(errorExpression + "\n")
-	flagLog.write(errorExpression + "\n")
-	if printIt:
-		print(errorExpression)
-	pass
 		
 def getWordCounts(fileName):
 	with open(fileName) as f:
@@ -100,14 +126,6 @@ def getLetCounts(fileName):
 	for line in lines:
 		letCounts += [[int(x) for x in line.split(',')]]
 
-""""
-def correctDaf2Lines(correctDaf):
-	for line in correctDaf:
-		textline = ''
-		for word in line:
-			textline += word.encode('utf8') + " "
-		print(textline)
-"""
 	
 def getScanWords(fileName):
 	with open(fileName) as f:
@@ -124,15 +142,12 @@ def findPeak(fuzzNum):
 	return i
 		
 	
-def combine(digWords, wordCounts, letCounts, scanWords, outPath):
-	#print("dig Word count:", len(digWords))
-	#print(sum(wordCounts))
+def combine(digWords, wordCounts, letCounts, scanWords, outPath, meschta, type, dafNum):
 	f = open(outPath,'w')
 	correctDaf = []
 	countsDiff = abs(len(digWords) - sum(wordCounts))
-	#print("countsDiff: " + str(countsDiff))
-	if(countsDiff >300): ##seems silly
-		flag(-300)
+	#if(countsDiff >300): ##seems silly
+	#	logger(-300)
 		
 
 	wordNum = 0
@@ -142,14 +157,13 @@ def combine(digWords, wordCounts, letCounts, scanWords, outPath):
 		fuzzNum = []
 		if(wordCounts[i] <= 2 and i - len(wordCounts) >= -2):
 			if(wordCounts[i] == 2):
-				flag(i,"TwoWordLastLine",True)
+				logger("TwoWordLastLine",meschta, type, dafNum,i)
 			if(startPoint == len(digWords)):
-				print(str(i) + " - ChuckingLastWord")
-				log.write(str(i) + " - ChuckingLastWord\n")
+				logger("ChuckingLastWord",meschta, type, dafNum,i)
 				f.close()
 				return correctDaf	
 			else:
-				flag(i,"singleWordLastLine",True)
+				logger("singleWordLastLine",meschta, type, dafNum,i)
 		for j in range(int(wordCounts[i]*1.8)):
 			if j + startPoint >= len(digWords):
 				break
@@ -158,28 +172,22 @@ def combine(digWords, wordCounts, letCounts, scanWords, outPath):
 		try:
 			fuzzMax = max(fuzzNum)
 		except:
-			flag(i,'maxArgIsEmpty',True)
+			logger('maxArgIsEmpty',meschta, type, dafNum,i)
 			f.close()
 			return correctDaf
 		maxIndex = fuzzNum.index(fuzzMax)
 		maxPeak = findPeak(fuzzNum)
 		maxToUse = maxPeak #maxIndex
-		#print(i, fuzzMax, (fuzzNum))
-		#log.write("wordCounts[i]: " + str(wordCounts[i]) + str(fuzzNum) + "\tlen(myLine): " + str(len(myLine)) + "\t" + myLine + "\t" + str(digWords[startPoint:startPoint + j]) + "\tj: " + str(j))
-		log.write(str(i) + "\t" + str(fuzzMax) +"\t"+ str(fuzzNum) + "\n")
+		logger('fuzz_stats: ' + str(fuzzMax) +" - "+ str(fuzzNum),meschta, type, dafNum, i,doPrint=False)
 		correctLine = ''
 		for j in range(maxToUse + 1):
 			if j != 0:
 				correctLine += " "
 			correctLine += digWords[startPoint + j]#.encode('utf8')
 		if(fuzzMax < 45 or maxIndex != maxPeak):
-			flag(i,"maxNotPeak - " + str(maxIndex) + "\t" + str(maxPeak),True)
-			print(i, maxIndex, maxPeak, fuzzNum)
-			log.write(correctLine + "\n")
-			flagLog.write(correctLine + "\n")
-#		print(str(i))
+			logger("maxNotPeak - " + str(maxIndex) + "\t" + str(maxPeak),meschta, type, dafNum,i)
 		f.write(correctLine + "\n")
-		log.write(correctLine + "\n")
+
 		startPoint += maxToUse +1
 		#letPerLine = sum(letCount[i])
 		#line +=	[digWords[wordNum]]
@@ -189,75 +197,54 @@ def combine(digWords, wordCounts, letCounts, scanWords, outPath):
 	
 	return correctDaf	
 
-	
-	
-	
 
-def getGemaraAndComm(type, meschta, dafName, dafNum):
-	folder = '../2ocr/' + type + '/' + meschta
-	fileName = folder + '/merged.json'
-	folder += '/' + dafName
-	mesechtaText = getMesText(fileName)
-	if type != 'gemara':
-		digWords = getRashiDaf(dafNum,mesechtaText)
-	else:
-		digWords = getDaf(dafNum,mesechtaText)
-
-	wordCounts = getWordCounts(folder + '/dafNumWords.txt')
-	letCounts = getLetCounts(folder + '/dafNumChars.txt')
-	scanWords = getScanWords(folder + '/daf.txt')
-
-	return combine(digWords,wordCounts, letCounts, scanWords, folder)
-	
 def getGemara(meschta, maxPage, startPage = 3, type = 'gemara'):
 	folder = '../' + type + '/' + meschta + '/'
 	fileName = folder + 'merged.json'
 	mesechtaText = getMesText(fileName)
-	global log
-	global quotesLog
-	global flagLog
-	log = open('log/' + meschta + '.txt', 'w')
-	quotesLog = open('log/quotesLog_' + meschta + '.txt', 'w')
-	flagLog = open('log/flagLog_' + meschta + '.txt', 'w')
 	
 	for dafNum in range(startPage, maxPage+1):
-		locationRef = "\n" + meschta + "_" + type + " " + str(dafNum) + "\n"
-		log.write(locationRef)
-		quotesLog.write(locationRef)
-		flagLog.write(locationRef)
-		print(locationRef + "\b")
+		logger('Adding',meschta, type, dafNum)
+		
+		
 		realDafNum = dafNum-1
 		if(meschta == "brachos" and dafNum >= 15):
 			realDafNum += 2
 		if(meschta == "brachos" and dafNum >= 45):
 			realDafNum += 2
-		if type != 'gemara':
-			digWords = getRashiDaf(realDafNum,mesechtaText)
-		else:
-			digWords = getDaf(realDafNum,mesechtaText)
+		
 		#testingDigWords = open(folder + str(dafNum)  + '_digWords.txt', 'w')
 		#for word in digWords:
 			#pass
 			#testingDigWords.write(word + "\n")
 		
-		
-		wordCounts = getWordCounts(folder + str(dafNum)  + '_dafNumWords.txt')
-		letCounts = getLetCounts(folder + str(dafNum)  + '_dafNumChars.txt')
-		scanWords = getScanWords(folder + str(dafNum)  + '_daf.txt')
-		outPath = folder + str(dafNum) + '_myDaf.txt' 
-		
-		
-		combine(digWords,wordCounts, letCounts, scanWords, outPath)
 		try:
-			#combine(digWords,wordCounts, letCounts, scanWords, outPath)
-			pass
+			if type != 'gemara':
+				digWords = getRashiDaf(realDafNum,mesechtaText)
+			else:
+				digWords = getDaf(realDafNum,mesechtaText)
+			
+			wordCounts = getWordCounts(folder + str(dafNum)  + '_dafNumWords.txt')
+			letCounts = getLetCounts(folder + str(dafNum)  + '_dafNumChars.txt')
+			scanWords = getScanWords(folder + str(dafNum)  + '_daf.txt')
+			outPath = folder + str(dafNum) + '_myDaf.txt' 
+
+			combine(digWords,wordCounts, letCounts, scanWords, outPath, meschta, type, dafNum)
 		except:
-			print(sys.exc_info())
+			if traceback.format_exc().splitlines()[-1] == 'KeyboardInterrupt':
+				exit()
+			logger(traceback.format_exc().splitlines(),meschta, type, dafNum)
 		
-	log.close()
-	quotesLog.close()
 	return 
 
+def logger(message,meschta='',type='',dafNum='',line='',doPrint=True):
+	line = '%s:%s:%s:%s: %s' % (meschta,type,dafNum,line,message)
+	if doPrint:
+		print(line)
+	logger.file.write(line + '\n')
+
+logger.file = open('log.txt','w')
+	
 allHebBooks = [u'\u05D1\u05E8\u05D0\u05E9\u05D9\u05EA',\
 	u'\u05E9\u05DE\u05D5\u05EA',\
 	u'\u05D5\u05D9\u05E7\u05E8\u05D0',\
@@ -299,19 +286,43 @@ allHebBooks = [u'\u05D1\u05E8\u05D0\u05E9\u05D9\u05EA',\
 	u'\u05D3\u05D1\u05E8\u05D9 \u05D4\u05D9\u05DE\u05D9\u05DD \u05D1',\
 	u'\u05EA\u05D4\u05DC\u05D9\u05DD']
 	
+
+	
 if __name__ == "__main__":
-	meschta = 'brachos'
-	maxPage = 123
-	startPage = 3
-	#correctDaf = getGemara(meschta,maxPage, startPage, 'gemara')
-	correctRashi = getGemara(meschta,maxPage, startPage, 'rashi')
-	#correctTos = getGemaraAndComm('tosfos', meschta, dafName,3)
+	main()
 
 
 
+""""
+def correctDaf2Lines(correctDaf):
+	for line in correctDaf:
+		textline = ''
+		for word in line:
+			textline += word.encode('utf8') + " "
+		print(textline)
+"""
 
 
+	
+	
+	
+"""
+def getGemaraAndComm(type, meschta, dafName, dafNum):
+	folder = '../2ocr/' + type + '/' + meschta
+	fileName = folder + '/merged.json'
+	folder += '/' + dafName
+	mesechtaText = getMesText(fileName)
+	if type != 'gemara':
+		digWords = getRashiDaf(dafNum,mesechtaText)
+	else:
+		digWords = getDaf(dafNum,mesechtaText)
 
+	wordCounts = getWordCounts(folder + '/dafNumWords.txt')
+	letCounts = getLetCounts(folder + '/dafNumChars.txt')
+	scanWords = getScanWords(folder + '/daf.txt')
+
+	return combine(digWords,wordCounts, letCounts, scanWords, folder)
+"""
 
 
 

@@ -1,0 +1,10 @@
+kesubos_184.png,1,2,1
+kesubos_184.png,1,2,2
+kesubos_184.png,1,2,3
+kesubos_184.png,1,2,4
+kesubos_184.png,1,2,5
+kesubos_184.png,1,2,6
+kesubos_184.png,1,2,7
+kesubos_184.png,1,2,8
+kesubos_184.png,1,2,9
+kesubos_184.png,1,2,10

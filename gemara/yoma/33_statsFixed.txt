@@ -1,0 +1,8 @@
+yoma_33.png,1,2,1
+yoma_33.png,1,2,2
+yoma_33.png,1,2,3
+yoma_33.png,1,2,4
+yoma_33.png,1,2,5
+yoma_33.png,1,2,6
+yoma_33.png,1,2,7
+yoma_33.png,1,2,8

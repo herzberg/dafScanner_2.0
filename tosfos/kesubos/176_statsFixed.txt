@@ -1,0 +1,4 @@
+kesubos_176.png,2,2,1
+kesubos_176.png,2,2,2
+kesubos_176.png,2,2,3
+kesubos_176.png,2,2,4

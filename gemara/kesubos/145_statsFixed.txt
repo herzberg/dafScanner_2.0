@@ -1,0 +1,15 @@
+kesubos_145.png,1,2,1
+kesubos_145.png,1,2,2
+kesubos_145.png,1,2,3
+kesubos_145.png,1,2,4
+kesubos_145.png,1,2,5
+kesubos_145.png,1,2,6
+kesubos_145.png,1,2,7
+kesubos_145.png,1,2,8
+kesubos_145.png,1,2,9
+kesubos_145.png,1,2,10
+kesubos_145.png,1,2,11
+kesubos_145.png,1,2,12
+kesubos_145.png,1,2,13
+kesubos_145.png,1,2,14
+kesubos_145.png,1,2,15

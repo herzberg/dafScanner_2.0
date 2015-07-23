@@ -1,0 +1,4 @@
+bechoros_107.png,3,1,1
+bechoros_107.png,3,1,2
+bechoros_107.png,3,1,3
+bechoros_107.png,3,1,4

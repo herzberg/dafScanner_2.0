@@ -1,0 +1,3 @@
+zevachim_102.png,1,2,1
+zevachim_102.png,1,2,2
+zevachim_102.png,1,2,3

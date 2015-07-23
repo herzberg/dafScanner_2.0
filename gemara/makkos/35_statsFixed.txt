@@ -1,0 +1,14 @@
+makkos_35.png,1,2,1
+makkos_35.png,1,2,2
+makkos_35.png,1,2,3
+makkos_35.png,1,2,4
+makkos_35.png,1,2,5
+makkos_35.png,1,2,6
+makkos_35.png,1,2,7
+makkos_35.png,1,2,8
+makkos_35.png,1,2,9
+makkos_35.png,1,2,10
+makkos_35.png,1,2,11
+makkos_35.png,1,2,12
+makkos_35.png,1,2,13
+makkos_35.png,1,2,14

@@ -1,0 +1,16 @@
+kesubos_139.png,1,2,1
+kesubos_139.png,1,2,2
+kesubos_139.png,1,2,3
+kesubos_139.png,1,2,4
+kesubos_139.png,1,2,5
+kesubos_139.png,1,2,6
+kesubos_139.png,1,2,7
+kesubos_139.png,1,2,8
+kesubos_139.png,1,2,9
+kesubos_139.png,1,2,10
+kesubos_139.png,1,2,11
+kesubos_139.png,1,2,12
+kesubos_139.png,1,2,13
+kesubos_139.png,1,2,14
+kesubos_139.png,1,2,15
+kesubos_139.png,1,2,16

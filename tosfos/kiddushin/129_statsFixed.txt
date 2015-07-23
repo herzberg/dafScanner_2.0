@@ -1,0 +1,10 @@
+kiddushin_129.png,2,1,1
+kiddushin_129.png,2,1,2
+kiddushin_129.png,2,1,3
+kiddushin_129.png,2,1,4
+kiddushin_129.png,1,1,5
+kiddushin_129.png,1,1,6
+kiddushin_129.png,1,1,7
+kiddushin_129.png,1,1,8
+kiddushin_129.png,1,1,9
+kiddushin_129.png,1,1,10

@@ -1,0 +1,13 @@
+shabbos_244.png,2,2,1
+shabbos_244.png,2,2,2
+shabbos_244.png,2,2,3
+shabbos_244.png,2,2,4
+shabbos_244.png,1,3,5
+shabbos_244.png,1,3,6
+shabbos_244.png,1,3,7
+shabbos_244.png,1,3,8
+shabbos_244.png,1,3,9
+shabbos_244.png,1,3,10
+shabbos_244.png,1,3,11
+shabbos_244.png,1,3,12
+shabbos_244.png,1,3,13

@@ -1,0 +1,17 @@
+nedarim_41.png,1,2,1
+nedarim_41.png,1,2,2
+nedarim_41.png,1,2,3
+nedarim_41.png,1,2,4
+nedarim_41.png,1,2,5
+nedarim_41.png,1,2,6
+nedarim_41.png,1,2,7
+nedarim_41.png,1,2,8
+nedarim_41.png,1,2,9
+nedarim_41.png,1,2,10
+nedarim_41.png,1,2,11
+nedarim_41.png,1,2,12
+nedarim_41.png,1,2,13
+nedarim_41.png,1,2,14
+nedarim_41.png,1,2,15
+nedarim_41.png,1,2,16
+nedarim_41.png,1,2,17

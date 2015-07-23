@@ -1,0 +1,15 @@
+gittin_139.png,2,1,1
+gittin_139.png,2,1,2
+gittin_139.png,2,1,3
+gittin_139.png,2,1,4
+gittin_139.png,1,1,5
+gittin_139.png,1,1,6
+gittin_139.png,1,1,7
+gittin_139.png,1,1,8
+gittin_139.png,1,1,9
+gittin_139.png,1,1,10
+gittin_139.png,1,1,11
+gittin_139.png,1,1,12
+gittin_139.png,1,1,13
+gittin_139.png,1,1,14
+gittin_139.png,1,1,15

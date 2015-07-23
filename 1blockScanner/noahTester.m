@@ -8,9 +8,9 @@ function [  ] = noahTester( mesechta,daf )
     rashIm = imread(['results/cutoutRashi/' mesechta '/' mesechta '_' int2str(daf) '.png']);
     tosIm = imread(['results/cutoutTosfos/' mesechta '/' mesechta '_' int2str(daf) '.png']);
     
-    gemStats = fopen(['../gemara/' mesechta '/' int2str(daf) '_stats.txt'],'r');
-    rashStats = fopen(['../rashi/' mesechta '/' int2str(daf) '_stats.txt'],'r');
-    tosStats = fopen(['../tosfos/' mesechta '/' int2str(daf) '_stats.txt'],'r');
+    gemStats = fopen(['../gemara/' mesechta '/' int2str(daf) '_statsFixed.txt'],'r');
+    rashStats = fopen(['../rashi/' mesechta '/' int2str(daf) '_statsFixed.txt'],'r');
+    tosStats = fopen(['../tosfos/' mesechta '/' int2str(daf) '_statsFixed.txt'],'r');
     
     
 
@@ -32,9 +32,8 @@ function [  ] = noahTester( mesechta,daf )
     end
     
     
-    
-    
     figure;imshow(megaDaf);title([mesechta ' ' int2str(daf)]);
+    figure;
     hold on;
     for ii = 1:length(trains)
         widths = trains(ii).cWidths;
@@ -45,12 +44,16 @@ function [  ] = noahTester( mesechta,daf )
             w = str2double(splut(2));
             s = str2double(splut(3));
             l = str2double(splut(4));
-            plot([starts(s)+offsets(ii),starts(s)+widths(w)+offsets(ii)],[hs(ii)*(l-1)+startYs(ii),hs(ii)*(l-1)+startYs(ii)],colors(ii));
+            
             tline = fgets(stats(ii));
+            %if ischar(tline) %lets try skipping the last line...
+                plot([starts(s),starts(s)+widths(w)],[-1*(hs(ii)*(l-1)+startYs(ii)),-1*(hs(ii)*(l-1)+startYs(ii))],colors(ii));    
+            %end
         end        
     end
     hold off;
 
+    %figure;imshow(imread(['gemaraPics/' mesechta '_' int2str(daf) '.png']));
     
 end
 

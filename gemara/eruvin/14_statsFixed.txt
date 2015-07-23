@@ -1,0 +1,14 @@
+eruvin_14.png,1,2,1
+eruvin_14.png,1,2,2
+eruvin_14.png,1,2,3
+eruvin_14.png,1,2,4
+eruvin_14.png,1,2,5
+eruvin_14.png,1,2,6
+eruvin_14.png,1,2,7
+eruvin_14.png,1,2,8
+eruvin_14.png,1,2,9
+eruvin_14.png,1,2,10
+eruvin_14.png,1,2,11
+eruvin_14.png,1,2,12
+eruvin_14.png,1,2,13
+eruvin_14.png,1,2,14

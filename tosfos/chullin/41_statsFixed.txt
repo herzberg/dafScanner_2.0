@@ -1,0 +1,13 @@
+chullin_41.png,2,1,1
+chullin_41.png,2,1,2
+chullin_41.png,2,1,3
+chullin_41.png,2,1,4
+chullin_41.png,1,1,5
+chullin_41.png,1,1,6
+chullin_41.png,1,1,7
+chullin_41.png,1,1,8
+chullin_41.png,1,1,9
+chullin_41.png,1,1,10
+chullin_41.png,1,1,11
+chullin_41.png,1,1,12
+chullin_41.png,1,1,13

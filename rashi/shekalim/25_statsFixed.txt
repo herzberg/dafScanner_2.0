@@ -1,0 +1,4 @@
+shekalim_25.png,3,1,1
+shekalim_25.png,3,1,2
+shekalim_25.png,2,2,3
+shekalim_25.png,2,2,4

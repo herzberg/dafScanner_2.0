@@ -1,0 +1,3 @@
+sanhedrin_117.png,2,1,1
+sanhedrin_117.png,2,1,2
+sanhedrin_117.png,2,1,3

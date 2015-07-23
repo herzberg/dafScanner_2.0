@@ -108,6 +108,14 @@ for jj = 1:length(globStatStructs);
    endNumPos = find(tempStruct.name == '.',1)-1;
    fileNum = str2double(tempStruct.name(startNumPos:endNumPos)) - mesechtaStartNum + 3; %3 so that they match up with josh's numbering
    
+   if isnan(fileNum) %probs a two-word name
+        startNumPos = find(tempStruct.name == '_',2)+1;
+        startNumPos = startNumPos(2);
+        endNumPos = find(tempStruct.name == '.',1)-1;
+        fileNum = str2double(tempStruct.name(startNumPos:endNumPos)) - mesechtaStartNum + 3; %3 so that they match up with josh's numbering 
+       
+   end
+   
    fileId = fopen([statdirname '/' int2str(fileNum) '_stats.txt'],'w');
    fprintf(fileId,[tempStruct.name ',%d,%d,%d\n'],[tempStruct.idWidths',tempStruct.idStarts',(1:numItems)']');
    fclose(fileId);

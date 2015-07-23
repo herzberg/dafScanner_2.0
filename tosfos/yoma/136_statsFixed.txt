@@ -1,0 +1,12 @@
+yoma_136.png,2,2,1
+yoma_136.png,2,2,2
+yoma_136.png,2,2,3
+yoma_136.png,2,2,4
+yoma_136.png,1,3,5
+yoma_136.png,1,3,6
+yoma_136.png,1,3,7
+yoma_136.png,1,3,8
+yoma_136.png,1,3,9
+yoma_136.png,1,3,10
+yoma_136.png,1,3,11
+yoma_136.png,1,3,12

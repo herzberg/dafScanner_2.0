@@ -1,0 +1,12 @@
+nedarim_151.png,1,2,1
+nedarim_151.png,1,2,2
+nedarim_151.png,1,2,3
+nedarim_151.png,1,2,4
+nedarim_151.png,1,2,5
+nedarim_151.png,1,2,6
+nedarim_151.png,1,2,7
+nedarim_151.png,1,2,8
+nedarim_151.png,1,2,9
+nedarim_151.png,1,2,10
+nedarim_151.png,1,2,11
+nedarim_151.png,1,2,12

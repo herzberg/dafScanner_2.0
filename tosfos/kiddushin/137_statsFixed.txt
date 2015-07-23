@@ -1,0 +1,9 @@
+kiddushin_137.png,2,1,1
+kiddushin_137.png,2,1,2
+kiddushin_137.png,2,1,3
+kiddushin_137.png,2,1,4
+kiddushin_137.png,1,1,5
+kiddushin_137.png,1,1,6
+kiddushin_137.png,1,1,7
+kiddushin_137.png,1,1,8
+kiddushin_137.png,1,1,9

@@ -1,0 +1,17 @@
+zevachim_203.png,2,1,1
+zevachim_203.png,2,1,2
+zevachim_203.png,2,1,3
+zevachim_203.png,2,1,4
+zevachim_203.png,1,1,5
+zevachim_203.png,1,1,6
+zevachim_203.png,1,1,7
+zevachim_203.png,1,1,8
+zevachim_203.png,1,1,9
+zevachim_203.png,1,1,10
+zevachim_203.png,1,1,11
+zevachim_203.png,1,1,12
+zevachim_203.png,1,1,13
+zevachim_203.png,1,1,14
+zevachim_203.png,1,1,15
+zevachim_203.png,1,1,16
+zevachim_203.png,1,1,17

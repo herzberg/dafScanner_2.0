@@ -1,0 +1,12 @@
+chullin_110.png,1,3,1
+chullin_110.png,1,3,2
+chullin_110.png,1,3,3
+chullin_110.png,1,3,4
+chullin_110.png,1,3,5
+chullin_110.png,1,3,6
+chullin_110.png,1,3,7
+chullin_110.png,1,3,8
+chullin_110.png,1,3,9
+chullin_110.png,1,3,10
+chullin_110.png,1,3,11
+chullin_110.png,1,3,12
