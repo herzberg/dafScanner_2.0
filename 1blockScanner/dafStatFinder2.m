@@ -17,7 +17,7 @@ statsObj = open(['statsTrainedSet' type '.mat']);
 capType = [upper(statsObj.type(1)) statsObj.type(2:end)];
 mesechtas = dir('gemaraPics');
 mesechtas = mesechtas([mesechtas.isdir]);
-for ii = 23:23 %length(mesechtas) %3 in order to skip '.' and '..'
+for ii = 7:7 %length(mesechtas) %3 in order to skip '.' and '..'
     mesechta = mesechtas(ii).name
 
     dafdirname = ['results/cutout' capType '/' mesechta];

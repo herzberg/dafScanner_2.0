@@ -7,7 +7,7 @@ orginPath = makeOrginPath( type );
 types = {'rashi', 'tosfos'};
 mesachtas = dir(orginPath);
 mesachtas = mesachtas([mesachtas.isdir]);
-for k = 3:length(mesachtas) % start at 3 bc of . and ..
+for k = 23:length(mesachtas) % start at 3 bc of . and ..
     disp('----------------------------------------------');
     mesachta = mesachtas(k).name;
     disp(mesachta)
