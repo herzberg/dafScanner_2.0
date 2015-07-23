@@ -4,14 +4,47 @@
 # Katie Kroik
 # Doni Schwartz
 import traceback
-
+import os,re 
 
 def main():
 	meschta = 'avodah_zara' #'brachos'
 	startPage = 3
 	maxPage = 152 #123
-	createAllDafs(meschta,maxPage,startPage)
 	
+	directory = '../gemara/'
+	meschtas = [os.path.join(directory,o) for o in os.listdir(directory) if os.path.isdir(os.path.join(directory,o))]
+	i = 0
+	for meschtaDir in meschtas:
+		meschta = meschtaDir.replace(directory,'')
+		maxPage = findMaxPage(meschta)
+		logger('\tmaxPage: %s' %maxPage,meschta)
+		startPage = 3
+		createAllDafs(meschta,maxPage,startPage)
+		i +=1
+		if i>5:
+			break
+		
+	logger.file.close()
+
+def findMaxPage(meschta):
+	types = ['gemara','rashi','tosfos']
+	i = 0
+	maxPages = [0,0,0]
+	for type in types:
+		meschtaDir = '../%s/%s/' %(type,meschta)
+		files = [os.path.join(meschtaDir,o) for o in os.listdir(meschtaDir) if not os.path.isdir(os.path.join(meschtaDir,o))]
+		for file in files:
+			name = file.replace(meschtaDir,'')
+			name = re.sub('_.*.txt','',name)
+			try:
+				if int(name) > maxPages[i]:
+					maxPages[i] = int(name)
+			except:
+				pass
+		i += 1
+	if ( maxPages[0] !=  maxPages[1]) or  (maxPages[0] !=  maxPages[2]):
+		logger('\tmaxPages are diff: %s '  % maxPages,meschta)
+	return max(maxPages)	
 	
 def createAllDafs(meschta,maxPage,startPage = 3):
 	for pageNum in range(startPage,maxPage+1):
@@ -40,7 +73,7 @@ def createFullDaf(meschta, pageNum):
 	
 
 def getLineTypes(type, meschta, pageNum):
-	fname = '../' + type + '/' + meschta + '/' + str(pageNum) +  '_stats.txt'
+	fname = '../' + type + '/' + meschta + '/' + str(pageNum) +  '_statsFixed.txt'
 	typeDict = {'gemara21':'left','gemara31':'all','gemara12':'center','gemara22':'right',
 		'rashi22':'h-right', 'rashi13':'t-right', 'rashi21':'h-left','rashi11':'t-left','rashi33':'all',
 		'tosfos22':'h-right', 'tosfos13':'t-right', 'tosfos21':'h-left','tosfos11':'t-left','tosfos33':'all'}
